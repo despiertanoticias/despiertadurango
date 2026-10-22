@@ -1,29 +1,31 @@
 {
-  "fecha": "Miércoles 21 de octubre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Jueves 22 de octubre de 2026",
+  "actualizado": "06:40 h",
   "clima": {
     "ahora": "",
-    "max": 28,
-    "min": 13,
-    "texto": "Día mayormente soleado en la capital y sin lluvia; por la noche, alrededor de 18°. Lluvias ligeras en la sierra y el norte del estado.",
+    "max": 30,
+    "min": 12,
+    "texto": "Día soleado en la capital, sin lluvia y con rachas de viento de hasta 20 km/h. Lluvias ligeras solo en la zona serrana.",
     "laguna_max": "",
     "laguna_min": "",
     "filas": [
       { "nombre": "Probabilidad de lluvia", "valor": "Baja", "nivel": "ok" },
-      { "nombre": "Rachas de viento", "valor": "Hasta 30 km/h", "nivel": "warn" }
+      { "nombre": "Rachas de viento", "valor": "Hasta 20 km/h", "nivel": "ok" },
+      { "nombre": "Mínima más baja del estado (miércoles)", "valor": "1 °C en La Rosilla, Guanaceví", "nivel": "warn" }
     ]
   },
   "carreteras": [],
   "indicadores": [
-    { "nombre": "Dólar", "valor": "$18.67", "nota": "Cierre del día" },
+    { "nombre": "Dólar", "valor": "$18.74", "nota": "Apertura del día" },
     { "nombre": "Gasolina Magna", "valor": "$23.90", "nota": "Promedio en la capital" },
     { "nombre": "Gasolina Premium", "valor": "$29.09", "nota": "Promedio en la capital" },
     { "nombre": "Diésel", "valor": "$26.96", "nota": "Promedio en la capital" }
   ],
   "agenda": [
-    { "hora": "Hoy", "texto": "Vacunación invernal gratuita en la Presidencia Municipal de Gómez Palacio (hasta el 23 de octubre)" },
-    { "hora": "Hoy", "texto": "Último día de la campaña de descacharrización en colonias de Lerdo" },
+    { "hora": "Hasta 23 oct", "texto": "Vacunación invernal gratuita en la Presidencia Municipal de Gómez Palacio" },
+    { "hora": "Hasta 23 oct", "texto": "164 vacantes formales en Durango y La Laguna en empleo.gob.mx y oficinas del SNE" },
     { "hora": "23 oct", "texto": "Asamblea virtual de las Becas Benito Juárez para nuevos beneficiarios" },
+    { "hora": "23 oct, 18:30", "texto": "Carrera Marea Rosa Music Fest en Lerdo; cierres viales desde las 14:00 alrededor del Parque Victoria" },
     { "hora": "26 oct", "texto": "Abre el registro en línea a la beca Rita Cetina (primaria y secundaria)" }
   ]
 }
