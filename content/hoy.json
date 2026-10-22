@@ -1,0 +1,29 @@
+{
+  "fecha": "Miércoles 21 de octubre de 2026",
+  "actualizado": "18:40 h",
+  "clima": {
+    "ahora": "",
+    "max": 28,
+    "min": 13,
+    "texto": "Día mayormente soleado en la capital y sin lluvia; por la noche, alrededor de 18°. Lluvias ligeras en la sierra y el norte del estado.",
+    "laguna_max": "",
+    "laguna_min": "",
+    "filas": [
+      { "nombre": "Probabilidad de lluvia", "valor": "Baja", "nivel": "ok" },
+      { "nombre": "Rachas de viento", "valor": "Hasta 30 km/h", "nivel": "warn" }
+    ]
+  },
+  "carreteras": [],
+  "indicadores": [
+    { "nombre": "Dólar", "valor": "$18.67", "nota": "Cierre del día" },
+    { "nombre": "Gasolina Magna", "valor": "$23.90", "nota": "Promedio en la capital" },
+    { "nombre": "Gasolina Premium", "valor": "$29.09", "nota": "Promedio en la capital" },
+    { "nombre": "Diésel", "valor": "$26.96", "nota": "Promedio en la capital" }
+  ],
+  "agenda": [
+    { "hora": "Hoy", "texto": "Vacunación invernal gratuita en la Presidencia Municipal de Gómez Palacio (hasta el 23 de octubre)" },
+    { "hora": "Hoy", "texto": "Último día de la campaña de descacharrización en colonias de Lerdo" },
+    { "hora": "23 oct", "texto": "Asamblea virtual de las Becas Benito Juárez para nuevos beneficiarios" },
+    { "hora": "26 oct", "texto": "Abre el registro en línea a la beca Rita Cetina (primaria y secundaria)" }
+  ]
+}
