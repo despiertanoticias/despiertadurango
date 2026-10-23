@@ -1,31 +1,83 @@
 {
   "fecha": "Jueves 22 de octubre de 2026",
-  "actualizado": "06:40 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
-    "max": 30,
-    "min": 12,
-    "texto": "Día soleado en la capital, sin lluvia y con rachas de viento de hasta 20 km/h. Lluvias ligeras solo en la zona serrana.",
-    "laguna_max": "",
+    "max": 28,
+    "min": 11,
+    "texto": "Pronóstico para el viernes: jornada mayormente soleada en la capital, con algunas nubes al final de la tarde y viento ligero. El frente frío 3 deja madrugadas de 0 a 5 °C en la sierra y lluvias puntuales fuertes en el norte y occidente del estado.",
+    "laguna_max": 30,
     "laguna_min": "",
     "filas": [
-      { "nombre": "Probabilidad de lluvia", "valor": "Baja", "nivel": "ok" },
-      { "nombre": "Rachas de viento", "valor": "Hasta 20 km/h", "nivel": "ok" },
-      { "nombre": "Mínima más baja del estado (miércoles)", "valor": "1 °C en La Rosilla, Guanaceví", "nivel": "warn" }
+      {
+        "nombre": "Probabilidad de lluvia (capital)",
+        "valor": "2 a 4%",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Viento (capital)",
+        "valor": "Ligero",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Mínimas en la sierra (viernes)",
+        "valor": "0 a 5 °C",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Lluvias fuertes puntuales",
+        "valor": "Norte y occidente del estado",
+        "nivel": "warn"
+      }
     ]
   },
   "carreteras": [],
   "indicadores": [
-    { "nombre": "Dólar", "valor": "$18.74", "nota": "Apertura del día" },
-    { "nombre": "Gasolina Magna", "valor": "$23.90", "nota": "Promedio en la capital" },
-    { "nombre": "Gasolina Premium", "valor": "$29.09", "nota": "Promedio en la capital" },
-    { "nombre": "Diésel", "valor": "$26.96", "nota": "Promedio en la capital" }
+    {
+      "nombre": "Dólar",
+      "valor": "$18.71",
+      "nota": "Cierre del jueves (Dow Jones)"
+    },
+    {
+      "nombre": "Gasolina Magna",
+      "valor": "$23.90",
+      "nota": "Promedio en la capital"
+    },
+    {
+      "nombre": "Gasolina Premium",
+      "valor": "$29.09",
+      "nota": "Promedio en la capital"
+    },
+    {
+      "nombre": "Diésel",
+      "valor": "$26.96",
+      "nota": "Promedio en la capital"
+    }
   ],
   "agenda": [
-    { "hora": "Hasta 23 oct", "texto": "Vacunación invernal gratuita en la Presidencia Municipal de Gómez Palacio" },
-    { "hora": "Hasta 23 oct", "texto": "164 vacantes formales en Durango y La Laguna en empleo.gob.mx y oficinas del SNE" },
-    { "hora": "23 oct", "texto": "Asamblea virtual de las Becas Benito Juárez para nuevos beneficiarios" },
-    { "hora": "23 oct, 18:30", "texto": "Carrera Marea Rosa Music Fest en Lerdo; cierres viales desde las 14:00 alrededor del Parque Victoria" },
-    { "hora": "26 oct", "texto": "Abre el registro en línea a la beca Rita Cetina (primaria y secundaria)" }
+    {
+      "hora": "23 oct, 8:00",
+      "texto": "Plantón de 12 horas de trabajadores del IMSS frente a la Sección XVI del sindicato, calle Fanny Anitua"
+    },
+    {
+      "hora": "Hasta 23 oct",
+      "texto": "Vacunación invernal gratuita en la Presidencia Municipal de Gómez Palacio"
+    },
+    {
+      "hora": "23 oct",
+      "texto": "Asamblea virtual de las Becas Benito Juárez para nuevos beneficiarios"
+    },
+    {
+      "hora": "23 oct, 18:30",
+      "texto": "Carrera Marea Rosa Music Fest en Lerdo; cierres viales desde las 14:00 alrededor del Parque Victoria"
+    },
+    {
+      "hora": "26 oct",
+      "texto": "Abre el registro en línea a la beca Rita Cetina (primaria y secundaria)"
+    },
+    {
+      "hora": "20 nov, 20:00",
+      "texto": "Festejo Villista de la Revolución en la Plaza de Toros Alejandra; boletos a la venta"
+    }
   ]
 }
