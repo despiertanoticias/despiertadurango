@@ -1,32 +1,32 @@
 {
   "fecha": "Viernes 23 de octubre de 2026",
-  "actualizado": "06:45 h",
+  "actualizado": "18:45 h",
   "clima": {
     "ahora": "",
-    "max": 28,
-    "min": 11,
-    "texto": "Viernes mayormente soleado en la capital, con algunas nubes al final de la tarde y viento ligero; la máxima, de 27 a 28 °C, llegará entre las 15:00 y las 17:00. En El Salto se esperan chubascos por la tarde (57% de probabilidad) y en Lerdo cielo despejado con máxima cercana a 30 °C.",
+    "max": 30,
+    "min": 12,
+    "texto": "Conagua prevé un fin de semana caluroso en la capital, con máximas de 29 a 31 °C y mínimas de 12 a 13 °C; sábado y domingo habrá lluvias ligeras y aisladas en buena parte del estado (salvo La Laguna) y rachas de 20 a 30 km/h. El lunes 26 se esperan lluvias fuertes a muy fuertes en el norte del estado y la Región Lagunera, y ligeras a moderadas en la capital.",
     "laguna_max": 30,
     "laguna_min": "",
     "filas": [
       {
-        "nombre": "Probabilidad de lluvia (capital)",
-        "valor": "2 a 4%",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Viento (capital)",
-        "valor": "Ligero",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Lluvia en El Salto (tarde)",
-        "valor": "57%",
+        "nombre": "Viento sábado y domingo",
+        "valor": "20 a 30 km/h",
         "nivel": "warn"
       },
       {
-        "nombre": "Máxima en Tamazula",
-        "valor": "33 °C",
+        "nombre": "Lluvia fin de semana",
+        "valor": "Ligera y aislada",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Lluvia lunes (norte y Laguna)",
+        "valor": "Fuerte a muy fuerte",
+        "nivel": "bad"
+      },
+      {
+        "nombre": "Lluvia lunes (capital)",
+        "valor": "Ligera a moderada",
         "nivel": "warn"
       }
     ]
@@ -35,8 +35,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.71",
-      "nota": "Cierre del jueves 22 (Dow Jones)"
+      "valor": "$18.65",
+      "nota": "Cierre del viernes 23 (Dow Jones)"
     },
     {
       "nombre": "Gasolina Magna",
@@ -56,20 +56,12 @@
   ],
   "agenda": [
     {
-      "hora": "23 oct",
-      "texto": "Afectaciones al suministro de agua en La Popular y Pastor Rouaix (Gómez Palacio) por reparación de Agua Saludable"
+      "hora": "23 oct, 19:00",
+      "texto": "Asamblea informativa en línea de la beca Rita Cetina para familias de Durango (Facebook de Becas para el Bienestar)"
     },
     {
-      "hora": "23 oct, 8:00",
-      "texto": "Plantón de 12 horas de trabajadores del IMSS frente a la Sección XVI del sindicato, calle Fanny Anitua"
-    },
-    {
-      "hora": "Hasta 23 oct",
-      "texto": "Vacunación invernal gratuita en la Presidencia Municipal de Gómez Palacio"
-    },
-    {
-      "hora": "23 oct, 18:30",
-      "texto": "Carrera Marea Rosa Music Fest en Lerdo; cierres viales desde las 14:00 alrededor del Parque Victoria"
+      "hora": "24–25 oct",
+      "texto": "Durango Fashion Week, sexta edición, en Hacienda Mayor"
     },
     {
       "hora": "25 oct, 16:00",
@@ -81,7 +73,11 @@
     },
     {
       "hora": "26 oct",
-      "texto": "Abre el registro en línea a la beca Rita Cetina (primaria y secundaria)"
+      "texto": "Abre el registro en línea a la beca Rita Cetina (primaria y secundaria), hasta el 6 de noviembre"
+    },
+    {
+      "hora": "30 oct–2 nov",
+      "texto": "Operativo de Día de Muertos en los panteones de Gómez Palacio"
     },
     {
       "hora": "13–16 nov",
