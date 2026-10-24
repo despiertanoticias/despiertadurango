@@ -1,33 +1,33 @@
 {
-  "fecha": "Viernes 23 de octubre de 2026",
-  "actualizado": "18:45 h",
+  "fecha": "Sábado 24 de octubre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
     "max": 30,
     "min": 12,
-    "texto": "Conagua prevé un fin de semana caluroso en la capital, con máximas de 29 a 31 °C y mínimas de 12 a 13 °C; sábado y domingo habrá lluvias ligeras y aisladas en buena parte del estado (salvo La Laguna) y rachas de 20 a 30 km/h. El lunes 26 se esperan lluvias fuertes a muy fuertes en el norte del estado y la Región Lagunera, y ligeras a moderadas en la capital.",
+    "texto": "Conagua prevé para la capital un sábado mayormente nublado, con unos 12 °C en la mañana, máxima de 30 °C, alrededor de 15 °C por la noche y probabilidad mínima de lloviznas por la tarde. Por el frente frío 3, la sierra podría registrar hasta -5 °C este fin de semana, con madrugadas de 0 a 5 °C en otras zonas y lluvias acumuladas de 25 a 75 mm en el estado.",
     "laguna_max": 30,
     "laguna_min": "",
     "filas": [
       {
-        "nombre": "Viento sábado y domingo",
-        "valor": "20 a 30 km/h",
-        "nivel": "warn"
+        "nombre": "Viento en la capital",
+        "valor": "Rachas de hasta 20 km/h",
+        "nivel": "ok"
       },
       {
-        "nombre": "Lluvia fin de semana",
-        "valor": "Ligera y aislada",
+        "nombre": "Lluvia en la capital",
+        "valor": "Probabilidad mínima",
         "nivel": "ok"
+      },
+      {
+        "nombre": "Heladas en la sierra",
+        "valor": "Hasta -5 °C",
+        "nivel": "bad"
       },
       {
         "nombre": "Lluvia lunes (norte y Laguna)",
         "valor": "Fuerte a muy fuerte",
         "nivel": "bad"
-      },
-      {
-        "nombre": "Lluvia lunes (capital)",
-        "valor": "Ligera a moderada",
-        "nivel": "warn"
       }
     ]
   },
@@ -56,12 +56,12 @@
   ],
   "agenda": [
     {
-      "hora": "23 oct, 19:00",
-      "texto": "Asamblea informativa en línea de la beca Rita Cetina para familias de Durango (Facebook de Becas para el Bienestar)"
-    },
-    {
       "hora": "24–25 oct",
       "texto": "Durango Fashion Week, sexta edición, en Hacienda Mayor"
+    },
+    {
+      "hora": "24 oct, 17:00",
+      "texto": "Alacranes de Durango visita a Venados de Yucatán en la Liga de Expansión MX (ESPN)"
     },
     {
       "hora": "25 oct, 16:00",
@@ -70,6 +70,10 @@
     {
       "hora": "25 oct–2 nov",
       "texto": "Festival Muuki del Día de Muertos en el Centro Histórico de Durango; desfile el 29 de octubre"
+    },
+    {
+      "hora": "26–27 oct",
+      "texto": "Congreso del Estado votará los dictámenes de cuentas públicas: en comisión el lunes y en el pleno el martes"
     },
     {
       "hora": "26 oct",
