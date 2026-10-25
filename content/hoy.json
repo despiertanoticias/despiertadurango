@@ -1,32 +1,32 @@
 {
   "fecha": "Sábado 24 de octubre de 2026",
-  "actualizado": "06:45 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
-    "max": 30,
-    "min": 12,
-    "texto": "Conagua prevé para la capital un sábado mayormente nublado, con unos 12 °C en la mañana, máxima de 30 °C, alrededor de 15 °C por la noche y probabilidad mínima de lloviznas por la tarde. Por el frente frío 3, la sierra podría registrar hasta -5 °C este fin de semana, con madrugadas de 0 a 5 °C en otras zonas y lluvias acumuladas de 25 a 75 mm en el estado.",
+    "max": 26,
+    "min": 11,
+    "texto": "El SMN prevé para la capital un sábado mayormente nublado, con mínima de 11 a 12 °C, máxima de 25 a 26 °C entre la 1 y las 3 de la tarde y chubascos entre las 7 y las 8 de la noche; el domingo amanecería con unos 10 °C. En el norte, centro y oeste del estado se esperan lluvias fuertes puntuales de 25 a 50 mm y rachas de 40 a 60 km/h; en la sierra se registraron de -5 a 0 °C.",
     "laguna_max": 30,
     "laguna_min": "",
     "filas": [
       {
         "nombre": "Viento en la capital",
-        "valor": "Rachas de hasta 20 km/h",
+        "valor": "Rachas de hasta 25 km/h",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia en la capital",
-        "valor": "Probabilidad mínima",
-        "nivel": "ok"
+        "valor": "Chubascos de 19 a 20 h",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Lluvia en norte, centro y oeste",
+        "valor": "25 a 50 mm",
+        "nivel": "warn"
       },
       {
         "nombre": "Heladas en la sierra",
-        "valor": "Hasta -5 °C",
-        "nivel": "bad"
-      },
-      {
-        "nombre": "Lluvia lunes (norte y Laguna)",
-        "valor": "Fuerte a muy fuerte",
+        "valor": "-5 a 0 °C",
         "nivel": "bad"
       }
     ]
@@ -56,12 +56,16 @@
   ],
   "agenda": [
     {
+      "hora": "24 oct, 19:00",
+      "texto": "Concierto «Voz Sin Límites» de la soprano Edna Rendón en el Teatro Ricardo Castro"
+    },
+    {
       "hora": "24–25 oct",
       "texto": "Durango Fashion Week, sexta edición, en Hacienda Mayor"
     },
     {
-      "hora": "24 oct, 17:00",
-      "texto": "Alacranes de Durango visita a Venados de Yucatán en la Liga de Expansión MX (ESPN)"
+      "hora": "25 oct, 7:00–21:00",
+      "texto": "Kermés del Seminario en la plaza de Armas de Lerdo"
     },
     {
       "hora": "25 oct, 16:00",
