@@ -1,33 +1,33 @@
 {
-  "fecha": "Sábado 24 de octubre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Domingo 25 de octubre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
     "max": 26,
-    "min": 11,
-    "texto": "El SMN prevé para la capital un sábado mayormente nublado, con mínima de 11 a 12 °C, máxima de 25 a 26 °C entre la 1 y las 3 de la tarde y chubascos entre las 7 y las 8 de la noche; el domingo amanecería con unos 10 °C. En el norte, centro y oeste del estado se esperan lluvias fuertes puntuales de 25 a 50 mm y rachas de 40 a 60 km/h; en la sierra se registraron de -5 a 0 °C.",
-    "laguna_max": 30,
-    "laguna_min": "",
+    "min": 12,
+    "texto": "Para la capital se espera un domingo parcialmente soleado que se nublará por la tarde, con mínima cercana a 12 °C, máxima de unos 26 °C y alrededor de 40 % de probabilidad de tormentas aisladas (AccuWeather). En Gómez Palacio, máxima cercana a 31 °C y mínima de 17 °C con cielo mayormente despejado; El Salto tendría entre 8 y 19 °C.",
+    "laguna_max": 31,
+    "laguna_min": 17,
     "filas": [
       {
-        "nombre": "Viento en la capital",
-        "valor": "Rachas de hasta 25 km/h",
+        "nombre": "Lluvia en la capital",
+        "valor": "40 % de probabilidad de tormentas aisladas",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Viento en Gómez Palacio",
+        "valor": "Rachas de hasta 36 km/h por la noche",
         "nivel": "ok"
       },
       {
-        "nombre": "Lluvia en la capital",
-        "valor": "Chubascos de 19 a 20 h",
-        "nivel": "warn"
+        "nombre": "El Salto",
+        "valor": "8 a 19 °C",
+        "nivel": "ok"
       },
       {
-        "nombre": "Lluvia en norte, centro y oeste",
-        "valor": "25 a 50 mm",
+        "nombre": "Tamazula",
+        "valor": "Hasta 33–34 °C",
         "nivel": "warn"
-      },
-      {
-        "nombre": "Heladas en la sierra",
-        "valor": "-5 a 0 °C",
-        "nivel": "bad"
       }
     ]
   },
@@ -56,12 +56,16 @@
   ],
   "agenda": [
     {
-      "hora": "24 oct, 19:00",
-      "texto": "Concierto «Voz Sin Límites» de la soprano Edna Rendón en el Teatro Ricardo Castro"
+      "hora": "25 oct, 8:00–14:00",
+      "texto": "Durango de Rol: cierre de Alamedas, Juárez, Dolores del Río y Fanny Anitúa hasta el Parque Guadiana"
     },
     {
-      "hora": "24–25 oct",
-      "texto": "Durango Fashion Week, sexta edición, en Hacienda Mayor"
+      "hora": "25 oct",
+      "texto": "Último día de registro a la Pensión de Adultos Mayores y Mujeres Bienestar (Palacio Federal y Río Papaloapan 211)"
+    },
+    {
+      "hora": "25 oct, 17:00",
+      "texto": "Inauguración del Festival Muuki y la Zona Coco Muuki en plaza Fundadores"
     },
     {
       "hora": "25 oct, 7:00–21:00",
@@ -72,10 +76,6 @@
       "texto": "Festival de las Flores en el ejido Los Ángeles, Lerdo; entrada libre"
     },
     {
-      "hora": "25 oct–2 nov",
-      "texto": "Festival Muuki del Día de Muertos en el Centro Histórico de Durango; desfile el 29 de octubre"
-    },
-    {
       "hora": "26–27 oct",
       "texto": "Congreso del Estado votará los dictámenes de cuentas públicas: en comisión el lunes y en el pleno el martes"
     },
@@ -84,8 +84,16 @@
       "texto": "Abre el registro en línea a la beca Rita Cetina (primaria y secundaria), hasta el 6 de noviembre"
     },
     {
+      "hora": "29 oct, 19:00",
+      "texto": "Gran Desfile Muuki por la avenida 20 de Noviembre"
+    },
+    {
       "hora": "30 oct–2 nov",
       "texto": "Operativo de Día de Muertos en los panteones de Gómez Palacio"
+    },
+    {
+      "hora": "31 oct, 19:00",
+      "texto": "Alacranes vs. Atlético Morelia en el estadio Francisco Zarco"
     },
     {
       "hora": "13–16 nov",
