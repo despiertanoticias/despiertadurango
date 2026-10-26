@@ -1,32 +1,37 @@
 {
-  "fecha": "Domingo 25 de octubre de 2026",
-  "actualizado": "18:45 h",
+  "fecha": "Lunes 26 de octubre de 2026",
+  "actualizado": "07:10 h",
   "clima": {
     "ahora": "",
-    "max": 26,
-    "min": 12,
-    "texto": "Domingo templado en la capital, con máxima cercana a 26 °C y mínima de 12 °C. Para el lunes 26 se espera un descenso: entre 11 y 23 °C, cielo de medio nublado a nublado y alrededor de 50 % de probabilidad de tormentas por la tarde. En Gómez Palacio, el lunes iría de 16 a 29 °C con 65 % de probabilidad de lluvia; El Salto, de 7 a 18 °C.",
-    "laguna_max": 31,
-    "laguna_min": 17,
+    "max": 23,
+    "min": 11,
+    "texto": "Lunes más fresco en la capital, con máxima de 22 a 23 °C y mínima de 11 a 12 °C. Se esperan tormentas o chubascos por la tarde y en las primeras horas de la noche. El pronóstico nacional prevé lluvias de 25 a 50 mm en el norte, centro y sur del estado, y de -5 a 0 °C en la sierra. En Gómez Palacio, de 16 a 29 °C con chubascos por la tarde.",
+    "laguna_max": 29,
+    "laguna_min": 16,
     "filas": [
       {
-        "nombre": "Lluvia lunes en la capital",
-        "valor": "50 % de probabilidad de tormentas por la tarde",
+        "nombre": "Lluvia en la capital",
+        "valor": "~50 % de probabilidad de tormentas por la tarde",
         "nivel": "warn"
       },
       {
-        "nombre": "Lluvia lunes en Gómez Palacio",
-        "valor": "65 % de probabilidad por la tarde",
+        "nombre": "Lluvia en Gómez Palacio",
+        "valor": "~65 % de probabilidad por la tarde",
         "nivel": "warn"
       },
       {
-        "nombre": "El Salto (lunes)",
-        "valor": "7 a 18 °C; precaución en caminos mojados",
+        "nombre": "Zonas serranas",
+        "valor": "Mínimas de -5 a 0 °C",
+        "nivel": "bad"
+      },
+      {
+        "nombre": "El Salto",
+        "valor": "7 a 18 °C",
         "nivel": "warn"
       },
       {
-        "nombre": "Tamazula (lunes)",
-        "valor": "Hasta 33 °C",
+        "nombre": "Santiago Papasquiaro",
+        "valor": "8 a 22 °C",
         "nivel": "ok"
       }
     ]
@@ -35,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.65",
-      "nota": "Cierre del viernes 23 (Dow Jones)"
+      "valor": "$18.67",
+      "nota": "Apertura del lunes 26 (Dow Jones)"
     },
     {
       "nombre": "Gasolina Magna",
@@ -57,6 +62,10 @@
   "agenda": [
     {
       "hora": "26 oct",
+      "texto": "Paro nacional de transportistas de Canacar; Durango, entre los estados con movilizaciones"
+    },
+    {
+      "hora": "26 oct",
       "texto": "Guadalupe Taddei entrega su renuncia a la presidencia del INE"
     },
     {
@@ -64,12 +73,20 @@
       "texto": "Congreso del Estado votará los dictámenes de cuentas públicas: en comisión el lunes y en el pleno el martes"
     },
     {
-      "hora": "26 oct",
-      "texto": "Abre el registro en línea a la beca Rita Cetina (primaria y secundaria), hasta el 6 de noviembre"
+      "hora": "Hasta 6 nov",
+      "texto": "Registro en línea a la beca Rita Cetina (primaria y secundaria)"
+    },
+    {
+      "hora": "29 oct, 18:30",
+      "texto": "Desfile de Día de Muertos en Lerdo, desde el estacionamiento de Bodega Aurrera"
     },
     {
       "hora": "29 oct, 19:00",
       "texto": "Gran Desfile Muuki por la avenida 20 de Noviembre"
+    },
+    {
+      "hora": "30 oct, 20:00",
+      "texto": "Corrida de las Calaveras Nocturnas en la plaza de toros Alberto Balderas, Lerdo"
     },
     {
       "hora": "30 oct–2 nov",
@@ -78,6 +95,10 @@
     {
       "hora": "31 oct, 19:00",
       "texto": "Alacranes vs. Atlético Morelia en el estadio Francisco Zarco"
+    },
+    {
+      "hora": "11–12 nov",
+      "texto": "Concursos municipales de ortografía y matemáticas en Gómez Palacio"
     },
     {
       "hora": "13–16 nov",
