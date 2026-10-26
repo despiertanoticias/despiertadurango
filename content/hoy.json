@@ -1,33 +1,33 @@
 {
   "fecha": "Domingo 25 de octubre de 2026",
-  "actualizado": "06:45 h",
+  "actualizado": "18:45 h",
   "clima": {
     "ahora": "",
     "max": 26,
     "min": 12,
-    "texto": "Para la capital se espera un domingo parcialmente soleado que se nublará por la tarde, con mínima cercana a 12 °C, máxima de unos 26 °C y alrededor de 40 % de probabilidad de tormentas aisladas (AccuWeather). En Gómez Palacio, máxima cercana a 31 °C y mínima de 17 °C con cielo mayormente despejado; El Salto tendría entre 8 y 19 °C.",
+    "texto": "Domingo templado en la capital, con máxima cercana a 26 °C y mínima de 12 °C. Para el lunes 26 se espera un descenso: entre 11 y 23 °C, cielo de medio nublado a nublado y alrededor de 50 % de probabilidad de tormentas por la tarde. En Gómez Palacio, el lunes iría de 16 a 29 °C con 65 % de probabilidad de lluvia; El Salto, de 7 a 18 °C.",
     "laguna_max": 31,
     "laguna_min": 17,
     "filas": [
       {
-        "nombre": "Lluvia en la capital",
-        "valor": "40 % de probabilidad de tormentas aisladas",
+        "nombre": "Lluvia lunes en la capital",
+        "valor": "50 % de probabilidad de tormentas por la tarde",
         "nivel": "warn"
       },
       {
-        "nombre": "Viento en Gómez Palacio",
-        "valor": "Rachas de hasta 36 km/h por la noche",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "El Salto",
-        "valor": "8 a 19 °C",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Tamazula",
-        "valor": "Hasta 33–34 °C",
+        "nombre": "Lluvia lunes en Gómez Palacio",
+        "valor": "65 % de probabilidad por la tarde",
         "nivel": "warn"
+      },
+      {
+        "nombre": "El Salto (lunes)",
+        "valor": "7 a 18 °C; precaución en caminos mojados",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Tamazula (lunes)",
+        "valor": "Hasta 33 °C",
+        "nivel": "ok"
       }
     ]
   },
@@ -56,24 +56,8 @@
   ],
   "agenda": [
     {
-      "hora": "25 oct, 8:00–14:00",
-      "texto": "Durango de Rol: cierre de Alamedas, Juárez, Dolores del Río y Fanny Anitúa hasta el Parque Guadiana"
-    },
-    {
-      "hora": "25 oct",
-      "texto": "Último día de registro a la Pensión de Adultos Mayores y Mujeres Bienestar (Palacio Federal y Río Papaloapan 211)"
-    },
-    {
-      "hora": "25 oct, 17:00",
-      "texto": "Inauguración del Festival Muuki y la Zona Coco Muuki en plaza Fundadores"
-    },
-    {
-      "hora": "25 oct, 7:00–21:00",
-      "texto": "Kermés del Seminario en la plaza de Armas de Lerdo"
-    },
-    {
-      "hora": "25 oct, 16:00",
-      "texto": "Festival de las Flores en el ejido Los Ángeles, Lerdo; entrada libre"
+      "hora": "26 oct",
+      "texto": "Guadalupe Taddei entrega su renuncia a la presidencia del INE"
     },
     {
       "hora": "26–27 oct",
