@@ -1,17 +1,22 @@
 {
-  "fecha": "Lunes 26 de octubre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Martes 27 de octubre de 2026",
+  "actualizado": "07:00 h",
   "clima": {
     "ahora": "",
-    "max": 23,
+    "max": 24,
     "min": 10,
-    "texto": "Lunes nublado en la capital, con máxima de 23 °C y lluvias probables de las 13:00 a las 20:00 horas; en la sierra, mínimas de -5 a 0 °C. Para el martes 27 se esperan mínimas de 9 a 11 °C y máximas de 23 a 24 °C, con mañana fría, cielo mayormente nublado y posibles tormentas aisladas por la tarde. En Gómez Palacio, de 15 a 29 °C.",
+    "texto": "Martes con mañana fría en la capital, mínima de 9 a 11 °C y máxima de 23 a 24 °C, cielo mayormente nublado y posibles chubascos con tormenta por la tarde. El SMN prevé lluvias fuertes de 25 a 50 mm en el estado por la tormenta tropical Vance y mínimas de -5 a 0 °C en la sierra. En Gómez Palacio, de 15 a 29 °C.",
     "laguna_max": 29,
     "laguna_min": 15,
     "filas": [
       {
-        "nombre": "Lluvia el martes en la capital",
-        "valor": "Tormentas aisladas posibles por la tarde",
+        "nombre": "Lluvia en el estado",
+        "valor": "Chubascos fuertes de 25 a 50 mm (SMN)",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Capital por la tarde",
+        "valor": "Posibles chubascos con tormenta",
         "nivel": "warn"
       },
       {
@@ -40,26 +45,34 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.56",
-      "nota": "Cierre del lunes 26 (Banxico)"
+      "valor": "$18.62",
+      "nota": "Apertura del martes 27 (Dow Jones)"
     },
     {
       "nombre": "Gasolina Magna",
-      "valor": "$23.90",
+      "valor": "$23.92",
       "nota": "Promedio en la capital"
     },
     {
       "nombre": "Gasolina Premium",
-      "valor": "$29.09",
+      "valor": "$29.17",
       "nota": "Promedio en la capital"
     },
     {
       "nombre": "Diésel",
-      "valor": "$26.96",
+      "valor": "$26.99",
       "nota": "Promedio en la capital"
     }
   ],
   "agenda": [
+    {
+      "hora": "27 oct",
+      "texto": "Pleno del Congreso del Estado vota los dictámenes de cuentas públicas"
+    },
+    {
+      "hora": "27 oct, 7:00–14:00",
+      "texto": "Descacharrización en la colonia San Isidro, Lerdo: saca tus cacharros a la banqueta"
+    },
     {
       "hora": "27 oct, 13:00",
       "texto": "Comisión de Hacienda de Gómez Palacio revisa el Paquete Económico 2027; el Cabildo lo vota el jueves 29"
@@ -69,12 +82,12 @@
       "texto": "Cotejo de documentos para aspirantes a consejerías distritales del INE en Durango"
     },
     {
-      "hora": "Hasta 2 nov, 13:00–21:00",
-      "texto": "Zona Coco del Festival Muuki en la Plaza Fundadores (entrada libre)"
+      "hora": "31 oct",
+      "texto": "Último día para vincular líneas de prepago con terminación 5; la 6 vence el 15 de noviembre"
     },
     {
-      "hora": "26–27 oct",
-      "texto": "Congreso del Estado votará los dictámenes de cuentas públicas: en comisión el lunes y en el pleno el martes"
+      "hora": "Hasta 2 nov, 13:00–21:00",
+      "texto": "Zona Coco del Festival Muuki en la Plaza Fundadores (entrada libre)"
     },
     {
       "hora": "Hasta 6 nov",

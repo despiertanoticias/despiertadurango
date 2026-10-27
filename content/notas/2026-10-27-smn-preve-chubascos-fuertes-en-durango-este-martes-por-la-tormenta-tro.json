@@ -1,0 +1,22 @@
+{
+  "titulo": "SMN prevé chubascos fuertes en Durango este martes por la tormenta tropical Vance; heladas en la sierra",
+  "seccion": "durango",
+  "fecha": "2026-10-27T06:56",
+  "resumen": "El Servicio Meteorológico Nacional incluyó a Durango entre los estados con lluvias fuertes de 25 a 50 milímetros este martes, por la influencia de la tormenta tropical Vance, que se ubicaba a unos 450 kilómetros al sur-suroeste de Manzanillo. En las zonas serranas se esperan mínimas de -5 a 0 °C.",
+  "cuerpo": "Para la capital, el pronóstico local prevé una mañana fría con mínima de 9 a 11 °C, máxima de 23 a 24 °C, cielo mayormente nublado y posibles chubascos con tormenta por la tarde, con viento del suroeste y rachas de unos 23 km/h. En Gómez Palacio se esperan alrededor de 29 °C de máxima.",
+  "imagen_tema": "lluvia",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "UnoTV",
+      "enlace": "https://www.unotv.com/clima/lluvias-tormenta-tropical-vance/"
+    },
+    {
+      "medio": "El Siglo de Durango",
+      "enlace": "https://www.elsiglodedurango.com.mx/noticia/2026/clima-en-durango-se-pronostica-unmartes-con-manana-fria-y-maxima-cercana-a-los-24-grados-en-la-capital.html"
+    }
+  ],
+  "destacada": false,
+  "autor": "Redacción"
+}
