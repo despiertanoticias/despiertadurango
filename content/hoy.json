@@ -1,37 +1,37 @@
 {
   "fecha": "Lunes 26 de octubre de 2026",
-  "actualizado": "07:10 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
     "max": 23,
-    "min": 11,
-    "texto": "Lunes más fresco en la capital, con máxima de 22 a 23 °C y mínima de 11 a 12 °C. Se esperan tormentas o chubascos por la tarde y en las primeras horas de la noche. El pronóstico nacional prevé lluvias de 25 a 50 mm en el norte, centro y sur del estado, y de -5 a 0 °C en la sierra. En Gómez Palacio, de 16 a 29 °C con chubascos por la tarde.",
+    "min": 10,
+    "texto": "Lunes nublado en la capital, con máxima de 23 °C y lluvias probables de las 13:00 a las 20:00 horas; en la sierra, mínimas de -5 a 0 °C. Para el martes 27 se esperan mínimas de 9 a 11 °C y máximas de 23 a 24 °C, con mañana fría, cielo mayormente nublado y posibles tormentas aisladas por la tarde. En Gómez Palacio, de 15 a 29 °C.",
     "laguna_max": 29,
-    "laguna_min": 16,
+    "laguna_min": 15,
     "filas": [
       {
-        "nombre": "Lluvia en la capital",
-        "valor": "~50 % de probabilidad de tormentas por la tarde",
+        "nombre": "Lluvia el martes en la capital",
+        "valor": "Tormentas aisladas posibles por la tarde",
         "nivel": "warn"
       },
       {
-        "nombre": "Lluvia en Gómez Palacio",
-        "valor": "~65 % de probabilidad por la tarde",
-        "nivel": "warn"
+        "nombre": "Viento",
+        "valor": "Suroeste, rachas de unos 23 km/h",
+        "nivel": "ok"
       },
       {
         "nombre": "Zonas serranas",
-        "valor": "Mínimas de -5 a 0 °C",
+        "valor": "Mínimas de -5 a 0 °C en la madrugada",
         "nivel": "bad"
       },
       {
         "nombre": "El Salto",
-        "valor": "7 a 18 °C",
-        "nivel": "warn"
+        "valor": "12 a 22 °C",
+        "nivel": "ok"
       },
       {
         "nombre": "Santiago Papasquiaro",
-        "valor": "8 a 22 °C",
+        "valor": "12 a 23 °C",
         "nivel": "ok"
       }
     ]
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.67",
-      "nota": "Apertura del lunes 26 (Dow Jones)"
+      "valor": "$18.56",
+      "nota": "Cierre del lunes 26 (Banxico)"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,12 +61,16 @@
   ],
   "agenda": [
     {
-      "hora": "26 oct",
-      "texto": "Paro nacional de transportistas de Canacar; Durango, entre los estados con movilizaciones"
+      "hora": "27 oct, 13:00",
+      "texto": "Comisión de Hacienda de Gómez Palacio revisa el Paquete Económico 2027; el Cabildo lo vota el jueves 29"
     },
     {
-      "hora": "26 oct",
-      "texto": "Guadalupe Taddei entrega su renuncia a la presidencia del INE"
+      "hora": "Hasta 31 oct",
+      "texto": "Cotejo de documentos para aspirantes a consejerías distritales del INE en Durango"
+    },
+    {
+      "hora": "Hasta 2 nov, 13:00–21:00",
+      "texto": "Zona Coco del Festival Muuki en la Plaza Fundadores (entrada libre)"
     },
     {
       "hora": "26–27 oct",
