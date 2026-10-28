@@ -1,0 +1,22 @@
+{
+  "titulo": "Choque de dos trenes de alta velocidad en Toledo, España, deja al menos 30 muertos",
+  "seccion": "internacional",
+  "fecha": "2026-10-28T06:48",
+  "resumen": "Un tren AVE de Renfe y uno de la empresa Iryo chocaron la mañana de este miércoles cerca de la estación de Urda, en la provincia de Toledo, España. El recuento más reciente citado por elDiario.es habla de al menos 30 muertos y 50 heridos graves; las autoridades advierten que las cifras son provisionales.",
+  "cuerpo": "Los dos trenes llevaban 544 personas: 397 en el AVE y 146 en el Iryo, además de un bebé. Según la Guardia Civil, cuatro vagones descarrilaron. Fuentes del servicio de emergencias 112 citadas por La Nación indicaron que el AVE habría golpeado los últimos vagones del Iryo, que estaba detenido en la vía; las causas oficiales aún no se conocen. Adif suspendió hasta nuevo aviso la línea de alta velocidad entre Madrid y Andalucía. El presidente del Gobierno, Pedro Sánchez, se dijo «consternado». Castilla-La Mancha activó su plan de emergencias y pidió el apoyo de la Unidad Militar de Emergencias, y Renfe abrió el teléfono de atención 900 10 10 20. En enero, otro choque de trenes en el sur de España dejó 45 muertos.",
+  "imagen_tema": "zocalo",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "elDiario.es",
+      "enlace": "https://www.eldiario.es/castilla-la-mancha/accidente-tren-toledo-suspendida-alta-velocidad-madrid-andalucia_133_13620647.html"
+    },
+    {
+      "medio": "La Nación",
+      "enlace": "https://www.lanacion.com.ar/el-mundo/dos-trenes-de-alta-velocidad-chocaron-en-toledo-al-menos-10-muertos-nid28102026/"
+    }
+  ],
+  "destacada": true,
+  "autor": "Redacción"
+}

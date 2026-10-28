@@ -1,22 +1,27 @@
 {
-  "fecha": "Martes 27 de octubre de 2026",
-  "actualizado": "18:45 h",
+  "fecha": "Miércoles 28 de octubre de 2026",
+  "actualizado": "06:50 h",
   "clima": {
     "ahora": "",
-    "max": 24,
-    "min": 10,
-    "texto": "Martes con mañana fría en la capital, mínima cercana a 10 °C y máxima de 24 °C. Para el miércoles 28, Conagua prevé cielo mayormente nublado con lluvias ligeras a moderadas desde la mañana hasta el mediodía del jueves y un descenso marcado: alrededor de 12 °C en la mañana y máxima de apenas 15 °C. En la sierra y los valles se esperan lluvias fuertes a muy fuertes. Esta mañana La Rosilla, Guanaceví, amaneció a -2 °C y Lerdo a 15 °C.",
+    "max": 15,
+    "min": 12,
+    "texto": "Miércoles frío y nublado en la capital, con lluvia ligera a moderada desde la mañana hasta el mediodía del jueves, mínima de 12 °C y máxima de apenas 15 °C. Por la tormenta tropical Vance, el SMN prevé lluvias muy fuertes con puntuales intensas (75 a 150 mm) en el sur del estado; fuertes a muy fuertes en la sierra y los valles, y moderadas a fuertes en el centro y oriente.",
     "laguna_max": 29,
     "laguna_min": 15,
     "filas": [
       {
-        "nombre": "Miércoles en la capital",
+        "nombre": "Capital hoy",
         "valor": "12 a 15 °C, lluvia ligera a moderada",
         "nivel": "warn"
       },
       {
+        "nombre": "Sur del estado",
+        "valor": "Lluvias de 75 a 150 mm por Vance",
+        "nivel": "bad"
+      },
+      {
         "nombre": "Sierra y valles",
-        "valor": "Lluvias fuertes a muy fuertes el miércoles",
+        "valor": "Lluvias fuertes a muy fuertes",
         "nivel": "bad"
       },
       {
@@ -25,19 +30,19 @@
         "nivel": "warn"
       },
       {
-        "nombre": "Viento",
+        "nombre": "Norte y noroeste",
+        "valor": "Lluvias ligeras a moderadas",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Viento en la capital",
         "valor": "Rachas de hasta 15 km/h",
         "nivel": "ok"
       },
       {
-        "nombre": "Río Tunal",
-        "valor": "Presa Guadalupe Victoria vierte 10.5 m³/s; cerrado el paso El Pueblito–El Tunal",
-        "nivel": "bad"
-      },
-      {
-        "nombre": "La Rosilla (Guanaceví)",
-        "valor": "-2 °C esta mañana",
-        "nivel": "bad"
+        "nombre": "Tormenta tropical Vance",
+        "valor": "A 365 km de Cabo Corrientes, rumbo a Sinaloa; remanentes el viernes",
+        "nivel": "warn"
       }
     ]
   },
@@ -45,8 +50,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.68",
-      "nota": "Cierre del martes 27 (Banxico)"
+      "valor": "$18.65",
+      "nota": "FIX de Banxico para el miércoles 28"
     },
     {
       "nombre": "Gasolina Magna",
@@ -65,6 +70,14 @@
     }
   ],
   "agenda": [
+    {
+      "hora": "28 oct, 17:00",
+      "texto": "Encendido de veladoras por víctimas de feminicidio en el antimonumento del bulevar Ejército Mexicano, Gómez Palacio"
+    },
+    {
+      "hora": "28 oct",
+      "texto": "Arranca la cosecha de cempasúchil en Lerdo"
+    },
     {
       "hora": "28 oct",
       "texto": "Fiesta de San Judas Tadeo en su parroquia de la capital, con permisos para comerciantes"
@@ -128,6 +141,18 @@
     {
       "hora": "13–16 nov",
       "texto": "Carrera ciclista Titan Desert en la ciudad de Durango"
+    },
+    {
+      "hora": "31 oct, 11:00",
+      "texto": "Movilización en defensa de las bibliotecas municipales en la Plaza de Armas"
+    },
+    {
+      "hora": "30 oct–2 nov",
+      "texto": "Panteones municipales de la capital con operativo especial; bancos cerrados el 2 de noviembre"
+    },
+    {
+      "hora": "7–8 nov",
+      "texto": "Expo Auto 2026 en la explanada del Museo Bebeleche (entrada libre)"
     }
   ]
 }
