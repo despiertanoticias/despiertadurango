@@ -1,43 +1,43 @@
 {
   "fecha": "Martes 27 de octubre de 2026",
-  "actualizado": "07:00 h",
+  "actualizado": "18:45 h",
   "clima": {
     "ahora": "",
     "max": 24,
     "min": 10,
-    "texto": "Martes con mañana fría en la capital, mínima de 9 a 11 °C y máxima de 23 a 24 °C, cielo mayormente nublado y posibles chubascos con tormenta por la tarde. El SMN prevé lluvias fuertes de 25 a 50 mm en el estado por la tormenta tropical Vance y mínimas de -5 a 0 °C en la sierra. En Gómez Palacio, de 15 a 29 °C.",
+    "texto": "Martes con mañana fría en la capital, mínima cercana a 10 °C y máxima de 24 °C. Para el miércoles 28, Conagua prevé cielo mayormente nublado con lluvias ligeras a moderadas desde la mañana hasta el mediodía del jueves y un descenso marcado: alrededor de 12 °C en la mañana y máxima de apenas 15 °C. En la sierra y los valles se esperan lluvias fuertes a muy fuertes. Esta mañana La Rosilla, Guanaceví, amaneció a -2 °C y Lerdo a 15 °C.",
     "laguna_max": 29,
     "laguna_min": 15,
     "filas": [
       {
-        "nombre": "Lluvia en el estado",
-        "valor": "Chubascos fuertes de 25 a 50 mm (SMN)",
+        "nombre": "Miércoles en la capital",
+        "valor": "12 a 15 °C, lluvia ligera a moderada",
         "nivel": "warn"
       },
       {
-        "nombre": "Capital por la tarde",
-        "valor": "Posibles chubascos con tormenta",
+        "nombre": "Sierra y valles",
+        "valor": "Lluvias fuertes a muy fuertes el miércoles",
+        "nivel": "bad"
+      },
+      {
+        "nombre": "Centro y oriente",
+        "valor": "Lluvias moderadas a fuertes",
         "nivel": "warn"
       },
       {
         "nombre": "Viento",
-        "valor": "Suroeste, rachas de unos 23 km/h",
+        "valor": "Rachas de hasta 15 km/h",
         "nivel": "ok"
       },
       {
-        "nombre": "Zonas serranas",
-        "valor": "Mínimas de -5 a 0 °C en la madrugada",
+        "nombre": "Río Tunal",
+        "valor": "Presa Guadalupe Victoria vierte 10.5 m³/s; cerrado el paso El Pueblito–El Tunal",
         "nivel": "bad"
       },
       {
-        "nombre": "El Salto",
-        "valor": "12 a 22 °C",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Santiago Papasquiaro",
-        "valor": "12 a 23 °C",
-        "nivel": "ok"
+        "nombre": "La Rosilla (Guanaceví)",
+        "valor": "-2 °C esta mañana",
+        "nivel": "bad"
       }
     ]
   },
@@ -45,8 +45,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.62",
-      "nota": "Apertura del martes 27 (Dow Jones)"
+      "valor": "$18.68",
+      "nota": "Cierre del martes 27 (Banxico)"
     },
     {
       "nombre": "Gasolina Magna",
@@ -66,16 +66,24 @@
   ],
   "agenda": [
     {
-      "hora": "27 oct",
-      "texto": "Pleno del Congreso del Estado vota los dictámenes de cuentas públicas"
+      "hora": "28 oct",
+      "texto": "Fiesta de San Judas Tadeo en su parroquia de la capital, con permisos para comerciantes"
     },
     {
-      "hora": "27 oct, 7:00–14:00",
-      "texto": "Descacharrización en la colonia San Isidro, Lerdo: saca tus cacharros a la banqueta"
+      "hora": "28 oct",
+      "texto": "Arranca la rehabilitación del mercado Donato Guerra en Lerdo"
     },
     {
-      "hora": "27 oct, 13:00",
-      "texto": "Comisión de Hacienda de Gómez Palacio revisa el Paquete Económico 2027; el Cabildo lo vota el jueves 29"
+      "hora": "28 oct",
+      "texto": "Exposición de 16 altares de muertos en el Edificio Central de la UJED"
+    },
+    {
+      "hora": "30 oct",
+      "texto": "Vence el registro de vacantes del Martes de Empleo (179 plazas en Durango y La Laguna)"
+    },
+    {
+      "hora": "30 oct",
+      "texto": "Primer pago del Acuerdo por la Economía Familiar (tinacos, calentadores, impermeabilizante)"
     },
     {
       "hora": "Hasta 31 oct",
