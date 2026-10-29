@@ -1,16 +1,16 @@
 {
-  "fecha": "Miércoles 28 de octubre de 2026",
-  "actualizado": "18:45 h",
+  "fecha": "Jueves 29 de octubre de 2026",
+  "actualizado": "06:40 h",
   "clima": {
     "ahora": "",
     "max": 23,
     "min": 10,
-    "texto": "Tras la lluvia y el frío del miércoles por los remanentes de Vance, el jueves 29 se espera cielo mayormente nublado en la capital, con mínima de 10 °C, máxima de 23 °C y probabilidad mínima de lluvia (Conagua). Lluvias moderadas solo en Las Quebradas (Tamazula y Topia); en el resto del estado, lloviznas aisladas.",
+    "texto": "Jueves mayormente nublado en la capital, con mínima de 10 °C, máxima de 23 °C y probabilidad mínima de lluvia (Conagua). Rachas de viento de hasta 35 km/h. Lluvias moderadas solo en Las Quebradas (Tamazula y Topia); en zonas altas de la sierra, el SMN prevé temperaturas de hasta -5 °C en la madrugada.",
     "laguna_max": 27,
     "laguna_min": 15,
     "filas": [
       {
-        "nombre": "Capital jueves",
+        "nombre": "Capital hoy",
         "valor": "10 a 23 °C, mayormente nublado",
         "nivel": "ok"
       },
@@ -25,14 +25,14 @@
         "nivel": "warn"
       },
       {
+        "nombre": "Sierra (madrugada)",
+        "valor": "Hasta -5 °C en zonas altas",
+        "nivel": "bad"
+      },
+      {
         "nombre": "Tamazula y Topia",
         "valor": "Lluvias moderadas",
         "nivel": "warn"
-      },
-      {
-        "nombre": "Lerdo (miércoles)",
-        "valor": "15 a 27 °C",
-        "nivel": "ok"
       }
     ]
   },
@@ -40,26 +40,30 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.63",
-      "nota": "Cierre del miércoles 28, tras la decisión de la Fed"
+      "valor": "$18.67",
+      "nota": "FIX de Banxico para el jueves 29; el miércoles cerró en 18.62"
     },
     {
       "nombre": "Gasolina Magna",
       "valor": "$23.90",
-      "nota": "Promedio en la capital"
+      "nota": "Promedio en la capital, jueves 29"
     },
     {
       "nombre": "Gasolina Premium",
       "valor": "$29.15",
-      "nota": "Promedio en la capital"
+      "nota": "Promedio en la capital, jueves 29"
     },
     {
       "nombre": "Diésel",
       "valor": "$26.96",
-      "nota": "Promedio en la capital"
+      "nota": "Promedio en la capital, jueves 29"
     }
   ],
   "agenda": [
+    {
+      "hora": "30 oct, 8:30",
+      "texto": "Arranca Viendo por la Infancia: revisión gratuita de la vista a 500 niños en la ExpoFeria de Gómez Palacio (registro al 871 714 2127)"
+    },
     {
       "hora": "30 oct",
       "texto": "Cabildo de Gómez Palacio vota la Ley de Ingresos y Presupuesto 2027 (sin aumento al predial)"
@@ -67,6 +71,10 @@
     {
       "hora": "Hasta 3 nov",
       "texto": "Exposición de 16 altares de muertos en el Edificio Central de la UJED"
+    },
+    {
+      "hora": "31 oct–8 nov",
+      "texto": "Feria de Nombre de Dios, con el Sotolazo de mezcal y sotol"
     },
     {
       "hora": "30 oct",
@@ -83,6 +91,10 @@
     {
       "hora": "31 oct",
       "texto": "Último día para vincular líneas de prepago con terminación 5; la 6 vence el 15 de noviembre"
+    },
+    {
+      "hora": "13–17 nov",
+      "texto": "Buen Fin 2026; registro gratuito de comercios hasta el 12 de noviembre"
     },
     {
       "hora": "Hasta 2 nov, 13:00–21:00",
