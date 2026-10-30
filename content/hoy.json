@@ -1,37 +1,37 @@
 {
   "fecha": "Jueves 29 de octubre de 2026",
-  "actualizado": "06:40 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
-    "max": 23,
-    "min": 10,
-    "texto": "Jueves mayormente nublado en la capital, con mínima de 10 °C, máxima de 23 °C y probabilidad mínima de lluvia (Conagua). Rachas de viento de hasta 35 km/h. Lluvias moderadas solo en Las Quebradas (Tamazula y Topia); en zonas altas de la sierra, el SMN prevé temperaturas de hasta -5 °C en la madrugada.",
+    "max": 27,
+    "min": 8,
+    "texto": "Pronóstico para el viernes 30: los efectos de Vance dejan de sentirse en el estado y la capital tendrá cielo mayormente despejado, con mínima de 8 °C por la mañana, máxima de 27 °C y alrededor de 12 °C por la noche. Rachas de viento de hasta 30 km/h. Solo en Tamazula, Topia, Tepehuanes y Guanaceví podría llover.",
     "laguna_max": 27,
     "laguna_min": 15,
     "filas": [
       {
-        "nombre": "Capital hoy",
-        "valor": "10 a 23 °C, mayormente nublado",
+        "nombre": "Capital el viernes",
+        "valor": "8 a 27 °C, mayormente despejado",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia en la capital",
-        "valor": "Probabilidad mínima; ligera si ocurre",
+        "valor": "No se espera",
         "nivel": "ok"
       },
       {
         "nombre": "Viento en la capital",
-        "valor": "Rachas de hasta 35 km/h",
+        "valor": "Rachas de hasta 30 km/h",
         "nivel": "warn"
       },
       {
-        "nombre": "Sierra (madrugada)",
-        "valor": "Hasta -5 °C en zonas altas",
-        "nivel": "bad"
+        "nombre": "Tamazula, Topia, Tepehuanes y Guanaceví",
+        "valor": "Posibles lluvias",
+        "nivel": "warn"
       },
       {
-        "nombre": "Tamazula y Topia",
-        "valor": "Lluvias moderadas",
+        "nombre": "Mínima más baja del jueves",
+        "valor": "4 °C en San Bernardo",
         "nivel": "warn"
       }
     ]
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.67",
-      "nota": "FIX de Banxico para el jueves 29; el miércoles cerró en 18.62"
+      "valor": "$18.83",
+      "nota": "Cierre del jueves 29 (Dow Jones); el miércoles cerró en 18.64"
     },
     {
       "nombre": "Gasolina Magna",
@@ -65,12 +65,12 @@
       "texto": "Arranca Viendo por la Infancia: revisión gratuita de la vista a 500 niños en la ExpoFeria de Gómez Palacio (registro al 871 714 2127)"
     },
     {
-      "hora": "30 oct",
-      "texto": "Cabildo de Gómez Palacio vota la Ley de Ingresos y Presupuesto 2027 (sin aumento al predial)"
-    },
-    {
       "hora": "Hasta 3 nov",
       "texto": "Exposición de 16 altares de muertos en el Edificio Central de la UJED"
+    },
+    {
+      "hora": "30 oct, 9:00–14:00 y 16:00–19:00",
+      "texto": "Pruebas gratuitas de VPH para mujeres de 30 a 64 años en La Cuchilla (Benigno Montoya) y la colonia México"
     },
     {
       "hora": "31 oct–8 nov",
@@ -105,20 +105,12 @@
       "texto": "Registro en línea a la beca Rita Cetina (primaria y secundaria)"
     },
     {
-      "hora": "29 oct, 18:30",
-      "texto": "Desfile de Día de Muertos en Lerdo, desde el estacionamiento de Bodega Aurrera"
-    },
-    {
-      "hora": "29 oct, 19:00",
-      "texto": "Gran Desfile Muuki por la avenida 20 de Noviembre"
-    },
-    {
       "hora": "30 oct, 20:00",
       "texto": "Corrida de las Calaveras Nocturnas en la plaza de toros Alberto Balderas, Lerdo"
     },
     {
-      "hora": "30 oct–2 nov",
-      "texto": "Operativo de Día de Muertos en los panteones de Gómez Palacio"
+      "hora": "30 oct–2 nov, 6:00–18:00",
+      "texto": "Operativo de Día de Muertos en 16 panteones de Gómez Palacio; sin alcohol. El domingo, el Panteón Guadalupe abre hasta las 19:00"
     },
     {
       "hora": "31 oct, 19:00",
@@ -151,6 +143,10 @@
     {
       "hora": "3–7 dic",
       "texto": "Dr. Vagón en Gómez Palacio, detrás de la Presidencia Municipal: 2,500 consultas gratuitas"
+    },
+    {
+      "hora": "1 nov, 17:00",
+      "texto": "Santos Laguna vs. Necaxa en el Estadio Corona (jornada 15 de la Liga MX)"
     }
   ]
 }
