@@ -1,38 +1,38 @@
 {
   "fecha": "Viernes 30 de octubre de 2026",
-  "actualizado": "06:40 h",
+  "actualizado": "18:45 h",
   "clima": {
     "ahora": "",
     "max": 27,
     "min": 8,
-    "texto": "Viernes mayormente despejado en la capital, con mínima de 8 °C por la mañana, máxima de 27 °C y rachas de viento de hasta 30 km/h; solo en Tamazula, Topia, Tepehuanes y Guanaceví podría llover. El frente frío 4 llegará al noroeste la noche del sábado y dejaría de -5 a 0 °C en la sierra el sábado y el domingo; en la capital, mínimas de 10 a 11 °C.",
-    "laguna_max": 27,
+    "texto": "Viernes despejado en la capital, con mínima de 8 °C y máxima de 27 °C. Para el sábado 31 se prevé cielo mayormente soleado, de 10 a 28 °C y rachas de hasta 15 km/h, sin lluvias en el estado; el pronóstico se mantiene para el domingo. En la sierra, Navíos amaneció este viernes con 5 °C. El frente frío 4 podría dejar de -5 a 0 °C en las partes altas el fin de semana.",
+    "laguna_max": 29,
     "laguna_min": 15,
     "filas": [
       {
         "nombre": "Capital hoy",
-        "valor": "8 a 27 °C, mayormente despejado",
+        "valor": "8 a 27 °C, despejado",
         "nivel": "ok"
       },
       {
-        "nombre": "Lluvia en la capital",
-        "valor": "No se espera",
+        "nombre": "Capital, sábado 31",
+        "valor": "10 a 28 °C, mayormente soleado",
         "nivel": "ok"
       },
       {
-        "nombre": "Viento en la capital",
-        "valor": "Rachas de hasta 30 km/h",
-        "nivel": "warn"
+        "nombre": "Lluvia en el estado",
+        "valor": "No se espera sábado ni domingo",
+        "nivel": "ok"
       },
       {
-        "nombre": "Sierra, sábado y domingo",
+        "nombre": "Viento en la capital, sábado",
+        "valor": "Rachas de hasta 15 km/h",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Sierra, fin de semana",
         "valor": "-5 a 0 °C por el frente frío 4",
         "nivel": "bad"
-      },
-      {
-        "nombre": "Tamazula, Topia, Tepehuanes y Guanaceví",
-        "valor": "Posibles lluvias",
-        "nivel": "warn"
       }
     ]
   },
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.88",
-      "nota": "Apertura del viernes 30 (Dow Jones); el jueves cerró en 18.87"
+      "valor": "$18.79",
+      "nota": "Cierre del viernes 30 (Dow Jones), 0.39 % menos que el jueves"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,6 +61,26 @@
   ],
   "agenda": [
     {
+      "hora": "30 oct, 19:00",
+      "texto": "Desfile de Día de Muertos desde Everardo Gámiz por la avenida 20 de Noviembre; cierres desde las 18:00"
+    },
+    {
+      "hora": "30 oct, 18:30–22:00",
+      "texto": "Noche en el Museo en el Acertijo de Gómez Palacio, con telescopios ($70 por persona, $220 paquete familiar)"
+    },
+    {
+      "hora": "Hasta 1 nov, 18:00",
+      "texto": "Exposición militar por los 60 años del Plan DN-III-E en el Polideportivo 450 del Parque Guadiana"
+    },
+    {
+      "hora": "31 oct, 18:00",
+      "texto": "Mega Catrina de pan de muerto y altar en el Paseo Sarabia de Lerdo"
+    },
+    {
+      "hora": "7–8 nov",
+      "texto": "Sky Fest de globos aerostáticos en Lerdo, en el aeródromo y el Polideportivo Municipal"
+    },
+    {
       "hora": "Hasta fin de dic",
       "texto": "Vacunación contra influenza y Covid en centros de salud, plazuela Baca Ortiz y Hospital General 450 (también desde el auto); no requiere derechohabiencia"
     },
@@ -69,24 +89,12 @@
       "texto": "Festival de la Revolución en Gómez Palacio; hoy, «Serenata a nuestros muertos» en Casa Faya"
     },
     {
-      "hora": "30 oct, 8:30",
-      "texto": "Arranca Viendo por la Infancia: revisión gratuita de la vista a 500 niños en la ExpoFeria de Gómez Palacio (registro al 871 714 2127)"
-    },
-    {
       "hora": "Hasta 3 nov",
       "texto": "Exposición de 16 altares de muertos en el Edificio Central de la UJED"
     },
     {
-      "hora": "30 oct, 9:00–14:00 y 16:00–19:00",
-      "texto": "Pruebas gratuitas de VPH para mujeres de 30 a 64 años en La Cuchilla (Benigno Montoya) y la colonia México"
-    },
-    {
       "hora": "31 oct–8 nov",
       "texto": "Feria de Nombre de Dios, con el Sotolazo de mezcal y sotol"
-    },
-    {
-      "hora": "30 oct",
-      "texto": "Primer pago del Acuerdo por la Economía Familiar (tinacos, calentadores, impermeabilizante)"
     },
     {
       "hora": "Hasta 31 oct",
@@ -151,10 +159,6 @@
     {
       "hora": "1 nov, 17:00",
       "texto": "Santos Laguna vs. Necaxa en el Estadio Corona (jornada 15 de la Liga MX)"
-    },
-    {
-      "hora": "30 oct",
-      "texto": "Megamarcha nacional de trabajadores del IMSS en varios estados"
     },
     {
       "hora": "30 oct–1 nov",
