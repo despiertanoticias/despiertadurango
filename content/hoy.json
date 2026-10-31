@@ -1,22 +1,22 @@
 {
-  "fecha": "Viernes 30 de octubre de 2026",
-  "actualizado": "18:45 h",
+  "fecha": "Sábado 31 de octubre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
-    "max": 27,
-    "min": 8,
-    "texto": "Viernes despejado en la capital, con mínima de 8 °C y máxima de 27 °C. Para el sábado 31 se prevé cielo mayormente soleado, de 10 a 28 °C y rachas de hasta 15 km/h, sin lluvias en el estado; el pronóstico se mantiene para el domingo. En la sierra, Navíos amaneció este viernes con 5 °C. El frente frío 4 podría dejar de -5 a 0 °C en las partes altas el fin de semana.",
+    "max": 28,
+    "min": 10,
+    "texto": "Sábado mayormente soleado en la capital, con mínima de 10 °C, máxima de 28 °C y alrededor de 16 °C por la noche; rachas de hasta 15 km/h y sin lluvias en el estado. El pronóstico se mantiene para el domingo. El frente frío 4 podría dejar de -5 a 0 °C en las partes altas de la sierra el fin de semana.",
     "laguna_max": 29,
     "laguna_min": 15,
     "filas": [
       {
         "nombre": "Capital hoy",
-        "valor": "8 a 27 °C, despejado",
+        "valor": "10 a 28 °C, mayormente soleado",
         "nivel": "ok"
       },
       {
-        "nombre": "Capital, sábado 31",
-        "valor": "10 a 28 °C, mayormente soleado",
+        "nombre": "Capital, noche",
+        "valor": "Alrededor de 16 °C",
         "nivel": "ok"
       },
       {
@@ -25,7 +25,7 @@
         "nivel": "ok"
       },
       {
-        "nombre": "Viento en la capital, sábado",
+        "nombre": "Viento en la capital",
         "valor": "Rachas de hasta 15 km/h",
         "nivel": "ok"
       },
@@ -61,12 +61,20 @@
   ],
   "agenda": [
     {
-      "hora": "30 oct, 19:00",
-      "texto": "Desfile de Día de Muertos desde Everardo Gámiz por la avenida 20 de Noviembre; cierres desde las 18:00"
+      "hora": "31 oct–1 nov, 18:00–23:00",
+      "texto": "Recorridos nocturnos de terror en la exhacienda de La Ferrería ($50; boletos en el Centro de Convenciones Bicentenario)"
     },
     {
-      "hora": "30 oct, 18:30–22:00",
-      "texto": "Noche en el Museo en el Acertijo de Gómez Palacio, con telescopios ($70 por persona, $220 paquete familiar)"
+      "hora": "31 oct",
+      "texto": "Baile gratuito en la avenida Juárez de la colonia Santa Rosa, Gómez Palacio, junto al altar monumental"
+    },
+    {
+      "hora": "1 nov, 20:00",
+      "texto": "«Querida», tributo a Juan Gabriel con más de 50 artistas en el Teatro Ricardo Castro ($250 a $350)"
+    },
+    {
+      "hora": "2 nov",
+      "texto": "Fallo de la licitación del emisor sanitario central de Gómez Palacio (CAED)"
     },
     {
       "hora": "Hasta 1 nov, 18:00",
@@ -85,8 +93,8 @@
       "texto": "Vacunación contra influenza y Covid en centros de salud, plazuela Baca Ortiz y Hospital General 450 (también desde el auto); no requiere derechohabiencia"
     },
     {
-      "hora": "30 oct–30 nov",
-      "texto": "Festival de la Revolución en Gómez Palacio; hoy, «Serenata a nuestros muertos» en Casa Faya"
+      "hora": "Hasta 30 nov",
+      "texto": "Festival de la Revolución en Gómez Palacio, con música, teatro, danza y cine"
     },
     {
       "hora": "Hasta 3 nov",
@@ -117,11 +125,7 @@
       "texto": "Registro en línea a la beca Rita Cetina (primaria y secundaria)"
     },
     {
-      "hora": "30 oct, 20:00",
-      "texto": "Corrida de las Calaveras Nocturnas en la plaza de toros Alberto Balderas, Lerdo"
-    },
-    {
-      "hora": "30 oct–2 nov, 6:00–18:00",
+      "hora": "Hasta 2 nov, 6:00–18:00",
       "texto": "Operativo de Día de Muertos en 16 panteones de Gómez Palacio; sin alcohol. El domingo, el Panteón Guadalupe abre hasta las 19:00"
     },
     {
@@ -141,7 +145,7 @@
       "texto": "Movilización en defensa de las bibliotecas municipales en la Plaza de Armas"
     },
     {
-      "hora": "30 oct–2 nov",
+      "hora": "Hasta 2 nov",
       "texto": "Panteones municipales de la capital con operativo especial; bancos cerrados el 2 de noviembre"
     },
     {
@@ -161,7 +165,7 @@
       "texto": "Santos Laguna vs. Necaxa en el Estadio Corona (jornada 15 de la Liga MX)"
     },
     {
-      "hora": "30 oct–1 nov",
+      "hora": "Hasta 1 nov",
       "texto": "Gran Premio de México de F1; carrera el domingo a las 14:00 (hora del centro)"
     }
   ]
