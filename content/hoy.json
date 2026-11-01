@@ -1,45 +1,37 @@
 {
-  "fecha": "Sábado 31 de octubre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Domingo 1 de noviembre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
-    "max": 27,
+    "max": 28,
     "min": 10,
-    "texto": "Sábado despejado en la capital, con mínima de 10 °C, máxima de 26 a 27 °C por la tarde y sin probabilidad de lluvia; viento de hasta 5 km/h con ráfagas de 10 km/h. El domingo 1 de noviembre se espera de 10 a 11 °C de mínima, 27 a 28 °C de máxima, apenas 2 % de probabilidad de lluvia y rachas de 20 a 25 km/h. El SMN prevé de -5 a 0 °C con heladas en las zonas serranas.",
+    "texto": "Domingo despejado en la capital: mínima de 10 a 11 °C (9 a 10 °C al amanecer), máxima de 27 a 28 °C por la tarde y apenas 2 % de probabilidad de lluvia; viento ligero a moderado con rachas de 20 a 25 km/h. En Gómez Palacio, de 16 a 29 °C con nubes y claros. En la sierra, El Salto de 10 a 26 °C y Guanaceví de 8 a 28 °C, sin lluvias relevantes.",
     "laguna_max": 29,
-    "laguna_min": 15,
+    "laguna_min": 16,
     "filas": [
       {
         "nombre": "Capital hoy",
-        "valor": "10 a 27 °C, despejado",
+        "valor": "10 a 28 °C, despejado",
         "nivel": "ok"
       },
       {
-        "nombre": "Capital, domingo",
-        "valor": "10 a 28 °C, lluvia 2 %",
+        "nombre": "Lluvia",
+        "valor": "2 % de probabilidad",
         "nivel": "ok"
       },
       {
-        "nombre": "Viento, domingo",
+        "nombre": "Viento",
         "valor": "Rachas de 20 a 25 km/h",
         "nivel": "ok"
       },
       {
-        "nombre": "Sierra",
-        "valor": "-5 a 0 °C con heladas (SMN)",
-        "nivel": "bad"
+        "nombre": "El Salto",
+        "valor": "10 a 26 °C",
+        "nivel": "ok"
       }
     ]
   },
-  "carreteras": [
-    {
-      "nombre": "Durango-Parral (Villas del Oeste)",
-      "icono": "45",
-      "color": "#10275d",
-      "estado": "Reporte de ponchallantas y hombres armados el viernes por la noche",
-      "nivel": "warn"
-    }
-  ],
+  "carreteras": [],
   "indicadores": [
     {
       "nombre": "Dólar",
@@ -64,16 +56,20 @@
   ],
   "agenda": [
     {
+      "hora": "Hasta 3 nov",
+      "texto": "Baja presión de agua en fraccionamientos de la capital por mantenimiento de la potabilizadora; pipas gratuitas de AMD al 618 100 20 21"
+    },
+    {
+      "hora": "1–2 nov",
+      "texto": "Panteón Municipal de Lerdo abierto con operativo de Protección Civil"
+    },
+    {
+      "hora": "1 nov, 18:00–23:00",
+      "texto": "Último día de recorridos nocturnos de terror en la exhacienda de La Ferrería ($50)"
+    },
+    {
       "hora": "1 nov, 19:30",
       "texto": "Carrera nocturna 5K «La Ruta de los Muertos» desde la Plaza Principal de Lerdo (infantiles a las 18:30)"
-    },
-    {
-      "hora": "31 oct–1 nov, 18:00–23:00",
-      "texto": "Recorridos nocturnos de terror en la exhacienda de La Ferrería ($50; boletos en el Centro de Convenciones Bicentenario)"
-    },
-    {
-      "hora": "31 oct",
-      "texto": "Baile gratuito en la avenida Juárez de la colonia Santa Rosa, Gómez Palacio, junto al altar monumental"
     },
     {
       "hora": "1 nov, 20:00",
@@ -86,10 +82,6 @@
     {
       "hora": "Hasta 1 nov, 18:00",
       "texto": "Exposición militar por los 60 años del Plan DN-III-E en el Polideportivo 450 del Parque Guadiana"
-    },
-    {
-      "hora": "31 oct, 18:00",
-      "texto": "Mega Catrina de pan de muerto y altar en el Paseo Sarabia de Lerdo"
     },
     {
       "hora": "7–8 nov",
@@ -112,10 +104,6 @@
       "texto": "Feria de Nombre de Dios, con el Sotolazo de mezcal y sotol"
     },
     {
-      "hora": "31 oct",
-      "texto": "Último día para vincular líneas de prepago con terminación 5; la 6 vence el 15 de noviembre"
-    },
-    {
       "hora": "13–17 nov",
       "texto": "Buen Fin 2026; registro gratuito de comercios hasta el 12 de noviembre"
     },
@@ -130,10 +118,6 @@
     {
       "hora": "Hasta 2 nov, 6:00–18:00",
       "texto": "Operativo de Día de Muertos en 16 panteones de Gómez Palacio; sin alcohol. El domingo, el Panteón Guadalupe abre hasta las 19:00"
-    },
-    {
-      "hora": "31 oct, 19:00",
-      "texto": "Alacranes vs. Atlético Morelia en el estadio Francisco Zarco"
     },
     {
       "hora": "11–12 nov",
