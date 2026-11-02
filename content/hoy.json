@@ -1,21 +1,16 @@
 {
-  "fecha": "Domingo 1 de noviembre de 2026",
-  "actualizado": "18:55 h",
+  "fecha": "Lunes 2 de noviembre de 2026",
+  "actualizado": "06:55 h",
   "clima": {
     "ahora": "",
-    "max": 28,
-    "min": 10,
-    "texto": "Domingo despejado en la capital, de 10 a 28 °C y casi sin probabilidad de lluvia. Para el lunes 2 se espera una mínima de unos 11 °C y máxima cercana a 29 °C, con nubes y claros, lluvia de 0 a 2 % y rachas de viento de unos 25 km/h. En Gómez Palacio, de 16 a 31 °C el lunes; en El Salto, de 7 a 23 °C.",
-    "laguna_max": 29,
+    "max": 29,
+    "min": 11,
+    "texto": "Lunes caluroso en la capital, de 11 a 29 °C, con nubes y claros y 0 a 2 % de probabilidad de lluvia; rachas de viento de unos 25 km/h. En Gómez Palacio, de 16 a 31 °C sin lluvia; en El Salto, de 7 a 23 °C. Con el frente frío 4, el SMN prevé madrugadas de -5 a 0 °C en la sierra de Durango esta semana.",
+    "laguna_max": 31,
     "laguna_min": 16,
     "filas": [
       {
         "nombre": "Capital hoy",
-        "valor": "10 a 28 °C, despejado",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Lunes 2",
         "valor": "11 a 29 °C, nubes y claros",
         "nivel": "ok"
       },
@@ -30,7 +25,12 @@
         "nivel": "ok"
       },
       {
-        "nombre": "El Salto (lunes)",
+        "nombre": "Sierra (madrugadas)",
+        "valor": "-5 a 0 °C lun, mié, jue y vie",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "El Salto",
         "valor": "7 a 23 °C",
         "nivel": "ok"
       }
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.79",
-      "nota": "Cierre del viernes 30 (Dow Jones), 0.39 % menos que el jueves"
+      "valor": "$18.74",
+      "nota": "Apertura del lunes 2 (Dow Jones), 0.26 % menos que el cierre anterior"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,6 +61,14 @@
   ],
   "agenda": [
     {
+      "hora": "2 nov",
+      "texto": "Romería de Día de Muertos en el Panteón de Oriente, con al menos 200 policías en panteones y Centro Histórico"
+    },
+    {
+      "hora": "1–2 nov",
+      "texto": "Panteón Municipal de Lerdo abierto con operativo de Protección Civil"
+    },
+    {
       "hora": "Hasta 30 nov",
       "texto": "Plazo para que aspirantes a diputación independiente presenten su manifestación de intención ante el IEPC (iepcdurango.mx, 618 825 2533)"
     },
@@ -71,10 +79,6 @@
     {
       "hora": "Hasta 3 nov",
       "texto": "Baja presión de agua en fraccionamientos de la capital por mantenimiento de la potabilizadora; pipas gratuitas de AMD al 618 100 20 21"
-    },
-    {
-      "hora": "1–2 nov",
-      "texto": "Panteón Municipal de Lerdo abierto con operativo de Protección Civil"
     },
     {
       "hora": "2 nov",
