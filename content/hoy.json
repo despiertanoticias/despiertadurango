@@ -1,11 +1,11 @@
 {
   "fecha": "Domingo 1 de noviembre de 2026",
-  "actualizado": "06:45 h",
+  "actualizado": "18:55 h",
   "clima": {
     "ahora": "",
     "max": 28,
     "min": 10,
-    "texto": "Domingo despejado en la capital: mínima de 10 a 11 °C (9 a 10 °C al amanecer), máxima de 27 a 28 °C por la tarde y apenas 2 % de probabilidad de lluvia; viento ligero a moderado con rachas de 20 a 25 km/h. En Gómez Palacio, de 16 a 29 °C con nubes y claros. En la sierra, El Salto de 10 a 26 °C y Guanaceví de 8 a 28 °C, sin lluvias relevantes.",
+    "texto": "Domingo despejado en la capital, de 10 a 28 °C y casi sin probabilidad de lluvia. Para el lunes 2 se espera una mínima de unos 11 °C y máxima cercana a 29 °C, con nubes y claros, lluvia de 0 a 2 % y rachas de viento de unos 25 km/h. En Gómez Palacio, de 16 a 31 °C el lunes; en El Salto, de 7 a 23 °C.",
     "laguna_max": 29,
     "laguna_min": 16,
     "filas": [
@@ -15,18 +15,23 @@
         "nivel": "ok"
       },
       {
+        "nombre": "Lunes 2",
+        "valor": "11 a 29 °C, nubes y claros",
+        "nivel": "ok"
+      },
+      {
         "nombre": "Lluvia",
-        "valor": "2 % de probabilidad",
+        "valor": "0 a 2 % de probabilidad",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de 20 a 25 km/h",
+        "valor": "Rachas de unos 25 km/h",
         "nivel": "ok"
       },
       {
-        "nombre": "El Salto",
-        "valor": "10 a 26 °C",
+        "nombre": "El Salto (lunes)",
+        "valor": "7 a 23 °C",
         "nivel": "ok"
       }
     ]
@@ -50,11 +55,19 @@
     },
     {
       "nombre": "Diésel",
-      "valor": "$26.96",
-      "nota": "Promedio en la capital, viernes 30"
+      "valor": "$27.20",
+      "nota": "Promedio aproximado en el estado según Onexpo Durango, domingo 1"
     }
   ],
   "agenda": [
+    {
+      "hora": "Hasta 30 nov",
+      "texto": "Plazo para que aspirantes a diputación independiente presenten su manifestación de intención ante el IEPC (iepcdurango.mx, 618 825 2533)"
+    },
+    {
+      "hora": "30 nov",
+      "texto": "Instalación de los consejos distritales del INE en Durango"
+    },
     {
       "hora": "Hasta 3 nov",
       "texto": "Baja presión de agua en fraccionamientos de la capital por mantenimiento de la potabilizadora; pipas gratuitas de AMD al 618 100 20 21"
@@ -64,24 +77,8 @@
       "texto": "Panteón Municipal de Lerdo abierto con operativo de Protección Civil"
     },
     {
-      "hora": "1 nov, 18:00–23:00",
-      "texto": "Último día de recorridos nocturnos de terror en la exhacienda de La Ferrería ($50)"
-    },
-    {
-      "hora": "1 nov, 19:30",
-      "texto": "Carrera nocturna 5K «La Ruta de los Muertos» desde la Plaza Principal de Lerdo (infantiles a las 18:30)"
-    },
-    {
-      "hora": "1 nov, 20:00",
-      "texto": "«Querida», tributo a Juan Gabriel con más de 50 artistas en el Teatro Ricardo Castro ($250 a $350)"
-    },
-    {
       "hora": "2 nov",
       "texto": "Fallo de la licitación del emisor sanitario central de Gómez Palacio (CAED)"
-    },
-    {
-      "hora": "Hasta 1 nov, 18:00",
-      "texto": "Exposición militar por los 60 años del Plan DN-III-E en el Polideportivo 450 del Parque Guadiana"
     },
     {
       "hora": "7–8 nov",
@@ -142,14 +139,6 @@
     {
       "hora": "3–7 dic",
       "texto": "Dr. Vagón en Gómez Palacio, detrás de la Presidencia Municipal: 2,500 consultas gratuitas"
-    },
-    {
-      "hora": "1 nov, 17:00",
-      "texto": "Santos Laguna vs. Necaxa en el Estadio Corona (jornada 15 de la Liga MX)"
-    },
-    {
-      "hora": "Hasta 1 nov",
-      "texto": "Gran Premio de México de F1; carrera el domingo a las 14:00 (hora del centro)"
     },
     {
       "hora": "Hasta 30 nov",
