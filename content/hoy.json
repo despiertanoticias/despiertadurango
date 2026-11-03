@@ -1,36 +1,26 @@
 {
-  "fecha": "Lunes 2 de noviembre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Martes 3 de noviembre de 2026",
+  "actualizado": "07:05 h",
   "clima": {
     "ahora": "",
     "max": 29,
-    "min": 11,
-    "texto": "Lunes caluroso en la capital, de 11 a 29 °C y sin lluvia. Para el martes 3, Conagua prevé de 12 a 29 °C, cielo soleado con algunos ratos nublados y viento de hasta 20 km/h, además de las primeras temperaturas bajo cero de la temporada en Guanaceví, Tepehuanes, San Bernardo y la sierra de Navíos. En Gómez Palacio, de 16 a 31 °C sin lluvia.",
+    "min": 12,
+    "texto": "Martes soleado con algunos ratos nublados en la capital, de 12 a 29 °C y rachas de viento de hasta 20 km/h, según Conagua. El frente frío 4 afecta sobre todo a la sierra, donde se prevén las primeras temperaturas bajo cero de la temporada en Guanaceví, Tepehuanes, San Bernardo y la sierra de Navíos.",
     "laguna_max": 31,
     "laguna_min": 16,
     "filas": [
       {
         "nombre": "Capital hoy",
-        "valor": "11 a 29 °C, nubes y claros",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Capital martes",
-        "valor": "12 a 29 °C, soleado",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Lluvia",
-        "valor": "0 a 2 % de probabilidad",
+        "valor": "12 a 29 °C, soleado con ratos nublados",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Hasta 20 km/h el martes",
+        "valor": "Rachas de hasta 20 km/h",
         "nivel": "ok"
       },
       {
-        "nombre": "Sierra (martes temprano)",
+        "nombre": "Sierra (madrugada)",
         "valor": "Bajo cero en Guanaceví, Tepehuanes, San Bernardo y Navíos",
         "nivel": "warn"
       }
@@ -40,8 +30,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.80",
-      "nota": "FIX de Banxico del lunes 2 (18.7962)"
+      "valor": "$18.56",
+      "nota": "Apertura interbancaria del martes 3 (ABC Noticias)"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,8 +51,16 @@
   ],
   "agenda": [
     {
-      "hora": "3 nov",
-      "texto": "Regreso a clases de educación básica en La Laguna de Durango; el próximo día sin clases es el lunes 16"
+      "hora": "Desde 3 nov",
+      "texto": "Entra en vigor la restricción del celular en primarias y secundarias durante toda la jornada escolar"
+    },
+    {
+      "hora": "3–27 nov",
+      "texto": "Pago de pensiones del Bienestar por letra del apellido; hoy martes 3, la A (sin pagos el lunes 16)"
+    },
+    {
+      "hora": "9 nov",
+      "texto": "Arranca la primera etapa del nuevo emisor sanitario central de Gómez Palacio; la firma del contrato es el jueves 5 en la CAED"
     },
     {
       "hora": "4–7 nov",
