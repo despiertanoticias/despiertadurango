@@ -1,0 +1,18 @@
+{
+  "titulo": "Ciberataque a refrigeradores de supermercados obliga a tirar toneladas de alimentos en cuatro países europeos",
+  "seccion": "tecnologia",
+  "fecha": "2026-11-02T18:24",
+  "resumen": "Un ataque coordinado manipuló a distancia los controles de temperatura de decenas de supermercados en Suecia, Bélgica, Luxemburgo e Irlanda, con congeladores que llegaron a 50 °C, según FoodRetail. Entre los afectados están Ahold Delhaize, Colruyt, Carrefour, ICA, Coop e IKEA; la investigación preliminar apunta a software de control de Danfoss y, al no haber petición de rescate, los expertos lo ven como sabotaje. Es el segundo caso tras uno similar en Francia el mes pasado.",
+  "cuerpo": "",
+  "imagen_tema": "tech",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "FoodRetail",
+      "enlace": "https://www.foodretail.es/retailers/ciberataque-masivo-a-supermercados-en-europa-hackean-los-sistemas-de-frio-y-fuerzan-a-tirar-toneladas-de-alimentos.html"
+    }
+  ],
+  "destacada": false,
+  "autor": "Redacción"
+}

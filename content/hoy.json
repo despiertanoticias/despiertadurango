@@ -1,11 +1,11 @@
 {
   "fecha": "Lunes 2 de noviembre de 2026",
-  "actualizado": "06:55 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
     "max": 29,
     "min": 11,
-    "texto": "Lunes caluroso en la capital, de 11 a 29 °C, con nubes y claros y 0 a 2 % de probabilidad de lluvia; rachas de viento de unos 25 km/h. En Gómez Palacio, de 16 a 31 °C sin lluvia; en El Salto, de 7 a 23 °C. Con el frente frío 4, el SMN prevé madrugadas de -5 a 0 °C en la sierra de Durango esta semana.",
+    "texto": "Lunes caluroso en la capital, de 11 a 29 °C y sin lluvia. Para el martes 3, Conagua prevé de 12 a 29 °C, cielo soleado con algunos ratos nublados y viento de hasta 20 km/h, además de las primeras temperaturas bajo cero de la temporada en Guanaceví, Tepehuanes, San Bernardo y la sierra de Navíos. En Gómez Palacio, de 16 a 31 °C sin lluvia.",
     "laguna_max": 31,
     "laguna_min": 16,
     "filas": [
@@ -15,24 +15,24 @@
         "nivel": "ok"
       },
       {
+        "nombre": "Capital martes",
+        "valor": "12 a 29 °C, soleado",
+        "nivel": "ok"
+      },
+      {
         "nombre": "Lluvia",
         "valor": "0 a 2 % de probabilidad",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de unos 25 km/h",
+        "valor": "Hasta 20 km/h el martes",
         "nivel": "ok"
       },
       {
-        "nombre": "Sierra (madrugadas)",
-        "valor": "-5 a 0 °C lun, mié, jue y vie",
+        "nombre": "Sierra (martes temprano)",
+        "valor": "Bajo cero en Guanaceví, Tepehuanes, San Bernardo y Navíos",
         "nivel": "warn"
-      },
-      {
-        "nombre": "El Salto",
-        "valor": "7 a 23 °C",
-        "nivel": "ok"
       }
     ]
   },
@@ -40,33 +40,33 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.74",
-      "nota": "Apertura del lunes 2 (Dow Jones), 0.26 % menos que el cierre anterior"
+      "valor": "$18.80",
+      "nota": "FIX de Banxico del lunes 2 (18.7962)"
     },
     {
       "nombre": "Gasolina Magna",
-      "valor": "$23.90",
-      "nota": "Promedio en la capital, viernes 30"
+      "valor": "$23.92",
+      "nota": "Promedio en la capital (gasolinamx.com), 3 nov"
     },
     {
       "nombre": "Gasolina Premium",
-      "valor": "$29.15",
-      "nota": "Promedio en la capital, viernes 30"
+      "valor": "$29.16",
+      "nota": "Promedio en la capital (gasolinamx.com), 3 nov"
     },
     {
       "nombre": "Diésel",
-      "valor": "$27.20",
-      "nota": "Promedio aproximado en el estado según Onexpo Durango, domingo 1"
+      "valor": "$26.99",
+      "nota": "Promedio en la capital (gasolinamx.com), 3 nov"
     }
   ],
   "agenda": [
     {
-      "hora": "2 nov",
-      "texto": "Romería de Día de Muertos en el Panteón de Oriente, con al menos 200 policías en panteones y Centro Histórico"
+      "hora": "3 nov",
+      "texto": "Regreso a clases de educación básica en La Laguna de Durango; el próximo día sin clases es el lunes 16"
     },
     {
-      "hora": "1–2 nov",
-      "texto": "Panteón Municipal de Lerdo abierto con operativo de Protección Civil"
+      "hora": "4–7 nov",
+      "texto": "Mes de la Lectura y el Libro Duranguense: taller Alas de Papel en el Cereso 1, conversatorio en la Torre de las Colecciones Antiguas y encuentro de escritores José Revueltas en el Museo Francisco Villa"
     },
     {
       "hora": "Hasta 30 nov",
@@ -79,10 +79,6 @@
     {
       "hora": "Hasta 3 nov",
       "texto": "Baja presión de agua en fraccionamientos de la capital por mantenimiento de la potabilizadora; pipas gratuitas de AMD al 618 100 20 21"
-    },
-    {
-      "hora": "2 nov",
-      "texto": "Fallo de la licitación del emisor sanitario central de Gómez Palacio (CAED)"
     },
     {
       "hora": "7–8 nov",
@@ -109,16 +105,8 @@
       "texto": "Buen Fin 2026; registro gratuito de comercios hasta el 12 de noviembre"
     },
     {
-      "hora": "Hasta 2 nov, 13:00–21:00",
-      "texto": "Zona Coco del Festival Muuki en la Plaza Fundadores (entrada libre)"
-    },
-    {
       "hora": "Hasta 6 nov",
       "texto": "Registro en línea a la beca Rita Cetina (primaria y secundaria)"
-    },
-    {
-      "hora": "Hasta 2 nov, 6:00–18:00",
-      "texto": "Operativo de Día de Muertos en 16 panteones de Gómez Palacio; sin alcohol. El domingo, el Panteón Guadalupe abre hasta las 19:00"
     },
     {
       "hora": "11–12 nov",
@@ -127,10 +115,6 @@
     {
       "hora": "13–16 nov",
       "texto": "Carrera ciclista Titan Desert en la ciudad de Durango"
-    },
-    {
-      "hora": "Hasta 2 nov",
-      "texto": "Panteones municipales de la capital con operativo especial; bancos cerrados el 2 de noviembre"
     },
     {
       "hora": "7–8 nov",
