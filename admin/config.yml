@@ -52,6 +52,8 @@ collections:
           - { label: Deportes, value: deportes }
       - { label: Fecha y hora, name: fecha, widget: datetime, format: "YYYY-MM-DDTHH:mm", date_format: "DD/MM/YYYY", time_format: "HH:mm" }
       - { label: Resumen (aparece en la portada), name: resumen, widget: text }
+      - { label: Contenido patrocinado, name: patrocinado, widget: boolean, required: false, default: false, hint: "Muestra la etiqueta «Contenido patrocinado» y marca los enlaces con rel=sponsored" }
+      - { label: Última actualización (opcional), name: actualizado, widget: datetime, required: false, format: "YYYY-MM-DDTHH:mm", date_format: "DD/MM/YYYY", time_format: "HH:mm" }
       - { label: Texto completo (opcional), name: cuerpo, widget: markdown, required: false, buttons: [bold, link, heading-two, bulleted-list], editor_components: [] }
       - { label: Foto propia (opcional), name: imagen, widget: image, required: false }
       - { label: Crédito de la foto, name: credito, widget: string, required: false }

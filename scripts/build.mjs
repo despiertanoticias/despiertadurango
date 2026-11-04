@@ -1,13 +1,17 @@
 // Junta las notas de content/notas/*.json y los datos de content/hoy.json
-// en assets/datos.js, que lee el sitio. Netlify lo ejecuta en cada publicación.
+// en assets/datos.js, que lee el sitio, y genera una página HTML estática por nota
+// en /notas/<slug>/ con sitemap.xml, robots.txt y _redirects (ver scripts/paginas.mjs).
+// Netlify lo ejecuta en cada publicación.
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { asignarSlugs, generar } from "./paginas.mjs";
 
 const RAIZ = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const CARPETA = path.join(RAIZ, "content/notas");
-const SECCIONES = ["durango","laguna","nacional","politica","economia","internacional","entretenimiento","tecnologia","educacion","deportes"];
-const MAX_NOTAS = 600; // las más recientes que se publican
+const CATS = {durango:"Durango",laguna:"La Laguna",nacional:"Nacional",politica:"Política",economia:"Economía",internacional:"Internacional",entretenimiento:"Entretenimiento",tecnologia:"Tecnología",educacion:"Educación",deportes:"Deportes"};
+const SECCIONES = Object.keys(CATS);
+const MAX_NOTAS = 600; // las más recientes que van en assets/datos.js (portada, secciones y búsqueda)
 
 const errores = [];
 const notas = [];
@@ -19,8 +23,9 @@ for (const archivo of fs.readdirSync(CARPETA).filter(f => f.endsWith(".json"))) 
   if (!o.titulo) errores.push(`${archivo}: falta "titulo"`);
   if (!SECCIONES.includes(o.seccion)) errores.push(`${archivo}: sección "${o.seccion}" no existe`);
   if (!/^\d{4}-\d{2}-\d{2}/.test(o.fecha || "")) errores.push(`${archivo}: fecha inválida`);
+  if (o.actualizado && !/^\d{4}-\d{2}-\d{2}/.test(o.actualizado)) errores.push(`${archivo}: "actualizado" inválido`);
   if (o.borrador) continue;
-  notas.push({
+  const n = {
     id,
     t: String(o.titulo || "").trim(),
     c: o.seccion,
@@ -33,23 +38,27 @@ for (const archivo of fs.readdirSync(CARPETA).filter(f => f.endsWith(".json"))) 
     src: (o.fuentes || []).filter(s => s && s.enlace).map(s => [s.medio || s.enlace, s.enlace]),
     dest: !!o.destacada,
     a: o.autor || "Redacción"
-  });
+  };
+  if (o.patrocinado) n.p = true;
+  if (o.actualizado) n.mod = String(o.actualizado).replace(" ", "T").slice(0, 16);
+  notas.push(n);
 }
 if (errores.length) {
   console.error("Errores en las notas:\n- " + errores.join("\n- "));
   process.exit(1);
 }
 notas.sort((a, b) => (a.f < b.f ? 1 : a.f > b.f ? -1 : 0));
+asignarSlugs(notas);
 const hoy = JSON.parse(fs.readFileSync(path.join(RAIZ, "content/hoy.json"), "utf8"));
 const salida = "/* Generado por scripts/build.mjs — no editar a mano. */\n" +
   "window.NOTAS=" + JSON.stringify(notas.slice(0, MAX_NOTAS)) + ";\n" +
   "window.HOY=" + JSON.stringify(hoy) + ";\n";
 fs.writeFileSync(path.join(RAIZ, "assets/datos.js"), salida);
 
-// En Netlify, cada página pide assets/datos.js?v=<huella> para que el navegador
+// Cada página pide assets/datos.js?v=<huella> (y app.js) para que el navegador
 // nunca use una lista de notas vieja después de publicar.
+const v = crypto.createHash("md5").update(salida + fs.readFileSync(path.join(RAIZ, "assets/app.js"))).digest("hex").slice(0, 10);
 if (process.env.NETLIFY) {
-  const v = crypto.createHash("md5").update(salida).digest("hex").slice(0, 10);
   for (const html of fs.readdirSync(RAIZ).filter(f => f.endsWith(".html"))) {
     const p = path.join(RAIZ, html);
     const antes = fs.readFileSync(p, "utf8");
@@ -57,4 +66,6 @@ if (process.env.NETLIFY) {
     if (despues !== antes) fs.writeFileSync(p, despues);
   }
 }
-console.log(`Listo: ${Math.min(notas.length, MAX_NOTAS)} notas publicadas.`);
+
+const r = generar(RAIZ, notas, CATS, v);
+console.log(`Listo: ${Math.min(notas.length, MAX_NOTAS)} notas en datos.js; ${r.total} páginas en /notas/, sitemap.xml y _redirects para ${r.sitio}.`);

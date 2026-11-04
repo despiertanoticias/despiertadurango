@@ -21,7 +21,8 @@ NOTAS.forEach(function(n){n.d=(n.f||"").slice(0,10)});
 function porId(id){for(var i=0;i<NOTAS.length;i++)if(NOTAS[i].id===id)return NOTAS[i];return null}
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function fecha(d){var p=d.split("-");return parseInt(p[2],10)+" de "+MESES[parseInt(p[1],10)-1]+" de "+p[0]}
-function url(n){return "nota.html?id="+encodeURIComponent(n.id)}
+function url(n){return n.s?"notas/"+n.s+"/":"nota.html?id="+encodeURIComponent(n.id)}
+function relDe(n){return n.p?"sponsored noopener":"noopener"}
 function urlSec(c){return "seccion.html?s="+c}
 function param(k){try{return new URLSearchParams(location.search).get(k)}catch(e){return null}}
 function imgSrc(key,w){var m=IMG[key];if(!m)return "";if(/^(img\/|https?:)/.test(m.file))return m.file;return "https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(m.file)+"?width="+(w||1000)}
@@ -29,7 +30,7 @@ function imagen(key,tag,w,eager,foto){
   var m=IMG[key]||{};var src=foto||imgSrc(key,w);
   return '<div class="img">'+(src?'<img src="'+esc(src)+'" alt="'+esc(m.alt||"")+'" loading="'+(eager?"eager":"lazy")+'" decoding="async" referrerpolicy="no-referrer">':'')+(tag?'<span class="tagimg">'+esc(tag)+'</span>':'')+'</div>';
 }
-function fuentes(n){return '<div class="fuentes">Fuentes: '+n.src.map(function(s){return '<a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[0])+'</a>'}).join("")+'</div>'}
+function fuentes(n){return '<div class="fuentes">Fuentes: '+n.src.map(function(s){return '<a href="'+esc(s[1])+'" target="_blank" rel="'+relDe(n)+'">'+esc(s[0])+'</a>'}).join("")+'</div>'}
 function tarjeta(n,conResumen){
   return '<article><a class="t" href="'+url(n)+'">'+imagen(n.img,CATS[n.c],640,false,n.foto)+'</a>'+
     '<a class="cat" href="'+urlSec(n.c)+'">'+esc(CATS[n.c])+'</a>'+
@@ -46,7 +47,7 @@ function fila(n){
 function parrafos(n){
   var t=n.b||"";var out=n.r?'<p><strong>'+esc(n.r)+'</strong></p>':'';
   t.split(/\n\s*\n/).forEach(function(p){p=p.trim();if(!p)return;
-    var h=esc(p).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener" style="text-decoration:underline">$1</a>').replace(/\n/g,"<br>");
+    var h=esc(p).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="'+relDe(n)+'" style="text-decoration:underline">$1</a>').replace(/\n/g,"<br>");
     out+=/^#{1,3} /.test(p)?'<h2 style="font-size:24px;margin:24px 0 10px">'+h.replace(/^#{1,3} /,"")+'</h2>':'<p>'+h+'</p>'});
   if(!n.b&&n.r)out='<p>'+esc(n.r)+'</p>';
   return out;
@@ -143,7 +144,7 @@ function seccion(){
   return {actual:q?"":c,html:'<div class="wrap"><main class="cuerpo" id="contenido"><div><div class="cabeza"><h1>'+titulo+'</h1><p>'+sub+'</p></div>'+cuerpo+'</div>'+rail()+'</main></div>'};
 }
 function nota(){
-  var n=porId(param("id"));
+  var n=porId(param("id")||document.body.getAttribute("data-id"));
   if(!n)return {actual:"",html:'<div class="wrap"><main class="cuerpo" id="contenido"><div><div class="cabeza"><h1>Nota no encontrada</h1></div><p class="vacio">Esta nota no existe o fue retirada. Vuelve a la <a href="index.html" style="text-decoration:underline">portada</a>.</p></div>'+rail()+'</main></div>'};
   document.title=n.t+" · Despierta Durango";
   var meta=document.querySelector('meta[name="description"]');if(meta)meta.setAttribute("content",n.r);
@@ -151,10 +152,10 @@ function nota(){
   var credito=n.foto?esc(n.cred||""):m.file&&!/^(img\/|https?:)/.test(m.file)?'Foto: '+esc(m.alt)+' · <a href="https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(m.file)+'" target="_blank" rel="noopener">Wikimedia Commons</a> (imagen de referencia)':esc(m.alt||"");
   var h='<div class="wrap"><main class="cuerpo" id="contenido"><article class="nota-art">'+
     '<div class="migas"><a href="index.html">Portada</a><span>›</span><a href="'+urlSec(n.c)+'">'+CATS[n.c]+'</a></div>'+
-    '<h1>'+esc(n.t)+'</h1><div class="meta"><a class="cat" href="'+urlSec(n.c)+'">'+CATS[n.c]+'</a><span>'+esc(n.a)+' · '+fecha(n.d)+'</span></div>'+
+    (n.p?'<p class="patrocinado" style="display:inline-block;margin:0 0 12px;padding:4px 10px;border:1px solid currentColor;border-radius:4px;font:700 12px/1.4 Montserrat,sans-serif;letter-spacing:.06em;text-transform:uppercase">Contenido patrocinado</p>':'')+'<h1>'+esc(n.t)+'</h1><div class="meta"><a class="cat" href="'+urlSec(n.c)+'">'+CATS[n.c]+'</a><span>'+esc(n.a)+' · '+fecha(n.d)+'</span></div>'+
     '<figure>'+imagen(n.img,"",1400,true,n.foto)+'<figcaption>'+credito+'</figcaption></figure>'+
     '<div class="texto">'+parrafos(n)+'</div>'+
-    '<div class="caja-fuentes"><b>Fuentes</b><ul>'+n.src.map(function(s){return '<li><a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[0])+'</a></li>'}).join("")+'</ul></div>'+
+    '<div class="caja-fuentes"><b>Fuentes</b><ul>'+n.src.map(function(s){return '<li><a href="'+esc(s[1])+'" target="_blank" rel="'+relDe(n)+'">'+esc(s[0])+'</a></li>'}).join("")+'</ul></div>'+
     '<div class="compartir"><button class="btn sec" type="button" id="copiar">Copiar enlace</button><span id="copiado" role="status"></span></div>'+
     (rel.length?'<div class="cabeza"><h2>Más de '+CATS[n.c]+'</h2><a class="mas" href="'+urlSec(n.c)+'">Ver todas →</a></div><div class="tarjetas">'+rel.map(function(x){return tarjeta(x,false)}).join("")+'</div>':'')+
     '</article>'+rail()+'</main></div>';
@@ -171,6 +172,8 @@ function creditos(){
 
 /* ---------- arranque ---------- */
 var pagina=document.body.getAttribute("data-pagina"), raiz=document.getElementById("app"), r;
+/* Página estática de una nota que ya no está en datos.js: se deja el HTML generado. */
+if(pagina==="nota"&&document.body.getAttribute("data-id")&&!porId(document.body.getAttribute("data-id")))return;
 if(!NOTAS.length&&pagina==="portada")r={actual:"portada",html:'<div class="wrap"><p class="vacio">Pronto publicaremos las primeras notas.</p></div>'};
 else if(pagina==="portada")r={actual:"portada",html:portada()};
 else if(pagina==="seccion")r=seccion();

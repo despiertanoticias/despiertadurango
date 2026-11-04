@@ -1,2 +1,6 @@
 node_modules/
 .DS_Store
+/notas/
+/sitemap.xml
+/robots.txt
+/_redirects

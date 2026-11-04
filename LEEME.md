@@ -14,7 +14,8 @@ Dos veces al día (alrededor de las 6:15 y las 18:15, hora del centro) una tarea
 ## Estructura
 - `content/notas/*.json` — una nota por archivo
 - `content/hoy.json` — clima, carreteras, precios del día y agenda
-- `scripts/build.mjs` — junta todo en `assets/datos.js` (Netlify lo ejecuta en cada publicación)
+- `scripts/build.mjs` — junta todo en `assets/datos.js` y, con `scripts/paginas.mjs`, genera una página estática por nota en `/notas/<slug>/` (canonical, Open Graph y JSON-LD), `sitemap.xml`, `robots.txt` y `_redirects` (301 desde `nota.html?id=…`). Netlify lo ejecuta en cada publicación; esos archivos generados no se suben al repositorio.
+- Notas pagadas: activa **Contenido patrocinado** en el panel (campo `patrocinado`); la nota muestra la etiqueta y sus enlaces llevan `rel="sponsored noopener"`. El slug sale del titular: si cambias el titular, cambia la URL.
 - `assets/imagenes.js` — fotos de archivo de Wikimedia Commons por tema
 - `admin/` — panel de publicación
 - `img/subidas/` — fotos que subes desde el panel
