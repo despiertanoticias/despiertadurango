@@ -1,32 +1,37 @@
 {
-  "fecha": "Martes 3 de noviembre de 2026",
-  "actualizado": "18:50 h",
+  "fecha": "Miércoles 4 de noviembre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
-    "max": 29,
-    "min": 12,
-    "texto": "Martes soleado con ratos nublados en la capital, de 12 a 29 °C, según Conagua. En la madrugada La Rosilla (Guanaceví) llegó a -6 °C y Navíos y San Bernardo a 0 °C. El frente frío 4 se aleja: para el miércoles se esperan en la ciudad 11 a 30 °C, poca nubosidad y rachas de hasta 40 km/h por la noche.",
+    "max": 30,
+    "min": 11,
+    "texto": "Miércoles con poca nubosidad en la capital, de 11 a 30 °C, y rachas de viento de 40 a 50 km/h, las más fuertes de la semana, según Conagua. El jueves y el viernes las madrugadas bajarán a 8 o 9 °C, con tardes de 27 a 29 °C y baja probabilidad de lluvia. En la sierra siguen las mañanas con heladas.",
     "laguna_max": 31,
     "laguna_min": 16,
     "filas": [
       {
         "nombre": "Capital hoy",
-        "valor": "12 a 29 °C, soleado con ratos nublados",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Miércoles 4",
         "valor": "11 a 30 °C, poca nubosidad",
         "nivel": "ok"
       },
       {
-        "nombre": "Viento (noche del miércoles)",
-        "valor": "Rachas de hasta 40 km/h",
+        "nombre": "Viento hoy",
+        "valor": "Rachas de 40 a 50 km/h",
         "nivel": "warn"
       },
       {
+        "nombre": "Jueves 5",
+        "valor": "8 a 29 °C, rachas de 30 a 40 km/h",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Viernes 6",
+        "valor": "8 a 28 °C",
+        "nivel": "ok"
+      },
+      {
         "nombre": "Sierra (madrugada)",
-        "valor": "La Rosilla -6 °C; Navíos y San Bernardo 0 °C",
+        "valor": "Continúan las heladas",
         "nivel": "warn"
       }
     ]
@@ -35,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.56",
-      "nota": "Apertura interbancaria del martes 3 (ABC Noticias)"
+      "valor": "$18.84",
+      "nota": "Cierre del martes 3 según Banxico (N+); el peso cayó 1.6% en la jornada electoral de EU"
     },
     {
       "nombre": "Gasolina Magna",
@@ -56,12 +61,16 @@
   ],
   "agenda": [
     {
-      "hora": "Desde 3 nov",
-      "texto": "Entra en vigor la restricción del celular en primarias y secundarias durante toda la jornada escolar"
+      "hora": "4–6 nov",
+      "texto": "Oficina móvil del SAT, de 9:00 a 15:00 h y sin cita: hoy en Rodeo, el jueves en Nuevo Ideal y el viernes en Guadalupe Victoria (RFC, e.firma y constancia fiscal)"
+    },
+    {
+      "hora": "5 nov",
+      "texto": "Decisión de política monetaria del Banco de México"
     },
     {
       "hora": "3–27 nov",
-      "texto": "Pago de pensiones del Bienestar por letra del apellido; hoy martes 3, la A (sin pagos el lunes 16)"
+      "texto": "Pago de pensiones del Bienestar por letra del apellido hasta el 27 de noviembre (sin pagos el lunes 16)"
     },
     {
       "hora": "2–6 nov",
@@ -84,10 +93,6 @@
       "texto": "Instalación de los consejos distritales del INE en Durango"
     },
     {
-      "hora": "Hasta 3 nov",
-      "texto": "Baja presión de agua en fraccionamientos de la capital por mantenimiento de la potabilizadora; pipas gratuitas de AMD al 618 100 20 21"
-    },
-    {
       "hora": "7–8 nov",
       "texto": "Sky Fest de globos aerostáticos en Lerdo, en el aeródromo y el Polideportivo Municipal"
     },
@@ -98,10 +103,6 @@
     {
       "hora": "Hasta 30 nov",
       "texto": "Festival de la Revolución en Gómez Palacio, con música, teatro, danza y cine"
-    },
-    {
-      "hora": "Hasta 3 nov",
-      "texto": "Exposición de 16 altares de muertos en el Edificio Central de la UJED"
     },
     {
       "hora": "31 oct–8 nov",
