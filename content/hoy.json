@@ -1,37 +1,37 @@
 {
-  "fecha": "Miércoles 4 de noviembre de 2026",
-  "actualizado": "06:45 h",
+  "fecha": "Jueves 5 de noviembre de 2026",
+  "actualizado": "06:50 h",
   "clima": {
     "ahora": "",
-    "max": 30,
-    "min": 11,
-    "texto": "Miércoles con poca nubosidad en la capital, de 11 a 30 °C, y rachas de viento de 40 a 50 km/h, las más fuertes de la semana, según Conagua. El jueves y el viernes las madrugadas bajarán a 8 o 9 °C, con tardes de 27 a 29 °C y baja probabilidad de lluvia. En la sierra siguen las mañanas con heladas.",
+    "max": 27,
+    "min": 9,
+    "texto": "Jueves soleado en la capital, de 9 a 27 °C, con rachas de hasta 30 km/h y sin probabilidad de lluvia en el estado, según Conagua. El miércoles la máxima llegó a 30 °C. En la sierra siguen las temperaturas bajo cero: Guanaceví registró -6 °C y Navíos y San Bernardo, 0 °C.",
     "laguna_max": 31,
     "laguna_min": 16,
     "filas": [
       {
         "nombre": "Capital hoy",
-        "valor": "11 a 30 °C, poca nubosidad",
+        "valor": "9 a 27 °C, soleado",
         "nivel": "ok"
       },
       {
-        "nombre": "Viento hoy",
-        "valor": "Rachas de 40 a 50 km/h",
-        "nivel": "warn"
-      },
-      {
-        "nombre": "Jueves 5",
-        "valor": "8 a 29 °C, rachas de 30 a 40 km/h",
+        "nombre": "Viento",
+        "valor": "Rachas de hasta 30 km/h",
         "nivel": "ok"
       },
       {
-        "nombre": "Viernes 6",
-        "valor": "8 a 28 °C",
+        "nombre": "Lluvia",
+        "valor": "Sin probabilidad",
         "nivel": "ok"
       },
       {
-        "nombre": "Sierra (madrugada)",
-        "valor": "Continúan las heladas",
+        "nombre": "Guanaceví (madrugada)",
+        "valor": "-6 °C en las partes altas",
+        "nivel": "bad"
+      },
+      {
+        "nombre": "Navíos y San Bernardo",
+        "valor": "0 °C",
         "nivel": "warn"
       }
     ]
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.84",
-      "nota": "Cierre del martes 3 según Banxico (N+); el peso cayó 1.6% en la jornada electoral de EU"
+      "valor": "$18.57",
+      "nota": "Cierre del miércoles 4 (Dow Jones, vía Infobae); el peso ganó 1.38% tras la elección en EU"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,12 +61,16 @@
   ],
   "agenda": [
     {
-      "hora": "4–6 nov",
-      "texto": "Oficina móvil del SAT, de 9:00 a 15:00 h y sin cita: hoy en Rodeo, el jueves en Nuevo Ideal y el viernes en Guadalupe Victoria (RFC, e.firma y constancia fiscal)"
+      "hora": "5–6 nov",
+      "texto": "Oficina móvil del SAT, de 9:00 a 15:00 h y sin cita: hoy en Nuevo Ideal y el viernes en Guadalupe Victoria (RFC, e.firma y constancia fiscal)"
     },
     {
-      "hora": "5 nov",
+      "hora": "Hoy, 13:00 h",
       "texto": "Decisión de política monetaria del Banco de México"
+    },
+    {
+      "hora": "Hoy, 21:00 h",
+      "texto": "Alacranes de Durango vs. Leones Negros, ida de cuartos de final de la Liga de Expansión, en el estadio Francisco Zarco; la vuelta es el domingo 8 en Guadalajara"
     },
     {
       "hora": "3–27 nov",
@@ -139,6 +143,10 @@
     {
       "hora": "Hasta 30 nov",
       "texto": "Consulta pública del Programa de Ordenamiento Ecológico del Estado (SRNMA), en línea o en oficinas"
+    },
+    {
+      "hora": "Desde 15 nov",
+      "texto": "Pasaporte del café de Canirac: 30 cafeterías con promociones hasta febrero; venta general a 100 pesos"
     }
   ]
 }
