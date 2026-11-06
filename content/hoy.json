@@ -1,6 +1,6 @@
 {
   "fecha": "Jueves 5 de noviembre de 2026",
-  "actualizado": "06:50 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
     "max": 27,
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.57",
-      "nota": "Cierre del miércoles 4 (Dow Jones, vía Infobae); el peso ganó 1.38% tras la elección en EU"
+      "valor": "$18.95",
+      "nota": "Cierre del jueves 5 (Expreso); el peso perdió 0.85% tras el recorte de Banxico a 6.25%. FIX: 18.71"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,16 +61,24 @@
   ],
   "agenda": [
     {
-      "hora": "5–6 nov",
-      "texto": "Oficina móvil del SAT, de 9:00 a 15:00 h y sin cita: hoy en Nuevo Ideal y el viernes en Guadalupe Victoria (RFC, e.firma y constancia fiscal)"
-    },
-    {
-      "hora": "Hoy, 13:00 h",
-      "texto": "Decisión de política monetaria del Banco de México"
+      "hora": "6 nov",
+      "texto": "Oficina móvil del SAT, de 9:00 a 15:00 h y sin cita: el viernes 6 en Guadalupe Victoria (RFC, e.firma y constancia fiscal)"
     },
     {
       "hora": "Hoy, 21:00 h",
       "texto": "Alacranes de Durango vs. Leones Negros, ida de cuartos de final de la Liga de Expansión, en el estadio Francisco Zarco; la vuelta es el domingo 8 en Guadalajara"
+    },
+    {
+      "hora": "Hasta 9 nov, 14:00 h",
+      "texto": "Registro de candidatos a la presea Lic. Miguel Lerdo de Tejada (Ciudadano Distinguido 2026) en Lerdo; la entrega es el 17 de noviembre en el Teatro Hermila Galindo"
+    },
+    {
+      "hora": "11 nov, 17:00 h",
+      "texto": "Concierto gratuito con Mi Banda El Mexicano, Los Caminantes y otros grupos en la Plaza IV Centenario (sin venta de alcohol)"
+    },
+    {
+      "hora": "Noviembre",
+      "texto": "Pruebas rápidas gratuitas de antígeno prostático para hombres mayores de 40 años; el lunes 9 en la plazuela Baca Ortiz y también en la zona rural"
     },
     {
       "hora": "3–27 nov",
