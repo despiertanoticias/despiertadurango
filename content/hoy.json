@@ -1,17 +1,17 @@
 {
-  "fecha": "Jueves 5 de noviembre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Viernes 6 de noviembre de 2026",
+  "actualizado": "06:50 h",
   "clima": {
     "ahora": "",
-    "max": 27,
-    "min": 9,
-    "texto": "Jueves soleado en la capital, de 9 a 27 °C, con rachas de hasta 30 km/h y sin probabilidad de lluvia en el estado, según Conagua. El miércoles la máxima llegó a 30 °C. En la sierra siguen las temperaturas bajo cero: Guanaceví registró -6 °C y Navíos y San Bernardo, 0 °C.",
+    "max": 28,
+    "min": 8,
+    "texto": "Viernes mayormente soleado en la capital, de 8 a 28 °C, con rachas de hasta 30 km/h y sin probabilidad de lluvia, según Conagua. Se esperan más municipios bajo cero y heladas en la sierra: el jueves La Rosilla (Guanaceví) llegó a -7 °C, Navíos a -2 °C y San Bernardo a -0.5 °C. El SMN prevé mínimas de -5 a 0 °C en las zonas serranas.",
     "laguna_max": 31,
     "laguna_min": 16,
     "filas": [
       {
         "nombre": "Capital hoy",
-        "valor": "9 a 27 °C, soleado",
+        "valor": "8 a 28 °C, mayormente soleado",
         "nivel": "ok"
       },
       {
@@ -25,13 +25,13 @@
         "nivel": "ok"
       },
       {
-        "nombre": "Guanaceví (madrugada)",
-        "valor": "-6 °C en las partes altas",
+        "nombre": "La Rosilla, Guanaceví (jueves)",
+        "valor": "-7 °C",
         "nivel": "bad"
       },
       {
-        "nombre": "Navíos y San Bernardo",
-        "valor": "0 °C",
+        "nombre": "Sierra hoy",
+        "valor": "Heladas, mínimas de -5 a 0 °C",
         "nivel": "warn"
       }
     ]
@@ -40,33 +40,33 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.95",
-      "nota": "Cierre del jueves 5 (Expreso); el peso perdió 0.85% tras el recorte de Banxico a 6.25%. FIX: 18.71"
+      "valor": "$18.72",
+      "nota": "Cotización del viernes 6 por la mañana (Potosinoticias); cerró el jueves en 18.62"
     },
     {
       "nombre": "Gasolina Magna",
-      "valor": "$23.92",
-      "nota": "Promedio en la capital (gasolinamx.com), 3 nov"
+      "valor": "$23.90",
+      "nota": "Promedio en Durango (gasolinamx.com), 6 nov"
     },
     {
       "nombre": "Gasolina Premium",
       "valor": "$29.16",
-      "nota": "Promedio en la capital (gasolinamx.com), 3 nov"
+      "nota": "Promedio en Durango (gasolinamx.com), 6 nov"
     },
     {
       "nombre": "Diésel",
-      "valor": "$26.99",
-      "nota": "Promedio en la capital (gasolinamx.com), 3 nov"
+      "valor": "$26.96",
+      "nota": "Promedio en Durango (gasolinamx.com), 6 nov"
     }
   ],
   "agenda": [
     {
-      "hora": "6 nov",
-      "texto": "Oficina móvil del SAT, de 9:00 a 15:00 h y sin cita: el viernes 6 en Guadalupe Victoria (RFC, e.firma y constancia fiscal)"
+      "hora": "Hoy",
+      "texto": "Último día de registro en línea a la beca Rita Cetina (primaria y secundaria) y oficina móvil del SAT en Guadalupe Victoria, de 9:00 a 15:00 h y sin cita"
     },
     {
-      "hora": "Hoy, 21:00 h",
-      "texto": "Alacranes de Durango vs. Leones Negros, ida de cuartos de final de la Liga de Expansión, en el estadio Francisco Zarco; la vuelta es el domingo 8 en Guadalajara"
+      "hora": "Dom 8 nov",
+      "texto": "Leones Negros vs. Alacranes de Durango, vuelta de cuartos de final de la Liga de Expansión en Guadalajara; Alacranes ganó la ida 1-0"
     },
     {
       "hora": "Hasta 9 nov, 14:00 h",
@@ -85,16 +85,8 @@
       "texto": "Pago de pensiones del Bienestar por letra del apellido hasta el 27 de noviembre (sin pagos el lunes 16)"
     },
     {
-      "hora": "2–6 nov",
-      "texto": "Bolsa de Trabajo del Gobierno del Estado: 187 vacantes de 109 empresas (100 en la capital y 87 en La Laguna); nuevas ofertas cada martes"
-    },
-    {
       "hora": "9 nov",
-      "texto": "Arranca la primera etapa del nuevo emisor sanitario central de Gómez Palacio; la firma del contrato es el jueves 5 en la CAED"
-    },
-    {
-      "hora": "4–7 nov",
-      "texto": "Mes de la Lectura y el Libro Duranguense: taller Alas de Papel en el Cereso 1, conversatorio en la Torre de las Colecciones Antiguas y encuentro de escritores José Revueltas en el Museo Francisco Villa"
+      "texto": "Arranca la primera etapa del nuevo emisor sanitario central de Gómez Palacio"
     },
     {
       "hora": "Hasta 30 nov",
@@ -123,10 +115,6 @@
     {
       "hora": "13–17 nov",
       "texto": "Buen Fin 2026; registro gratuito de comercios hasta el 12 de noviembre"
-    },
-    {
-      "hora": "Hasta 6 nov",
-      "texto": "Registro en línea a la beca Rita Cetina (primaria y secundaria)"
     },
     {
       "hora": "11–12 nov",
