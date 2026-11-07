@@ -22,3 +22,9 @@ Dos veces al día (alrededor de las 6:15 y las 18:15, hora del centro) una tarea
 
 ## Secciones
 Durango, La Laguna (Gómez Palacio, Lerdo y la zona conurbada), Nacional, Política, Economía, Internacional, Entretenimiento, Tecnología, Educación y Deportes.
+
+## Lo que publicas desde /admin no gasta créditos de Netlify
+Netlify cobra 15 créditos por cada publicación del sitio. Para que lo que subes desde el panel no cueste:
+- `scripts/omitir-build.sh` le dice a Netlify que **no** publique cuando el cambio viene del panel (notas nuevas, ediciones, borrados, fotos o datos del día).
+- `assets/en-vivo.js` hace que el sitio lea esos cambios directo de GitHub y los muestre de inmediato (la nota abre en `nota.html?id=...`).
+- La siguiente publicación automática (o cualquier cambio de diseño) sí publica el sitio completo y la nota recibe su página fija y su lugar en el sitemap.

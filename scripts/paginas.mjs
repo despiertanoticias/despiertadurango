@@ -138,7 +138,7 @@ ${fuentes}
 </div>
 <script src="/assets/imagenes.js"></script>
 <script src="/assets/datos.js?v=${v}"></script>
-<script src="/assets/app.js?v=${v}"></script>
+<script src="/assets/en-vivo.js"></script><script src="/assets/app.js?v=${v}"></script>
 </body>
 </html>
 `;
