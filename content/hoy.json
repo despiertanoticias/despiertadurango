@@ -1,11 +1,11 @@
 {
   "fecha": "Viernes 6 de noviembre de 2026",
-  "actualizado": "06:50 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
     "max": 28,
     "min": 8,
-    "texto": "Viernes mayormente soleado en la capital, de 8 a 28 °C, con rachas de hasta 30 km/h y sin probabilidad de lluvia, según Conagua. Se esperan más municipios bajo cero y heladas en la sierra: el jueves La Rosilla (Guanaceví) llegó a -7 °C, Navíos a -2 °C y San Bernardo a -0.5 °C. El SMN prevé mínimas de -5 a 0 °C en las zonas serranas.",
+    "texto": "Viernes soleado en la capital, de 8 a 28 °C y sin lluvia, según Conagua. Para el sábado 7 se esperan de 8 a 26 °C, cielo mayormente soleado y rachas de hasta 38 km/h; solo en el norte del estado podría lloviznar. El viernes la parte alta de la sierra de Guanaceví llegó a -7 °C, Navíos a -1.5 °C y San Bernardo a -1 °C.",
     "laguna_max": 31,
     "laguna_min": 16,
     "filas": [
@@ -15,23 +15,23 @@
         "nivel": "ok"
       },
       {
-        "nombre": "Viento",
-        "valor": "Rachas de hasta 30 km/h",
+        "nombre": "Sábado 7",
+        "valor": "8 a 26 °C, sin lluvia",
         "nivel": "ok"
       },
       {
-        "nombre": "Lluvia",
-        "valor": "Sin probabilidad",
-        "nivel": "ok"
+        "nombre": "Viento sábado",
+        "valor": "Rachas de hasta 38 km/h",
+        "nivel": "warn"
       },
       {
-        "nombre": "La Rosilla, Guanaceví (jueves)",
+        "nombre": "Guanaceví, sierra alta (viernes)",
         "valor": "-7 °C",
         "nivel": "bad"
       },
       {
-        "nombre": "Sierra hoy",
-        "valor": "Heladas, mínimas de -5 a 0 °C",
+        "nombre": "Navíos / San Bernardo (viernes)",
+        "valor": "-1.5 / -1 °C",
         "nivel": "warn"
       }
     ]
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.72",
-      "nota": "Cotización del viernes 6 por la mañana (Potosinoticias); cerró el jueves en 18.62"
+      "valor": "$18.62",
+      "nota": "Cierre del viernes 6 (Dow Jones, vía Infobae); baja semanal de 0.89 %"
     },
     {
       "nombre": "Gasolina Magna",
@@ -60,6 +60,10 @@
     }
   ],
   "agenda": [
+    {
+      "hora": "Hoy, 18:48 h",
+      "texto": "Lanzamiento del Falcon 9 de SpaceX desde California: el «efecto medusa» podría verse en el cielo de Durango, sobre todo hacia el oeste"
+    },
     {
       "hora": "Hoy",
       "texto": "Último día de registro en línea a la beca Rita Cetina (primaria y secundaria) y oficina móvil del SAT en Guadalupe Victoria, de 9:00 a 15:00 h y sin cita"
