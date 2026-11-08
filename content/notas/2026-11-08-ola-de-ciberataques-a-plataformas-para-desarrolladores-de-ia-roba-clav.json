@@ -1,0 +1,18 @@
+{
+  "titulo": "Ola de ciberataques a plataformas para desarrolladores de IA roba claves y genera cobros a las víctimas",
+  "seccion": "tecnologia",
+  "fecha": "2026-11-08T06:04",
+  "resumen": "La firma de seguridad Wiz documentó incidentes en servicios como Fireworks AI, Northflank, Blacksmith, Zeabur y Warp, donde los atacantes buscan variables de entorno con claves de acceso a modelos de IA para usarlas o revenderlas. En dos casos, los costos superaron 100 mil dólares; Zeabur anunció que cerrará operaciones. Se recomienda revocar las claves con el proveedor que las emitió y revisar los registros de uso.",
+  "cuerpo": "",
+  "imagen_tema": "tech",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "Infobae",
+      "enlace": "https://infobae.com/tecno/2026/11/07/una-ola-de-ciberataques-afecta-a-plataformas-de-inteligencia-artificial-hackers-roban-claves-de-acceso-y-generan-gastos-a-las-victimas"
+    }
+  ],
+  "destacada": false,
+  "autor": "Redacción"
+}
