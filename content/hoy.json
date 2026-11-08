@@ -1,22 +1,17 @@
 {
   "fecha": "Sábado 7 de noviembre de 2026",
-  "actualizado": "06:40 h",
+  "actualizado": "18:30 h",
   "clima": {
     "ahora": "",
-    "max": 25,
+    "max": 26,
     "min": 8,
-    "texto": "Sábado con cielo despejado en la capital, de 8 a 25 °C y viento ligero, según el pronóstico de Panorama. El SMN prevé para el estado lluvias aisladas (0.1 a 5 mm), rachas de 40 a 60 km/h y mínimas de -5 a 0 °C en la sierra por el frente frío 4.",
+    "texto": "Sábado soleado en la capital, de 7-8 a 26 °C, sin lluvia y con rachas de hasta 40 km/h (El Siglo de Durango). En la sierra las mínimas van de -5 a 0 °C. El domingo se espera de 8 a 25 °C, seco y con rachas de hasta 50 km/h por la tarde; en Gómez Palacio, de 15 a 27 °C.",
     "laguna_max": 31,
     "laguna_min": 16,
     "filas": [
       {
         "nombre": "Capital hoy",
-        "valor": "8 a 25 °C, despejado",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Lluvia en el estado",
-        "valor": "Aislada, 0.1 a 5 mm (SMN)",
+        "valor": "8 a 26 °C, sin lluvia",
         "nivel": "ok"
       },
       {
@@ -28,6 +23,11 @@
         "nombre": "Sierra",
         "valor": "Mínimas de -5 a 0 °C",
         "nivel": "bad"
+      },
+      {
+        "nombre": "Domingo en la capital",
+        "valor": "8 a 25 °C, rachas de hasta 50 km/h",
+        "nivel": "warn"
       }
     ]
   },
@@ -40,18 +40,18 @@
     },
     {
       "nombre": "Gasolina Magna",
-      "valor": "$23.90",
-      "nota": "Promedio en Durango (gasolinamx.com), 6 nov"
+      "valor": "$23.92",
+      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 7 nov"
     },
     {
       "nombre": "Gasolina Premium",
       "valor": "$29.16",
-      "nota": "Promedio en Durango (gasolinamx.com), 6 nov"
+      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 7 nov"
     },
     {
       "nombre": "Diésel",
-      "valor": "$26.96",
-      "nota": "Promedio en Durango (gasolinamx.com), 6 nov"
+      "valor": "$26.98",
+      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 7 nov"
     }
   ],
   "agenda": [
