@@ -1,33 +1,38 @@
 {
   "fecha": "Domingo 8 de noviembre de 2026",
-  "actualizado": "06:40 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
-    "max": 25,
-    "min": 8,
-    "texto": "Domingo soleado y seco en la capital, de 8 a 25 °C, con viento del suroeste de 20 a 25 km/h y rachas cercanas a 50 km/h por la tarde que pueden levantar tolvaneras (El Siglo de Durango). El SMN prevé chubascos intermitentes aislados en el estado y mínimas de -5 a 0 °C en la sierra al amanecer del lunes. En Gómez Palacio, de 15 a 27 °C con rachas de 30 km/h.",
-    "laguna_max": 27,
+    "max": 26,
+    "min": 7,
+    "texto": "Para el lunes 9 de noviembre se espera en la capital un día seco y templado, con máximas de 24 a 26 °C y mínimas de 7 a 9 °C; el viento del suroeste se calma, con rachas máximas cercanas a 38 km/h (El Siglo de Durango, con datos de Conagua y modelos). Mañanas frescas en la capital y la sierra. En Gómez Palacio y Lerdo, de 15 a 24 °C, parcialmente nublado y sin lluvia.",
+    "laguna_max": 24,
     "laguna_min": 15,
     "filas": [
       {
-        "nombre": "Capital hoy",
-        "valor": "8 a 25 °C, seco",
+        "nombre": "Capital, lunes",
+        "valor": "7 a 26 °C, seco",
         "nivel": "ok"
       },
       {
         "nombre": "Viento en la capital",
-        "valor": "Rachas de hasta 50 km/h por la tarde",
+        "valor": "Rachas de hasta 38 km/h",
         "nivel": "warn"
       },
       {
         "nombre": "El Salto",
-        "valor": "3 a 18 °C",
+        "valor": "4 a 21 °C",
         "nivel": "ok"
       },
       {
-        "nombre": "Sierra, lunes temprano",
-        "valor": "Mínimas de -5 a 0 °C (SMN)",
-        "nivel": "bad"
+        "nombre": "Santiago Papasquiaro",
+        "valor": "9 a 24 °C",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Tamazula",
+        "valor": "17 a 32 °C",
+        "nivel": "ok"
       }
     ]
   },
@@ -64,19 +69,7 @@
       "texto": "Fin de semana largo en educación básica: sin clases el viernes 13 (registro de calificaciones) y el lunes 16 (Revolución Mexicana); regreso el martes 17"
     },
     {
-      "hora": "Hasta hoy",
-      "texto": "Sky Fest de globos aerostáticos en Lerdo, en el aeródromo y el Polideportivo Municipal"
-    },
-    {
-      "hora": "Hasta hoy",
-      "texto": "Expo Auto 2026 en la explanada del Museo Bebeleche (entrada libre)"
-    },
-    {
-      "hora": "Hoy, 12:00 h",
-      "texto": "Leones Negros vs. Alacranes de Durango, vuelta de cuartos de final de la Liga de Expansión en el Estadio Jalisco; Alacranes ganó la ida 1-0"
-    },
-    {
-      "hora": "Hasta 9 nov, 14:00 h",
+      "hora": "Mañana, hasta 14:00 h",
       "texto": "Registro de candidatos a la presea Lic. Miguel Lerdo de Tejada (Ciudadano Distinguido 2026) en Lerdo; la entrega es el 17 de noviembre en el Teatro Hermila Galindo"
     },
     {
@@ -110,10 +103,6 @@
     {
       "hora": "Hasta 30 nov",
       "texto": "Festival de la Revolución en Gómez Palacio, con música, teatro, danza y cine"
-    },
-    {
-      "hora": "31 oct–8 nov",
-      "texto": "Feria de Nombre de Dios, con el Sotolazo de mezcal y sotol"
     },
     {
       "hora": "13–17 nov",
