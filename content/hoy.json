@@ -1,16 +1,16 @@
 {
-  "fecha": "Domingo 8 de noviembre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Lunes 9 de noviembre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
     "max": 26,
     "min": 7,
-    "texto": "Para el lunes 9 de noviembre se espera en la capital un día seco y templado, con máximas de 24 a 26 °C y mínimas de 7 a 9 °C; el viento del suroeste se calma, con rachas máximas cercanas a 38 km/h (El Siglo de Durango, con datos de Conagua y modelos). Mañanas frescas en la capital y la sierra. En Gómez Palacio y Lerdo, de 15 a 24 °C, parcialmente nublado y sin lluvia.",
+    "texto": "Hoy lunes, día seco y templado en la capital, con máximas de 24 a 26 °C y mínimas de 7 a 9 °C; el viento del suroeste se calma, con rachas máximas cercanas a 38 km/h (El Siglo de Durango, con datos de Conagua y modelos). Mañanas frescas en la capital y la sierra. En Gómez Palacio y Lerdo, de 15 a 24 °C, parcialmente nublado y sin lluvia.",
     "laguna_max": 24,
     "laguna_min": 15,
     "filas": [
       {
-        "nombre": "Capital, lunes",
+        "nombre": "Capital, hoy",
         "valor": "7 a 26 °C, seco",
         "nivel": "ok"
       },
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.63",
-      "nota": "18.6252 por dólar (Banxico, vía ABC Noticias); el peso ganó 0.93 % en la semana"
+      "valor": "$18.56",
+      "nota": "Apertura del 9 nov (Dow Jones, vía Infobae); cierre anterior en 18.63"
     },
     {
       "nombre": "Gasolina Magna",
@@ -69,8 +69,12 @@
       "texto": "Fin de semana largo en educación básica: sin clases el viernes 13 (registro de calificaciones) y el lunes 16 (Revolución Mexicana); regreso el martes 17"
     },
     {
-      "hora": "Mañana, hasta 14:00 h",
+      "hora": "Hoy, hasta 14:00 h",
       "texto": "Registro de candidatos a la presea Lic. Miguel Lerdo de Tejada (Ciudadano Distinguido 2026) en Lerdo; la entrega es el 17 de noviembre en el Teatro Hermila Galindo"
+    },
+    {
+      "hora": "13–14 nov, 8:00–20:00 h",
+      "texto": "Tianguis del Buen Fin de Canacope en la calle Patoni, con unos 40 comerciantes; cierre de Isauro Venzor a 5 de Febrero"
     },
     {
       "hora": "11 nov, 17:00 h",
@@ -78,14 +82,14 @@
     },
     {
       "hora": "Noviembre",
-      "texto": "Pruebas rápidas gratuitas de antígeno prostático para hombres mayores de 40 años; el lunes 9 en la plazuela Baca Ortiz y también en la zona rural"
+      "texto": "Pruebas rápidas gratuitas de antígeno prostático para hombres mayores de 40 años; hoy lunes en la plazuela Baca Ortiz y también en la zona rural"
     },
     {
       "hora": "3–27 nov",
       "texto": "Pago de pensiones del Bienestar por letra del apellido hasta el 27 de noviembre (sin pagos el lunes 16)"
     },
     {
-      "hora": "9 nov",
+      "hora": "Hoy",
       "texto": "Arranca la primera etapa del nuevo emisor sanitario central de Gómez Palacio"
     },
     {
