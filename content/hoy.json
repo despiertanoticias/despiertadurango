@@ -1,22 +1,22 @@
 {
-  "fecha": "Lunes 9 de noviembre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Martes 10 de noviembre de 2026",
+  "actualizado": "06:50 h",
   "clima": {
     "ahora": "",
-    "max": 26,
+    "max": 25,
     "min": 7,
-    "texto": "Noche fresca en la capital. Para el martes, Conagua prevé mínimas de 7 a 8 °C y máximas de 25 a 27 °C, cielo de medio nublado a nublado, rachas de 20 a 30 km/h y baja probabilidad de lluvia. El lunes amaneció a -5 °C en La Rosilla (Guanaceví) y a -2 en Navíos. El jueves 12 sería el día más lluvioso: lluvias moderadas a fuertes en La Laguna y ligeras en el resto del estado (El Siglo de Durango y Contacto Hoy, con datos de Conagua).",
+    "texto": "Mañana fresca en la capital, con mínima de 7 °C; por la tarde la máxima rondaría los 25 °C, con cielo de medio nublado a nublado, rachas de hasta 25 km/h y sin lluvia prevista, por la masa de aire frío que persiste. El lunes amaneció a -5 °C en La Rosilla (Guanaceví), -2 en Navíos y 0 en San Bernardo. El jueves 12 se esperan lluvias moderadas a fuertes en La Laguna y ligeras en el resto del estado (El Siglo de Durango, con datos de Conagua).",
     "laguna_max": 24,
     "laguna_min": 14,
     "filas": [
       {
         "nombre": "Capital, martes",
-        "valor": "7 a 26 °C, sin lluvia",
+        "valor": "7 a 25 °C, sin lluvia",
         "nivel": "ok"
       },
       {
         "nombre": "Viento en la capital",
-        "valor": "Rachas de 20 a 30 km/h",
+        "valor": "Rachas de hasta 25 km/h",
         "nivel": "ok"
       },
       {
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.58",
-      "nota": "Cotización del 9 nov por la tarde (Bloomberg, vía El Financiero); el peso ganó 0.15 %"
+      "valor": "$18.50",
+      "nota": "Apertura del 10 nov (Dow Jones, vía Infobae); el peso gana 0.17 %"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,12 +61,20 @@
   ],
   "agenda": [
     {
+      "hora": "10 nov, 9:00–14:00 h",
+      "texto": "Oficina móvil del SAT en la Feria de Empleo «Más Oportunidades», fraccionamiento Los Remedios: Constancia de Situación Fiscal al momento, gratis y sin cita"
+    },
+    {
       "hora": "12–22 nov",
       "texto": "Festival «Lerdo Suena y Suena Bien» por los 132 años de Lerdo: Río Roma (12, 20:00 h), Conjunto Primavera (15) y Bruno Bichir (16); gratuito salvo la corrida del 21"
     },
     {
+      "hora": "12–13 nov",
+      "texto": "Festival de la Revolución en Gómez Palacio: «Celebrando las Letras» en Casa Faya (jueves 12, 8:00–10:00 h) y concurso de patineta en el Skatepark San Alberto (viernes 13, 17:00–20:00 h)"
+    },
+    {
       "hora": "10–11 nov",
-      "texto": "Discusión de reservas del Presupuesto 2027 en la Cámara de Diputados"
+      "texto": "Discusión de más de mil reservas del Presupuesto 2027 en la Cámara de Diputados, desde las 9:00 h del martes"
     },
     {
       "hora": "Hasta 17 nov",
