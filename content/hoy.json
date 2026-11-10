@@ -1,38 +1,38 @@
 {
   "fecha": "Lunes 9 de noviembre de 2026",
-  "actualizado": "06:45 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
     "max": 26,
     "min": 7,
-    "texto": "Hoy lunes, día seco y templado en la capital, con máximas de 24 a 26 °C y mínimas de 7 a 9 °C; el viento del suroeste se calma, con rachas máximas cercanas a 38 km/h (El Siglo de Durango, con datos de Conagua y modelos). Mañanas frescas en la capital y la sierra. En Gómez Palacio y Lerdo, de 15 a 24 °C, parcialmente nublado y sin lluvia.",
+    "texto": "Noche fresca en la capital. Para el martes, Conagua prevé mínimas de 7 a 8 °C y máximas de 25 a 27 °C, cielo de medio nublado a nublado, rachas de 20 a 30 km/h y baja probabilidad de lluvia. El lunes amaneció a -5 °C en La Rosilla (Guanaceví) y a -2 en Navíos. El jueves 12 sería el día más lluvioso: lluvias moderadas a fuertes en La Laguna y ligeras en el resto del estado (El Siglo de Durango y Contacto Hoy, con datos de Conagua).",
     "laguna_max": 24,
-    "laguna_min": 15,
+    "laguna_min": 14,
     "filas": [
       {
-        "nombre": "Capital, hoy",
-        "valor": "7 a 26 °C, seco",
+        "nombre": "Capital, martes",
+        "valor": "7 a 26 °C, sin lluvia",
         "nivel": "ok"
       },
       {
         "nombre": "Viento en la capital",
-        "valor": "Rachas de hasta 38 km/h",
+        "valor": "Rachas de 20 a 30 km/h",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "La Rosilla (Guanaceví)",
+        "valor": "-5 °C el lunes",
+        "nivel": "bad"
+      },
+      {
+        "nombre": "Navíos",
+        "valor": "-2 °C el lunes",
         "nivel": "warn"
       },
       {
-        "nombre": "El Salto",
-        "valor": "4 a 21 °C",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Santiago Papasquiaro",
-        "valor": "9 a 24 °C",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Tamazula",
-        "valor": "17 a 32 °C",
-        "nivel": "ok"
+        "nombre": "La Laguna, jueves 12",
+        "valor": "Lluvias moderadas a fuertes",
+        "nivel": "warn"
       }
     ]
   },
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.56",
-      "nota": "Apertura del 9 nov (Dow Jones, vía Infobae); cierre anterior en 18.63"
+      "valor": "$18.58",
+      "nota": "Cotización del 9 nov por la tarde (Bloomberg, vía El Financiero); el peso ganó 0.15 %"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,16 +61,20 @@
   ],
   "agenda": [
     {
+      "hora": "12–22 nov",
+      "texto": "Festival «Lerdo Suena y Suena Bien» por los 132 años de Lerdo: Río Roma (12, 20:00 h), Conjunto Primavera (15) y Bruno Bichir (16); gratuito salvo la corrida del 21"
+    },
+    {
+      "hora": "10–11 nov",
+      "texto": "Discusión de reservas del Presupuesto 2027 en la Cámara de Diputados"
+    },
+    {
       "hora": "Hasta 17 nov",
       "texto": "Descuentos de El Buen Fin en refrendo vehicular y 50 % en licencias y cambio de propietario (Secretaría de Finanzas del Estado); en La Laguna, de 8:30 a 14:30 h en los Centros Multipago y Recaudación de Rentas de Lerdo"
     },
     {
       "hora": "13–16 nov",
       "texto": "Fin de semana largo en educación básica: sin clases el viernes 13 (registro de calificaciones) y el lunes 16 (Revolución Mexicana); regreso el martes 17"
-    },
-    {
-      "hora": "Hoy, hasta 14:00 h",
-      "texto": "Registro de candidatos a la presea Lic. Miguel Lerdo de Tejada (Ciudadano Distinguido 2026) en Lerdo; la entrega es el 17 de noviembre en el Teatro Hermila Galindo"
     },
     {
       "hora": "13–14 nov, 8:00–20:00 h",
@@ -82,15 +86,11 @@
     },
     {
       "hora": "Noviembre",
-      "texto": "Pruebas rápidas gratuitas de antígeno prostático para hombres mayores de 40 años; hoy lunes en la plazuela Baca Ortiz y también en la zona rural"
+      "texto": "Pruebas rápidas gratuitas de antígeno prostático para hombres mayores de 40 años, en la capital y la zona rural"
     },
     {
       "hora": "3–27 nov",
       "texto": "Pago de pensiones del Bienestar por letra del apellido hasta el 27 de noviembre (sin pagos el lunes 16)"
-    },
-    {
-      "hora": "Hoy",
-      "texto": "Arranca la primera etapa del nuevo emisor sanitario central de Gómez Palacio"
     },
     {
       "hora": "Hasta 30 nov",
