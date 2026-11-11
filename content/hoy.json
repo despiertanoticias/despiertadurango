@@ -1,32 +1,27 @@
 {
-  "fecha": "Martes 10 de noviembre de 2026",
-  "actualizado": "18:45 h",
+  "fecha": "Miércoles 11 de noviembre de 2026",
+  "actualizado": "06:40 h",
   "clima": {
     "ahora": "",
     "max": 25,
-    "min": 6,
-    "texto": "Martes fresco en la capital: amaneció cerca de 6 °C y la máxima rondó los 25 °C por la tarde, con cielo mayormente nublado, sin lluvia y rachas de hasta 30 km/h. En la sierra hubo heladas de -5 a 0 °C. Para el miércoles 11 se espera una madrugada menos fría, con mínima de 11 a 12 °C en la capital. El jueves 12 se esperan lluvias moderadas a fuertes en La Laguna y ligeras en el resto del estado (El Siglo de Durango, con datos de Conagua).",
+    "min": 13,
+    "texto": "Miércoles templado en la capital: mínima cercana a 13 °C y máxima de 25 °C, con cielo mayormente nublado, viento ligero y sin lluvias significativas (pronóstico de Panorama). Para el jueves 12 se esperan lluvias moderadas a fuertes en La Laguna y ligeras en el resto del estado, según el pronóstico difundido el martes por El Siglo de Durango con datos de Conagua.",
     "laguna_max": 24,
     "laguna_min": 14,
     "filas": [
       {
-        "nombre": "Capital, martes",
-        "valor": "6 a 25 °C, sin lluvia",
+        "nombre": "Capital, miércoles",
+        "valor": "13 a 25 °C, nublado",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Lluvia en la capital",
+        "valor": "Sin lluvias significativas",
         "nivel": "ok"
       },
       {
         "nombre": "Viento en la capital",
-        "valor": "Rachas de hasta 30 km/h",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Sierra, martes",
-        "valor": "Heladas de -5 a 0 °C",
-        "nivel": "bad"
-      },
-      {
-        "nombre": "Capital, miércoles 11",
-        "valor": "Mínima de 11 a 12 °C",
+        "valor": "Ligero",
         "nivel": "ok"
       },
       {
@@ -40,29 +35,57 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.59",
-      "nota": "Cotización del martes 10 nov (Uno TV)"
+      "valor": "$18.61",
+      "nota": "Apertura del miércoles 11 nov; cierre del martes en $18.63 (Infobae, con datos de Dow Jones)"
     },
     {
       "nombre": "Gasolina Magna",
       "valor": "$23.92",
-      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 7 nov"
+      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 11 nov"
     },
     {
       "nombre": "Gasolina Premium",
-      "valor": "$29.16",
-      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 7 nov"
+      "valor": "$29.17",
+      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 11 nov"
     },
     {
       "nombre": "Diésel",
-      "valor": "$26.98",
-      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 7 nov"
+      "valor": "$26.96",
+      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 11 nov"
     }
   ],
   "agenda": [
     {
       "hora": "14 y 17 nov",
       "texto": "Liga de Naciones: Jamaica vs. México en Kingston (sábado 14, 19:00 h) y vuelta en el Estadio Monterrey (martes 17, 20:30 h)"
+    },
+    {
+      "hora": "11 nov, 17:00 h",
+      "texto": "Concierto gratuito con Chicos de Barrio, Mi Banda El Mexicano, Ponzoña y Los Caminantes en la Plaza IV Centenario (sin venta de alcohol)"
+    },
+    {
+      "hora": "12 nov, 10:45 h",
+      "texto": "Banderazo del operativo de seguridad del Buen Fin en Gómez Palacio y Lerdo: 616 elementos hasta fin de año"
+    },
+    {
+      "hora": "12 nov, 17:00 h",
+      "texto": "Jornada Académica para estudiantes de preparatoria en el IES Vasco de Lerdo (Sarabia 212 Norte)"
+    },
+    {
+      "hora": "12 nov, 18:00 h",
+      "texto": "Noche Bohemia de «Jueves de Museo» en el Museo Chalet Gorosave de Lerdo"
+    },
+    {
+      "hora": "13–15 nov",
+      "texto": "Cajas municipales de Gómez Palacio con horario ampliado por el Buen Fin: viernes hasta 17:00, sábado 9:00–14:00 y domingo 10:00–14:00 en Presidencia"
+    },
+    {
+      "hora": "13 nov–11 dic",
+      "texto": "Mes de la Vivienda del Inmuvi en la capital: hasta 40 % de descuento en materiales y en titulación"
+    },
+    {
+      "hora": "22 nov, 15:00 h",
+      "texto": "Bendición de danzas guadalupanas en el parque Morelos de Gómez Palacio; se esperan unas 150 danzas"
     },
     {
       "hora": "21 nov, 17:00 h",
@@ -91,10 +114,6 @@
     {
       "hora": "13–14 nov, 8:00–20:00 h",
       "texto": "Tianguis del Buen Fin de Canacope en la calle Patoni, con unos 40 comerciantes; cierre de Isauro Venzor a 5 de Febrero"
-    },
-    {
-      "hora": "11 nov, 17:00 h",
-      "texto": "Concierto gratuito con Mi Banda El Mexicano, Los Caminantes y otros grupos en la Plaza IV Centenario (sin venta de alcohol)"
     },
     {
       "hora": "Noviembre",
