@@ -1,33 +1,33 @@
 {
   "fecha": "Martes 10 de noviembre de 2026",
-  "actualizado": "06:50 h",
+  "actualizado": "18:45 h",
   "clima": {
     "ahora": "",
     "max": 25,
-    "min": 7,
-    "texto": "Mañana fresca en la capital, con mínima de 7 °C; por la tarde la máxima rondaría los 25 °C, con cielo de medio nublado a nublado, rachas de hasta 25 km/h y sin lluvia prevista, por la masa de aire frío que persiste. El lunes amaneció a -5 °C en La Rosilla (Guanaceví), -2 en Navíos y 0 en San Bernardo. El jueves 12 se esperan lluvias moderadas a fuertes en La Laguna y ligeras en el resto del estado (El Siglo de Durango, con datos de Conagua).",
+    "min": 6,
+    "texto": "Martes fresco en la capital: amaneció cerca de 6 °C y la máxima rondó los 25 °C por la tarde, con cielo mayormente nublado, sin lluvia y rachas de hasta 30 km/h. En la sierra hubo heladas de -5 a 0 °C. Para el miércoles 11 se espera una madrugada menos fría, con mínima de 11 a 12 °C en la capital. El jueves 12 se esperan lluvias moderadas a fuertes en La Laguna y ligeras en el resto del estado (El Siglo de Durango, con datos de Conagua).",
     "laguna_max": 24,
     "laguna_min": 14,
     "filas": [
       {
         "nombre": "Capital, martes",
-        "valor": "7 a 25 °C, sin lluvia",
+        "valor": "6 a 25 °C, sin lluvia",
         "nivel": "ok"
       },
       {
         "nombre": "Viento en la capital",
-        "valor": "Rachas de hasta 25 km/h",
+        "valor": "Rachas de hasta 30 km/h",
         "nivel": "ok"
       },
       {
-        "nombre": "La Rosilla (Guanaceví)",
-        "valor": "-5 °C el lunes",
+        "nombre": "Sierra, martes",
+        "valor": "Heladas de -5 a 0 °C",
         "nivel": "bad"
       },
       {
-        "nombre": "Navíos",
-        "valor": "-2 °C el lunes",
-        "nivel": "warn"
+        "nombre": "Capital, miércoles 11",
+        "valor": "Mínima de 11 a 12 °C",
+        "nivel": "ok"
       },
       {
         "nombre": "La Laguna, jueves 12",
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.50",
-      "nota": "Apertura del 10 nov (Dow Jones, vía Infobae); el peso gana 0.17 %"
+      "valor": "$18.59",
+      "nota": "Cotización del martes 10 nov (Uno TV)"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,8 +61,16 @@
   ],
   "agenda": [
     {
-      "hora": "10 nov, 9:00–14:00 h",
-      "texto": "Oficina móvil del SAT en la Feria de Empleo «Más Oportunidades», fraccionamiento Los Remedios: Constancia de Situación Fiscal al momento, gratis y sin cita"
+      "hora": "14 y 17 nov",
+      "texto": "Liga de Naciones: Jamaica vs. México en Kingston (sábado 14, 19:00 h) y vuelta en el Estadio Monterrey (martes 17, 20:30 h)"
+    },
+    {
+      "hora": "21 nov, 17:00 h",
+      "texto": "Santos Laguna recibe a León en el Estadio Corona, última jornada del Apertura 2026"
+    },
+    {
+      "hora": "19 dic",
+      "texto": "Montéz de Durango abre la Feria Navideña de la capital en el recinto ferial"
     },
     {
       "hora": "12–22 nov",
@@ -71,10 +79,6 @@
     {
       "hora": "12–13 nov",
       "texto": "Festival de la Revolución en Gómez Palacio: «Celebrando las Letras» en Casa Faya (jueves 12, 8:00–10:00 h) y concurso de patineta en el Skatepark San Alberto (viernes 13, 17:00–20:00 h)"
-    },
-    {
-      "hora": "10–11 nov",
-      "texto": "Discusión de más de mil reservas del Presupuesto 2027 en la Cámara de Diputados, desde las 9:00 h del martes"
     },
     {
       "hora": "Hasta 17 nov",
