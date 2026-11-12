@@ -1,32 +1,37 @@
 {
-  "fecha": "Miércoles 11 de noviembre de 2026",
-  "actualizado": "06:40 h",
+  "fecha": "Jueves 12 de noviembre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
-    "max": 25,
-    "min": 13,
-    "texto": "Miércoles templado en la capital: mínima cercana a 13 °C y máxima de 25 °C, con cielo mayormente nublado, viento ligero y sin lluvias significativas (pronóstico de Panorama). Para el jueves 12 se esperan lluvias moderadas a fuertes en La Laguna y ligeras en el resto del estado, según el pronóstico difundido el martes por El Siglo de Durango con datos de Conagua.",
-    "laguna_max": 24,
+    "max": 19,
+    "min": 8,
+    "texto": "Jueves frío y lluvioso en la capital: máxima cercana a 19 °C y mínima de 8 °C, con lloviznas por la mañana y chubascos por la tarde (probabilidad cercana a 89 %), según El Siglo de Durango. Por el frente frío 5, el SMN prevé de -5 a 0 °C en zonas serranas de Durango al amanecer del viernes, además de lluvias fuertes a muy fuertes y rachas de viento en el estado.",
+    "laguna_max": 20,
     "laguna_min": 14,
     "filas": [
       {
-        "nombre": "Capital, miércoles",
-        "valor": "13 a 25 °C, nublado",
+        "nombre": "Capital, jueves",
+        "valor": "8 a 19 °C, nublado",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia en la capital",
-        "valor": "Sin lluvias significativas",
-        "nivel": "ok"
+        "valor": "≈89 %, chubascos por la tarde",
+        "nivel": "warn"
       },
       {
-        "nombre": "Viento en la capital",
-        "valor": "Ligero",
-        "nivel": "ok"
+        "nombre": "Sierra, viernes al amanecer",
+        "valor": "-5 a 0 °C (heladas)",
+        "nivel": "bad"
       },
       {
-        "nombre": "La Laguna, jueves 12",
-        "valor": "Lluvias moderadas a fuertes",
+        "nombre": "Gómez Palacio, jueves",
+        "valor": "14 a 20 °C, ≈80 % de lluvia",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Viernes 13 en el estado",
+        "valor": "Lluvias fuertes y rachas de viento",
         "nivel": "warn"
       }
     ]
@@ -35,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.61",
-      "nota": "Apertura del miércoles 11 nov; cierre del martes en $18.63 (Infobae, con datos de Dow Jones)"
+      "valor": "$18.62",
+      "nota": "Apertura del jueves 12 nov; cierre previo en $18.60 (Infobae)"
     },
     {
       "nombre": "Gasolina Magna",
@@ -56,12 +61,16 @@
   ],
   "agenda": [
     {
-      "hora": "14 y 17 nov",
-      "texto": "Liga de Naciones: Jamaica vs. México en Kingston (sábado 14, 19:00 h) y vuelta en el Estadio Monterrey (martes 17, 20:30 h)"
+      "hora": "12 nov, 9:00–14:00 h",
+      "texto": "Feria del Empleo en el Auditorio Municipal Luis L. Vargas de Gómez Palacio: 34 empresas y más de 500 vacantes (registro en empleo.gob.mx/ferias)"
     },
     {
-      "hora": "11 nov, 17:00 h",
-      "texto": "Concierto gratuito con Chicos de Barrio, Mi Banda El Mexicano, Ponzoña y Los Caminantes en la Plaza IV Centenario (sin venta de alcohol)"
+      "hora": "12 nov, 14:00–19:00 h",
+      "texto": "Family Ride del Titan Desert en el Centro de la capital: cierres alrededor de la Plaza IV Centenario desde las 14:00 y recorrido de 17:00 a 19:00 h"
+    },
+    {
+      "hora": "14 y 17 nov",
+      "texto": "Liga de Naciones: Jamaica vs. México en Kingston (sábado 14, 19:00 h) y vuelta en el Estadio Monterrey (martes 17, 20:30 h)"
     },
     {
       "hora": "12 nov, 10:45 h",
@@ -144,10 +153,6 @@
       "texto": "Buen Fin 2026; registro gratuito de comercios hasta el 12 de noviembre"
     },
     {
-      "hora": "11–12 nov",
-      "texto": "Concursos municipales de ortografía y matemáticas en Gómez Palacio"
-    },
-    {
       "hora": "13–16 nov",
       "texto": "Carrera ciclista Titan Desert en la ciudad de Durango"
     },
@@ -166,6 +171,18 @@
     {
       "hora": "Desde 15 nov",
       "texto": "Pasaporte del café de Canirac: 30 cafeterías con promociones hasta febrero; venta general a 100 pesos"
+    },
+    {
+      "hora": "13–17 nov",
+      "texto": "Sideapaar: hasta 80 % de descuento en adeudos de agua en la zona rural de Gómez Palacio (oficinas en Santiago Lavín 190 pte., 8:00–16:00 h, y recorridos por comunidades)"
+    },
+    {
+      "hora": "17 nov, 16:00 h",
+      "texto": "Entrega de la presea «Ciudadano Distinguido 2026» en sesión solemne de Cabildo, Teatro Hermila Galindo de Lerdo"
+    },
+    {
+      "hora": "24–27 nov, 9:00–15:00 h",
+      "texto": "Jornada visual del Club de Leones de Gómez Palacio (ficha de 100 pesos en Av. Mina); niños menores de 12 años el viernes 27"
     }
   ]
 }
