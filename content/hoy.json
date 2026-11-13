@@ -1,16 +1,16 @@
 {
-  "fecha": "Jueves 12 de noviembre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Viernes 13 de noviembre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
     "max": 23,
     "min": 9,
-    "texto": "Para el viernes 13 se espera en la capital cielo nublado buena parte del día, probabilidad de lluvia casi nula, mínima de 9 °C y máxima de 23 °C, con rachas de viento de hasta 45 km/h (El Siglo de Durango). La mañana del jueves el termómetro bajó a -2.5 °C en La Rosilla (Guanaceví) y a -1 °C en San Bernardo.",
+    "texto": "Para hoy viernes 13 se espera en la capital cielo mayormente nublado, con mínima de 9 °C, máxima de 23 °C y rachas de viento de hasta 45 km/h; la probabilidad de lluvia en la ciudad es muy baja, aunque podrían caer lloviznas aisladas en la sierra y la zona centro (Conagua, vía El Siglo de Durango). El jueves al amanecer el termómetro bajó a -2.5 °C en La Rosilla (Guanaceví).",
     "laguna_max": 20,
     "laguna_min": 14,
     "filas": [
       {
-        "nombre": "Capital, viernes",
+        "nombre": "Capital, hoy",
         "valor": "9 a 23 °C, nublado",
         "nivel": "ok"
       },
@@ -18,6 +18,11 @@
         "nombre": "Lluvia en la capital",
         "valor": "Probabilidad casi nula",
         "nivel": "ok"
+      },
+      {
+        "nombre": "Sierra y zona centro",
+        "valor": "Lloviznas aisladas, hasta 5 mm",
+        "nivel": "warn"
       },
       {
         "nombre": "Viento",
@@ -28,11 +33,6 @@
         "nombre": "Guanaceví, jueves al amanecer",
         "valor": "-2.5 °C en La Rosilla",
         "nivel": "bad"
-      },
-      {
-        "nombre": "Gómez Palacio, jueves",
-        "valor": "14 a 20 °C, ≈80 % de lluvia",
-        "nivel": "warn"
       }
     ]
   },
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.62",
-      "nota": "Cierre del jueves 12 nov: 18.6157 (Banxico); ganancia de 0.02 %"
+      "valor": "$18.55",
+      "nota": "Apertura del viernes 13 nov (Dow Jones, vía Infobae); cierre previo 18.60"
     },
     {
       "nombre": "Gasolina Magna",
@@ -63,6 +63,18 @@
     {
       "hora": "13 nov",
       "texto": "Gómez Palacio deposita el 50 % del aguinaldo a trabajadores municipales; Salud estatal paga la primera parte del aguinaldo a su personal activo"
+    },
+    {
+      "hora": "Desde 13 nov",
+      "texto": "ISSSTE en La Laguna: urgencias y la mayoría de especialidades pasan al Hospital Regional de Torreón; cirugías en el Hospital General de Gómez Palacio; la clínica de Lerdo solo vacunación, rayos X y ultrasonido (871 714 5802)"
+    },
+    {
+      "hora": "13 nov–31 dic",
+      "texto": "50 % de descuento en multas de Tránsito en Gómez Palacio (no aplica a alcohol, accidentes con lesionados, arrancones ni lugares para personas con discapacidad)"
+    },
+    {
+      "hora": "21–22 nov",
+      "texto": "Feria del Bienestar en la Expo Feria de Gómez Palacio: materiales de construcción, limpieza y canasta básica a precio subsidiado"
     },
     {
       "hora": "13–17 nov",
@@ -143,10 +155,6 @@
     {
       "hora": "Hasta 30 nov",
       "texto": "Festival de la Revolución en Gómez Palacio, con música, teatro, danza y cine"
-    },
-    {
-      "hora": "13–17 nov",
-      "texto": "Buen Fin 2026; registro gratuito de comercios hasta el 12 de noviembre"
     },
     {
       "hora": "13–16 nov",
