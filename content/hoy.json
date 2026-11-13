@@ -1,37 +1,37 @@
 {
   "fecha": "Jueves 12 de noviembre de 2026",
-  "actualizado": "06:45 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
-    "max": 19,
-    "min": 8,
-    "texto": "Jueves frío y lluvioso en la capital: máxima cercana a 19 °C y mínima de 8 °C, con lloviznas por la mañana y chubascos por la tarde (probabilidad cercana a 89 %), según El Siglo de Durango. Por el frente frío 5, el SMN prevé de -5 a 0 °C en zonas serranas de Durango al amanecer del viernes, además de lluvias fuertes a muy fuertes y rachas de viento en el estado.",
+    "max": 23,
+    "min": 9,
+    "texto": "Para el viernes 13 se espera en la capital cielo nublado buena parte del día, probabilidad de lluvia casi nula, mínima de 9 °C y máxima de 23 °C, con rachas de viento de hasta 45 km/h (El Siglo de Durango). La mañana del jueves el termómetro bajó a -2.5 °C en La Rosilla (Guanaceví) y a -1 °C en San Bernardo.",
     "laguna_max": 20,
     "laguna_min": 14,
     "filas": [
       {
-        "nombre": "Capital, jueves",
-        "valor": "8 a 19 °C, nublado",
+        "nombre": "Capital, viernes",
+        "valor": "9 a 23 °C, nublado",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia en la capital",
-        "valor": "≈89 %, chubascos por la tarde",
+        "valor": "Probabilidad casi nula",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Viento",
+        "valor": "Rachas de hasta 45 km/h",
         "nivel": "warn"
       },
       {
-        "nombre": "Sierra, viernes al amanecer",
-        "valor": "-5 a 0 °C (heladas)",
+        "nombre": "Guanaceví, jueves al amanecer",
+        "valor": "-2.5 °C en La Rosilla",
         "nivel": "bad"
       },
       {
         "nombre": "Gómez Palacio, jueves",
         "valor": "14 a 20 °C, ≈80 % de lluvia",
-        "nivel": "warn"
-      },
-      {
-        "nombre": "Viernes 13 en el estado",
-        "valor": "Lluvias fuertes y rachas de viento",
         "nivel": "warn"
       }
     ]
@@ -41,7 +41,7 @@
     {
       "nombre": "Dólar",
       "valor": "$18.62",
-      "nota": "Apertura del jueves 12 nov; cierre previo en $18.60 (Infobae)"
+      "nota": "Cierre del jueves 12 nov: 18.6157 (Banxico); ganancia de 0.02 %"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,28 +61,24 @@
   ],
   "agenda": [
     {
-      "hora": "12 nov, 9:00–14:00 h",
-      "texto": "Feria del Empleo en el Auditorio Municipal Luis L. Vargas de Gómez Palacio: 34 empresas y más de 500 vacantes (registro en empleo.gob.mx/ferias)"
+      "hora": "13 nov",
+      "texto": "Gómez Palacio deposita el 50 % del aguinaldo a trabajadores municipales; Salud estatal paga la primera parte del aguinaldo a su personal activo"
     },
     {
-      "hora": "12 nov, 14:00–19:00 h",
-      "texto": "Family Ride del Titan Desert en el Centro de la capital: cierres alrededor de la Plaza IV Centenario desde las 14:00 y recorrido de 17:00 a 19:00 h"
+      "hora": "13–17 nov",
+      "texto": "Operativo de seguridad del Buen Fin en los 39 municipios: vigilancia en centros comerciales, cajeros y Centro Histórico de la capital"
+    },
+    {
+      "hora": "14–15 nov",
+      "texto": "Festival Cenizo 2026 en la Plaza IV Centenario: más de 20 marcas de mezcal, música en vivo y actividades familiares"
+    },
+    {
+      "hora": "20 nov, 10:00 h",
+      "texto": "Desfile cívico-militar por la Revolución en Gómez Palacio: del parque Morelos por Escobedo y Madero a la Presidencia, con unas 20 escuelas"
     },
     {
       "hora": "14 y 17 nov",
       "texto": "Liga de Naciones: Jamaica vs. México en Kingston (sábado 14, 19:00 h) y vuelta en el Estadio Monterrey (martes 17, 20:30 h)"
-    },
-    {
-      "hora": "12 nov, 10:45 h",
-      "texto": "Banderazo del operativo de seguridad del Buen Fin en Gómez Palacio y Lerdo: 616 elementos hasta fin de año"
-    },
-    {
-      "hora": "12 nov, 17:00 h",
-      "texto": "Jornada Académica para estudiantes de preparatoria en el IES Vasco de Lerdo (Sarabia 212 Norte)"
-    },
-    {
-      "hora": "12 nov, 18:00 h",
-      "texto": "Noche Bohemia de «Jueves de Museo» en el Museo Chalet Gorosave de Lerdo"
     },
     {
       "hora": "13–15 nov",
@@ -105,12 +101,12 @@
       "texto": "Montéz de Durango abre la Feria Navideña de la capital en el recinto ferial"
     },
     {
-      "hora": "12–22 nov",
-      "texto": "Festival «Lerdo Suena y Suena Bien» por los 132 años de Lerdo: Río Roma (12, 20:00 h), Conjunto Primavera (15) y Bruno Bichir (16); gratuito salvo la corrida del 21"
+      "hora": "13–22 nov",
+      "texto": "Festival «Lerdo Suena y Suena Bien» por los 132 años de Lerdo: Conjunto Primavera (15) y Bruno Bichir (16); gratuito salvo la corrida del 21"
     },
     {
-      "hora": "12–13 nov",
-      "texto": "Festival de la Revolución en Gómez Palacio: «Celebrando las Letras» en Casa Faya (jueves 12, 8:00–10:00 h) y concurso de patineta en el Skatepark San Alberto (viernes 13, 17:00–20:00 h)"
+      "hora": "13 nov, 17:00–20:00 h",
+      "texto": "Festival de la Revolución en Gómez Palacio: concurso de patineta en el Skatepark San Alberto"
     },
     {
       "hora": "Hasta 17 nov",
