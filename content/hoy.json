@@ -1,38 +1,38 @@
 {
-  "fecha": "Viernes 13 de noviembre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Sábado 14 de noviembre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
-    "max": 22,
+    "max": 25,
     "min": 6,
-    "texto": "Viernes con mañana fría y nubosidad en el estado: en la capital la máxima rondará 22 °C entre las 14:00 y las 16:00, sin lluvia prevista y con rachas de viento de más de 40 km/h; esta noche bajará a 6-7 °C. El sábado 14 se espera cielo despejado con mínima de 6 °C y máxima de 25 °C. En la sierra se registraron -6 °C en La Rosilla (Guanaceví) y -1 °C en Navíos (Conagua/SMN, vía El Siglo de Durango).",
+    "texto": "Sábado despejado en la capital: amanecer frío de 6 °C, máxima de 25 °C por la tarde y unos 10 °C por la noche, con rachas de viento de hasta 35 km/h. Un nuevo frente frío y una vaguada podrían traer viento fuerte al norte del estado el fin de semana. En zonas serranas se esperan mínimas de -5 a 0 °C y en Durango vientos de 40 a 60 km/h, sin lluvia prevista. El viernes La Rosilla (Guanaceví) marcó -6 °C, la más baja de la temporada (Conagua/SMN, vía El Siglo de Durango y Uno TV).",
     "laguna_max": 20,
     "laguna_min": 14,
     "filas": [
       {
         "nombre": "Capital, hoy",
-        "valor": "Máx. 22 °C, sin lluvia",
+        "valor": "6 a 25 °C, despejado",
         "nivel": "ok"
       },
       {
         "nombre": "Esta noche",
-        "valor": "Baja a 6-7 °C",
-        "nivel": "warn"
-      },
-      {
-        "nombre": "Viento",
-        "valor": "Rachas de más de 40 km/h",
-        "nivel": "warn"
-      },
-      {
-        "nombre": "Sábado 14",
-        "valor": "6 a 25 °C, despejado; rachas de 35 km/h",
+        "valor": "Alrededor de 10 °C",
         "nivel": "ok"
       },
       {
-        "nombre": "Guanaceví, viernes al amanecer",
-        "valor": "-6 °C en La Rosilla",
+        "nombre": "Viento",
+        "valor": "Rachas de 35 km/h en la capital; 40-60 km/h en el estado",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Sierra",
+        "valor": "Mínimas de -5 a 0 °C",
         "nivel": "bad"
+      },
+      {
+        "nombre": "Madrugadas",
+        "valor": "Posibles bancos de niebla en carreteras",
+        "nivel": "warn"
       }
     ]
   },
@@ -61,6 +61,18 @@
   ],
   "agenda": [
     {
+      "hora": "14 nov",
+      "texto": "Día Mundial de la Diabetes: módulo de medición de presión y glucosa en la Plaza de Armas de la capital"
+    },
+    {
+      "hora": "14 nov, 8:00–20:00 h",
+      "texto": "Último día del tianguis del Buen Fin de Canacope en la calle Patoni (cierre de Isauro Venzor a 5 de Febrero)"
+    },
+    {
+      "hora": "16 nov",
+      "texto": "Bancos cerrados por el día de descanso de la Revolución; cajeros, banca en línea y apps funcionan normalmente"
+    },
+    {
       "hora": "13–17 nov",
       "texto": "El Buen Fin en Durango: la Canaco prevé ventas de más de mil millones de pesos; verifica comercios participantes con el código QR o en elbuenfin.org"
     },
@@ -75,10 +87,6 @@
     {
       "hora": "14 nov",
       "texto": "Esteban y Lauro en el Lienzo Charro del ejido Los Ángeles, dentro del festival «Lerdo Suena y Suena Bien»"
-    },
-    {
-      "hora": "13 nov",
-      "texto": "Gómez Palacio deposita el 50 % del aguinaldo a trabajadores municipales; Salud estatal paga la primera parte del aguinaldo a su personal activo"
     },
     {
       "hora": "Desde 13 nov",
@@ -139,10 +147,6 @@
     {
       "hora": "13–16 nov",
       "texto": "Fin de semana largo en educación básica: sin clases el viernes 13 (registro de calificaciones) y el lunes 16 (Revolución Mexicana); regreso el martes 17"
-    },
-    {
-      "hora": "13–14 nov, 8:00–20:00 h",
-      "texto": "Tianguis del Buen Fin de Canacope en la calle Patoni, con unos 40 comerciantes; cierre de Isauro Venzor a 5 de Febrero"
     },
     {
       "hora": "Noviembre",
