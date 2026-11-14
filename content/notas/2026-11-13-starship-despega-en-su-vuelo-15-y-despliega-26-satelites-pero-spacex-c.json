@@ -1,0 +1,18 @@
+{
+  "titulo": "Starship despega en su vuelo 15 y despliega 26 satélites, pero SpaceX cancela la captura del propulsor y lo envía al golfo de México",
+  "seccion": "tecnologia",
+  "fecha": "2026-11-13T18:37",
+  "resumen": "La nave despegó a las 17:47 (hora del este de EU) desde Starbase, Texas. SpaceX canceló la captura del propulsor Super Heavy con los brazos de la torre y lo amarizó de forma controlada en el golfo de México; la causa no se informó de inmediato. La nave llegó a órbita baja, liberó 26 satélites Starlink V3 y, si sus sistemas están en buen estado, intentará volver a la torre el sábado alrededor de las 15:17, hora de Texas.",
+  "cuerpo": "",
+  "imagen_tema": "texas",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "Space.com",
+      "enlace": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
+    }
+  ],
+  "destacada": true,
+  "autor": "Redacción"
+}

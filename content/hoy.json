@@ -1,37 +1,37 @@
 {
   "fecha": "Viernes 13 de noviembre de 2026",
-  "actualizado": "06:45 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
-    "max": 23,
-    "min": 9,
-    "texto": "Para hoy viernes 13 se espera en la capital cielo mayormente nublado, con mínima de 9 °C, máxima de 23 °C y rachas de viento de hasta 45 km/h; la probabilidad de lluvia en la ciudad es muy baja, aunque podrían caer lloviznas aisladas en la sierra y la zona centro (Conagua, vía El Siglo de Durango). El jueves al amanecer el termómetro bajó a -2.5 °C en La Rosilla (Guanaceví).",
+    "max": 22,
+    "min": 6,
+    "texto": "Viernes con mañana fría y nubosidad en el estado: en la capital la máxima rondará 22 °C entre las 14:00 y las 16:00, sin lluvia prevista y con rachas de viento de más de 40 km/h; esta noche bajará a 6-7 °C. El sábado 14 se espera cielo despejado con mínima de 6 °C y máxima de 25 °C. En la sierra se registraron -6 °C en La Rosilla (Guanaceví) y -1 °C en Navíos (Conagua/SMN, vía El Siglo de Durango).",
     "laguna_max": 20,
     "laguna_min": 14,
     "filas": [
       {
         "nombre": "Capital, hoy",
-        "valor": "9 a 23 °C, nublado",
+        "valor": "Máx. 22 °C, sin lluvia",
         "nivel": "ok"
       },
       {
-        "nombre": "Lluvia en la capital",
-        "valor": "Probabilidad casi nula",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Sierra y zona centro",
-        "valor": "Lloviznas aisladas, hasta 5 mm",
+        "nombre": "Esta noche",
+        "valor": "Baja a 6-7 °C",
         "nivel": "warn"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de hasta 45 km/h",
+        "valor": "Rachas de más de 40 km/h",
         "nivel": "warn"
       },
       {
-        "nombre": "Guanaceví, jueves al amanecer",
-        "valor": "-2.5 °C en La Rosilla",
+        "nombre": "Sábado 14",
+        "valor": "6 a 25 °C, despejado; rachas de 35 km/h",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Guanaceví, viernes al amanecer",
+        "valor": "-6 °C en La Rosilla",
         "nivel": "bad"
       }
     ]
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.55",
-      "nota": "Apertura del viernes 13 nov (Dow Jones, vía Infobae); cierre previo 18.60"
+      "valor": "$18.52",
+      "nota": "Cierre del viernes 13 nov (Dow Jones, vía Infobae); -0.47 % en el día"
     },
     {
       "nombre": "Gasolina Magna",
@@ -60,6 +60,22 @@
     }
   ],
   "agenda": [
+    {
+      "hora": "13–17 nov",
+      "texto": "El Buen Fin en Durango: la Canaco prevé ventas de más de mil millones de pesos; verifica comercios participantes con el código QR o en elbuenfin.org"
+    },
+    {
+      "hora": "15 nov, 8:00 h",
+      "texto": "Día Mundial de la Diabetes: misa en la Catedral y caminata por Constitución y Dolores del Río hasta la Biblioteca del Árbol (Asociación Unidos Aprendiendo a Vivir con Diabetes)"
+    },
+    {
+      "hora": "Hasta 30 nov",
+      "texto": "«Borrón y Cuenta Nueva» en el corralón de Lerdo: 100 % de subsidio en cargos de 2025 y anteriores y 70 % en los generados hasta el 8 de octubre; solo se paga el arrastre"
+    },
+    {
+      "hora": "14 nov",
+      "texto": "Esteban y Lauro en el Lienzo Charro del ejido Los Ángeles, dentro del festival «Lerdo Suena y Suena Bien»"
+    },
     {
       "hora": "13 nov",
       "texto": "Gómez Palacio deposita el 50 % del aguinaldo a trabajadores municipales; Salud estatal paga la primera parte del aguinaldo a su personal activo"
@@ -115,10 +131,6 @@
     {
       "hora": "13–22 nov",
       "texto": "Festival «Lerdo Suena y Suena Bien» por los 132 años de Lerdo: Conjunto Primavera (15) y Bruno Bichir (16); gratuito salvo la corrida del 21"
-    },
-    {
-      "hora": "13 nov, 17:00–20:00 h",
-      "texto": "Festival de la Revolución en Gómez Palacio: concurso de patineta en el Skatepark San Alberto"
     },
     {
       "hora": "Hasta 17 nov",
