@@ -1,32 +1,32 @@
 {
-  "fecha": "Sábado 14 de noviembre de 2026",
-  "actualizado": "18:45 h",
+  "fecha": "Domingo 15 de noviembre de 2026",
+  "actualizado": "06:45 h",
   "clima": {
     "ahora": "",
-    "max": 24,
-    "min": 7,
-    "texto": "Sábado despejado en la capital: la mínima fue de 7 °C y la máxima de 24 °C. En la sierra hubo heladas: San Bernardo -3.5 °C, La Rosilla (Guanaceví) -2.5 °C y Navíos -1 °C; en El Salto los autos amanecieron cubiertos de hielo. Para el domingo se esperan 6 °C al amanecer, 26 °C por la tarde y unos 12 °C por la noche, sin lluvia y con viento ligero. El SMN prevé mínimas de -5 a 0 °C en la sierra al menos hasta el martes 17 (Conagua/SMN, vía El Siglo de Durango).",
+    "max": 26,
+    "min": 6,
+    "texto": "Domingo despejado en la capital: 6 °C al amanecer, 26 °C por la tarde y unos 12 °C por la noche, sin condiciones para lluvia y con viento ligero, con rachas de hasta 15 km/h (Conagua, vía El Siglo de Durango). En la sierra siguen las madrugadas bajo cero; el sábado San Bernardo registró -3.5 °C. Se vigila un nuevo frente frío casi estacionario sobre el noroeste del país.",
     "laguna_max": 20,
     "laguna_min": 14,
     "filas": [
       {
         "nombre": "Capital, hoy",
-        "valor": "7 a 24 °C, despejado",
+        "valor": "6 a 26 °C, despejado",
         "nivel": "ok"
       },
       {
-        "nombre": "Domingo",
-        "valor": "6 a 26 °C, sin lluvia",
+        "nombre": "Lluvia",
+        "valor": "Sin condiciones para lluvia",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Ligero, rachas de hasta 15 km/h el domingo",
+        "valor": "Ligero, rachas de hasta 15 km/h",
         "nivel": "ok"
       },
       {
         "nombre": "Sierra",
-        "valor": "Heladas; mínimas de -5 a 0 °C hasta el martes",
+        "valor": "Heladas; temperaturas bajo cero al amanecer",
         "nivel": "bad"
       },
       {
@@ -60,6 +60,14 @@
     }
   ],
   "agenda": [
+    {
+      "hora": "17 nov",
+      "texto": "Vuelta de cuartos de la Liga de Naciones: México, abajo 3-2 en el global, recibe a Jamaica en el Estadio BBVA de Monterrey (20:30 h) y necesita ganar"
+    },
+    {
+      "hora": "Fines de semana",
+      "texto": "Puntos de revisión antialcohol en avenidas de la capital viernes, sábado y domingo; multas de 16,422 a 18,768 pesos"
+    },
     {
       "hora": "15 nov, 8:00–16:00 h",
       "texto": "Corte de luz por mantenimiento de la CFE en 10 comunidades de Lerdo: Monterreycillo, La Loma, La Goma, Santa Anita, León Guzmán, Vicente Nava, Sapioriz, Vallecillos, Juan E. García y Salamanca"
@@ -103,10 +111,6 @@
     {
       "hora": "20 nov, 10:00 h",
       "texto": "Desfile cívico-militar por la Revolución en Gómez Palacio: del parque Morelos por Escobedo y Madero a la Presidencia, con unas 20 escuelas"
-    },
-    {
-      "hora": "17 nov, 20:30 h",
-      "texto": "Liga de Naciones: vuelta de cuartos de final México vs. Jamaica en el Estadio Monterrey"
     },
     {
       "hora": "13 nov–11 dic",
