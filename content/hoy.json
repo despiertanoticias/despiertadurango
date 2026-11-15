@@ -1,32 +1,32 @@
 {
   "fecha": "Sábado 14 de noviembre de 2026",
-  "actualizado": "06:45 h",
+  "actualizado": "18:45 h",
   "clima": {
     "ahora": "",
-    "max": 25,
-    "min": 6,
-    "texto": "Sábado despejado en la capital: amanecer frío de 6 °C, máxima de 25 °C por la tarde y unos 10 °C por la noche, con rachas de viento de hasta 35 km/h. Un nuevo frente frío y una vaguada podrían traer viento fuerte al norte del estado el fin de semana. En zonas serranas se esperan mínimas de -5 a 0 °C y en Durango vientos de 40 a 60 km/h, sin lluvia prevista. El viernes La Rosilla (Guanaceví) marcó -6 °C, la más baja de la temporada (Conagua/SMN, vía El Siglo de Durango y Uno TV).",
+    "max": 24,
+    "min": 7,
+    "texto": "Sábado despejado en la capital: la mínima fue de 7 °C y la máxima de 24 °C. En la sierra hubo heladas: San Bernardo -3.5 °C, La Rosilla (Guanaceví) -2.5 °C y Navíos -1 °C; en El Salto los autos amanecieron cubiertos de hielo. Para el domingo se esperan 6 °C al amanecer, 26 °C por la tarde y unos 12 °C por la noche, sin lluvia y con viento ligero. El SMN prevé mínimas de -5 a 0 °C en la sierra al menos hasta el martes 17 (Conagua/SMN, vía El Siglo de Durango).",
     "laguna_max": 20,
     "laguna_min": 14,
     "filas": [
       {
         "nombre": "Capital, hoy",
-        "valor": "6 a 25 °C, despejado",
+        "valor": "7 a 24 °C, despejado",
         "nivel": "ok"
       },
       {
-        "nombre": "Esta noche",
-        "valor": "Alrededor de 10 °C",
+        "nombre": "Domingo",
+        "valor": "6 a 26 °C, sin lluvia",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de 35 km/h en la capital; 40-60 km/h en el estado",
-        "nivel": "warn"
+        "valor": "Ligero, rachas de hasta 15 km/h el domingo",
+        "nivel": "ok"
       },
       {
         "nombre": "Sierra",
-        "valor": "Mínimas de -5 a 0 °C",
+        "valor": "Heladas; mínimas de -5 a 0 °C hasta el martes",
         "nivel": "bad"
       },
       {
@@ -61,12 +61,8 @@
   ],
   "agenda": [
     {
-      "hora": "14 nov",
-      "texto": "Día Mundial de la Diabetes: módulo de medición de presión y glucosa en la Plaza de Armas de la capital"
-    },
-    {
-      "hora": "14 nov, 8:00–20:00 h",
-      "texto": "Último día del tianguis del Buen Fin de Canacope en la calle Patoni (cierre de Isauro Venzor a 5 de Febrero)"
+      "hora": "15 nov, 8:00–16:00 h",
+      "texto": "Corte de luz por mantenimiento de la CFE en 10 comunidades de Lerdo: Monterreycillo, La Loma, La Goma, Santa Anita, León Guzmán, Vicente Nava, Sapioriz, Vallecillos, Juan E. García y Salamanca"
     },
     {
       "hora": "16 nov",
@@ -85,10 +81,6 @@
       "texto": "«Borrón y Cuenta Nueva» en el corralón de Lerdo: 100 % de subsidio en cargos de 2025 y anteriores y 70 % en los generados hasta el 8 de octubre; solo se paga el arrastre"
     },
     {
-      "hora": "14 nov",
-      "texto": "Esteban y Lauro en el Lienzo Charro del ejido Los Ángeles, dentro del festival «Lerdo Suena y Suena Bien»"
-    },
-    {
       "hora": "Desde 13 nov",
       "texto": "ISSSTE en La Laguna: urgencias y la mayoría de especialidades pasan al Hospital Regional de Torreón; cirugías en el Hospital General de Gómez Palacio; la clínica de Lerdo solo vacunación, rayos X y ultrasonido (871 714 5802)"
     },
@@ -105,20 +97,16 @@
       "texto": "Operativo de seguridad del Buen Fin en los 39 municipios: vigilancia en centros comerciales, cajeros y Centro Histórico de la capital"
     },
     {
-      "hora": "14–15 nov",
-      "texto": "Festival Cenizo 2026 en la Plaza IV Centenario: más de 20 marcas de mezcal, música en vivo y actividades familiares"
+      "hora": "15 nov",
+      "texto": "Último día del Festival Cenizo 2026 en la Plaza IV Centenario: mezcal, música en vivo y actividades familiares"
     },
     {
       "hora": "20 nov, 10:00 h",
       "texto": "Desfile cívico-militar por la Revolución en Gómez Palacio: del parque Morelos por Escobedo y Madero a la Presidencia, con unas 20 escuelas"
     },
     {
-      "hora": "14 y 17 nov",
-      "texto": "Liga de Naciones: Jamaica vs. México en Kingston (sábado 14, 19:00 h) y vuelta en el Estadio Monterrey (martes 17, 20:30 h)"
-    },
-    {
-      "hora": "13–15 nov",
-      "texto": "Cajas municipales de Gómez Palacio con horario ampliado por el Buen Fin: viernes hasta 17:00, sábado 9:00–14:00 y domingo 10:00–14:00 en Presidencia"
+      "hora": "17 nov, 20:30 h",
+      "texto": "Liga de Naciones: vuelta de cuartos de final México vs. Jamaica en el Estadio Monterrey"
     },
     {
       "hora": "13 nov–11 dic",
@@ -203,6 +191,14 @@
     {
       "hora": "24–27 nov, 9:00–15:00 h",
       "texto": "Jornada visual del Club de Leones de Gómez Palacio (ficha de 100 pesos en Av. Mina); niños menores de 12 años el viernes 27"
+    },
+    {
+      "hora": "17, 18, 23 y 26 nov",
+      "texto": "Pruebas gratuitas de antígeno prostático (hombres de 40+): plazuela Baca Ortiz (17, 10–14 h), Unidad Administrativa (18), Aguas del Municipio (23, 10–19 h) y Servicios Públicos (26, 10–19 h)"
+    },
+    {
+      "hora": "13–17 nov",
+      "texto": "Operativo contra el trabajo infantil del DIF en zonas comerciales de Gómez Palacio durante El Buen Fin"
     }
   ]
 }
