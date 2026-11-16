@@ -1,37 +1,37 @@
 {
   "fecha": "Domingo 15 de noviembre de 2026",
-  "actualizado": "06:45 h",
+  "actualizado": "18:40 h",
   "clima": {
     "ahora": "",
     "max": 26,
     "min": 6,
-    "texto": "Domingo despejado en la capital: 6 °C al amanecer, 26 °C por la tarde y unos 12 °C por la noche, sin condiciones para lluvia y con viento ligero, con rachas de hasta 15 km/h (Conagua, vía El Siglo de Durango). En la sierra siguen las madrugadas bajo cero; el sábado San Bernardo registró -3.5 °C. Se vigila un nuevo frente frío casi estacionario sobre el noroeste del país.",
+    "texto": "Domingo despejado y frío al amanecer en la capital: de 6 a 7 °C en la madrugada y de 26 a 27 °C por la tarde, con rachas de viento de 30 a 40 km/h (El Siglo de Durango). Para el lunes 16 se esperan de 7 a 24 °C, cielo mayormente despejado, sin lluvias y rachas de unos 22 km/h; en El Salto, de 5 a 21 °C con más nubes. El frente frío número 6 sigue casi estacionario sobre el noroeste del país.",
     "laguna_max": 20,
     "laguna_min": 14,
     "filas": [
       {
         "nombre": "Capital, hoy",
-        "valor": "6 a 26 °C, despejado",
+        "valor": "6 a 27 °C, despejado",
         "nivel": "ok"
       },
       {
-        "nombre": "Lluvia",
-        "valor": "Sin condiciones para lluvia",
+        "nombre": "Lunes 16",
+        "valor": "7 a 24 °C, sin lluvias",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Ligero, rachas de hasta 15 km/h",
-        "nivel": "ok"
+        "valor": "Rachas de 30 a 40 km/h hoy",
+        "nivel": "warn"
       },
       {
         "nombre": "Sierra",
-        "valor": "Heladas; temperaturas bajo cero al amanecer",
-        "nivel": "bad"
+        "valor": "El Salto: mínima de 5 °C el lunes",
+        "nivel": "warn"
       },
       {
         "nombre": "Madrugadas",
-        "valor": "Posibles bancos de niebla en carreteras",
+        "valor": "Frías; sensación de 5 °C a las 8:00 h",
         "nivel": "warn"
       }
     ]
@@ -61,6 +61,14 @@
   ],
   "agenda": [
     {
+      "hora": "17–20 nov",
+      "texto": "Licitación de la supervisión externa del colector San Ignacio en Gómez Palacio: propuestas el 17, fallo el 19 (comprasestatal.durango.gob.mx) y firma el 20; obra prevista del 23 de noviembre al 21 de mayo"
+    },
+    {
+      "hora": "Hasta 15 dic",
+      "texto": "El Congreso del Estado dictamina las leyes de ingresos 2027 de los municipios; el paquete económico estatal debe entregarse a más tardar el 30 de noviembre"
+    },
+    {
       "hora": "17 nov",
       "texto": "Vuelta de cuartos de la Liga de Naciones: México, abajo 3-2 en el global, recibe a Jamaica en el Estadio BBVA de Monterrey (20:30 h) y necesita ganar"
     },
@@ -69,20 +77,12 @@
       "texto": "Puntos de revisión antialcohol en avenidas de la capital viernes, sábado y domingo; multas de 16,422 a 18,768 pesos"
     },
     {
-      "hora": "15 nov, 8:00–16:00 h",
-      "texto": "Corte de luz por mantenimiento de la CFE en 10 comunidades de Lerdo: Monterreycillo, La Loma, La Goma, Santa Anita, León Guzmán, Vicente Nava, Sapioriz, Vallecillos, Juan E. García y Salamanca"
-    },
-    {
       "hora": "16 nov",
       "texto": "Bancos cerrados por el día de descanso de la Revolución; cajeros, banca en línea y apps funcionan normalmente"
     },
     {
       "hora": "13–17 nov",
       "texto": "El Buen Fin en Durango: la Canaco prevé ventas de más de mil millones de pesos; verifica comercios participantes con el código QR o en elbuenfin.org"
-    },
-    {
-      "hora": "15 nov, 8:00 h",
-      "texto": "Día Mundial de la Diabetes: misa en la Catedral y caminata por Constitución y Dolores del Río hasta la Biblioteca del Árbol (Asociación Unidos Aprendiendo a Vivir con Diabetes)"
     },
     {
       "hora": "Hasta 30 nov",
@@ -103,10 +103,6 @@
     {
       "hora": "13–17 nov",
       "texto": "Operativo de seguridad del Buen Fin en los 39 municipios: vigilancia en centros comerciales, cajeros y Centro Histórico de la capital"
-    },
-    {
-      "hora": "15 nov",
-      "texto": "Último día del Festival Cenizo 2026 en la Plaza IV Centenario: mezcal, música en vivo y actividades familiares"
     },
     {
       "hora": "20 nov, 10:00 h",
