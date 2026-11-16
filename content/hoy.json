@@ -1,37 +1,37 @@
 {
-  "fecha": "Domingo 15 de noviembre de 2026",
-  "actualizado": "18:40 h",
+  "fecha": "Lunes 16 de noviembre de 2026",
+  "actualizado": "06:40 h",
   "clima": {
     "ahora": "",
-    "max": 26,
-    "min": 6,
-    "texto": "Domingo despejado y frío al amanecer en la capital: de 6 a 7 °C en la madrugada y de 26 a 27 °C por la tarde, con rachas de viento de 30 a 40 km/h (El Siglo de Durango). Para el lunes 16 se esperan de 7 a 24 °C, cielo mayormente despejado, sin lluvias y rachas de unos 22 km/h; en El Salto, de 5 a 21 °C con más nubes. El frente frío número 6 sigue casi estacionario sobre el noroeste del país.",
-    "laguna_max": 20,
-    "laguna_min": 14,
+    "max": 24,
+    "min": 7,
+    "texto": "Lunes templado y seco en la capital: alrededor de 8 °C a las 8:00 h con sensación de 5 °C, y máxima cercana a 24 °C hacia las 16:00 h, cielo mayormente despejado y rachas del oeste de hasta 22 km/h por la tarde (El Siglo de Durango). En Gómez Palacio, de 11 a 27 °C y soleado; en El Salto, de 5 a 6 °C de mínima y 21 °C de máxima, con más nubes; en Tamazula, hasta 33 °C.",
+    "laguna_max": 27,
+    "laguna_min": 11,
     "filas": [
       {
         "nombre": "Capital, hoy",
-        "valor": "6 a 27 °C, despejado",
+        "valor": "7 a 24 °C, despejado",
         "nivel": "ok"
       },
       {
-        "nombre": "Lunes 16",
-        "valor": "7 a 24 °C, sin lluvias",
+        "nombre": "Lluvia",
+        "valor": "Sin precipitaciones",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de 30 a 40 km/h hoy",
+        "valor": "Rachas de hasta 22 km/h por la tarde",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Madrugada",
+        "valor": "Fría; sensación de 5 °C a las 8:00 h",
         "nivel": "warn"
       },
       {
         "nombre": "Sierra",
-        "valor": "El Salto: mínima de 5 °C el lunes",
-        "nivel": "warn"
-      },
-      {
-        "nombre": "Madrugadas",
-        "valor": "Frías; sensación de 5 °C a las 8:00 h",
+        "valor": "El Salto: mínima de 5 a 6 °C",
         "nivel": "warn"
       }
     ]
@@ -40,26 +40,34 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.52",
-      "nota": "Cierre del viernes 13 nov (Dow Jones, vía Infobae); -0.47 % en el día"
+      "valor": "$18.56",
+      "nota": "Apertura del lunes 16 nov (Dow Jones, vía Infobae); cierre previo $18.51"
     },
     {
       "nombre": "Gasolina Magna",
-      "valor": "$23.92",
-      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 11 nov"
+      "valor": "$23.86",
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 16 nov"
     },
     {
       "nombre": "Gasolina Premium",
-      "valor": "$29.17",
-      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 11 nov"
+      "valor": "$29.16",
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 16 nov"
     },
     {
       "nombre": "Diésel",
-      "valor": "$26.96",
-      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 11 nov"
+      "valor": "$26.98",
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 16 nov"
     }
   ],
   "agenda": [
+    {
+      "hora": "16 nov",
+      "texto": "Última etapa de la Durango Titan Desert: 76 km de El Tecuán al campo de beisbol de Garabitos"
+    },
+    {
+      "hora": "16 nov",
+      "texto": "Día de descanso por la Revolución: sin clases en educación básica (regreso el martes 17) y bancos cerrados; el Sideapa de Gómez Palacio abre cajas de 8:00 a 17:00 h"
+    },
     {
       "hora": "17–20 nov",
       "texto": "Licitación de la supervisión externa del colector San Ignacio en Gómez Palacio: propuestas el 17, fallo el 19 (comprasestatal.durango.gob.mx) y firma el 20; obra prevista del 23 de noviembre al 21 de mayo"
@@ -75,10 +83,6 @@
     {
       "hora": "Fines de semana",
       "texto": "Puntos de revisión antialcohol en avenidas de la capital viernes, sábado y domingo; multas de 16,422 a 18,768 pesos"
-    },
-    {
-      "hora": "16 nov",
-      "texto": "Bancos cerrados por el día de descanso de la Revolución; cajeros, banca en línea y apps funcionan normalmente"
     },
     {
       "hora": "13–17 nov",
@@ -133,10 +137,6 @@
       "texto": "Descuentos de El Buen Fin en refrendo vehicular y 50 % en licencias y cambio de propietario (Secretaría de Finanzas del Estado); en La Laguna, de 8:30 a 14:30 h en los Centros Multipago y Recaudación de Rentas de Lerdo"
     },
     {
-      "hora": "13–16 nov",
-      "texto": "Fin de semana largo en educación básica: sin clases el viernes 13 (registro de calificaciones) y el lunes 16 (Revolución Mexicana); regreso el martes 17"
-    },
-    {
       "hora": "Noviembre",
       "texto": "Pruebas rápidas gratuitas de antígeno prostático para hombres mayores de 40 años, en la capital y la zona rural"
     },
@@ -159,14 +159,6 @@
     {
       "hora": "Hasta 30 nov",
       "texto": "Festival de la Revolución en Gómez Palacio, con música, teatro, danza y cine"
-    },
-    {
-      "hora": "13–16 nov",
-      "texto": "Carrera ciclista Titan Desert en la ciudad de Durango"
-    },
-    {
-      "hora": "Hasta 16 nov",
-      "texto": "Convocatoria para mujeres del sector forestal en el Consejo Estatal Forestal (SRNMA)"
     },
     {
       "hora": "3–7 dic",

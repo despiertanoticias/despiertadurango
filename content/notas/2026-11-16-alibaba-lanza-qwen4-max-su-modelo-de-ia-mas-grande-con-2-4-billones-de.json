@@ -1,0 +1,18 @@
+{
+  "titulo": "Alibaba lanza Qwen4-Max, su modelo de IA más grande, con 2.4 billones de parámetros y un millón de tokens de contexto",
+  "seccion": "tecnologia",
+  "fecha": "2026-11-16T06:40",
+  "resumen": "Alibaba presentó Qwen4-Max, al que describe como su modelo más avanzado: tiene 2.4 billones de parámetros en arquitectura de mezcla de expertos, activa unos 71 mil millones por token, procesa texto, imágenes y video, y admite un contexto de un millón de tokens. Se ofrece en la nube y por API, no como modelo abierto. Las mejoras de eficiencia que anuncia, como cerca de 60 % menos costo por tarea, son cifras de la propia empresa aún sin evaluación independiente.",
+  "cuerpo": "",
+  "imagen_tema": "tech",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "Noticias Latinas",
+      "enlace": "https://www.noticias-latinas.net/tecnologia/alibaba-lanza-qwen4-max-millon-tokens-24-billones-parametros/20261116115839026656.html"
+    }
+  ],
+  "destacada": false,
+  "autor": "Redacción"
+}
