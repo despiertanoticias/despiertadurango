@@ -1,38 +1,38 @@
 {
   "fecha": "Lunes 16 de noviembre de 2026",
-  "actualizado": "06:40 h",
+  "actualizado": "18:50 h",
   "clima": {
     "ahora": "",
     "max": 24,
     "min": 7,
-    "texto": "Lunes templado y seco en la capital: alrededor de 8 °C a las 8:00 h con sensación de 5 °C, y máxima cercana a 24 °C hacia las 16:00 h, cielo mayormente despejado y rachas del oeste de hasta 22 km/h por la tarde (El Siglo de Durango). En Gómez Palacio, de 11 a 27 °C y soleado; en El Salto, de 5 a 6 °C de mínima y 21 °C de máxima, con más nubes; en Tamazula, hasta 33 °C.",
+    "texto": "Lunes seco y soleado en la capital, con mínima de 6.8 °C al amanecer del domingo y máxima de 27.2 °C registradas en las últimas 24 horas. Para el martes 17 se esperan de 7 a 8 °C en la mañana y de 26 a 27 °C por la tarde, baja probabilidad de lluvia y rachas de 30 a 40 km/h (El Siglo de Durango). El frente frío 7 podría llevar mínimas de -5 a 0 °C a la sierra de Durango el martes y el miércoles (SMN, vía El Financiero).",
     "laguna_max": 27,
     "laguna_min": 11,
     "filas": [
       {
-        "nombre": "Capital, hoy",
-        "valor": "7 a 24 °C, despejado",
+        "nombre": "Capital, martes",
+        "valor": "7 a 27 °C, despejado",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia",
-        "valor": "Sin precipitaciones",
+        "valor": "Baja probabilidad",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de hasta 22 km/h por la tarde",
-        "nivel": "ok"
-      },
-      {
-        "nombre": "Madrugada",
-        "valor": "Fría; sensación de 5 °C a las 8:00 h",
+        "valor": "Rachas de 30 a 40 km/h el martes",
         "nivel": "warn"
       },
       {
         "nombre": "Sierra",
-        "valor": "El Salto: mínima de 5 a 6 °C",
-        "nivel": "warn"
+        "valor": "Mínimas de -5 a 0 °C por el frente frío 7",
+        "nivel": "bad"
+      },
+      {
+        "nombre": "Miércoles",
+        "valor": "10 a 25 °C en la capital",
+        "nivel": "ok"
       }
     ]
   },
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.56",
-      "nota": "Apertura del lunes 16 nov (Dow Jones, vía Infobae); cierre previo $18.51"
+      "valor": "$18.53",
+      "nota": "Cierre del lunes 16 nov (Dow Jones, vía Infobae); +0.11 % frente a $18.51"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,12 +61,8 @@
   ],
   "agenda": [
     {
-      "hora": "16 nov",
-      "texto": "Última etapa de la Durango Titan Desert: 76 km de El Tecuán al campo de beisbol de Garabitos"
-    },
-    {
-      "hora": "16 nov",
-      "texto": "Día de descanso por la Revolución: sin clases en educación básica (regreso el martes 17) y bancos cerrados; el Sideapa de Gómez Palacio abre cajas de 8:00 a 17:00 h"
+      "hora": "17 nov, 2:00 h",
+      "texto": "Reunión bilateral de Claudia Sheinbaum con Xi Jinping en Shenzhen (APEC); a las 4:00 h, con Mark Carney"
     },
     {
       "hora": "17–20 nov",
@@ -75,6 +71,14 @@
     {
       "hora": "Hasta 15 dic",
       "texto": "El Congreso del Estado dictamina las leyes de ingresos 2027 de los municipios; el paquete económico estatal debe entregarse a más tardar el 30 de noviembre"
+    },
+    {
+      "hora": "24 nov, 10:30 h",
+      "texto": "Conversatorio «Mi voz, mi historia, mis derechos» con Eufrosina Cruz y Kenya Cuevas en el auditorio del Hospital 450"
+    },
+    {
+      "hora": "25 o 26 nov",
+      "texto": "Banderazo del operativo «Heroínas y Héroes Paisanos» del INM en la Central de Autobuses de la capital (fecha por confirmar)"
     },
     {
       "hora": "17 nov",
