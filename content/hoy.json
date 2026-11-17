@@ -1,11 +1,11 @@
 {
-  "fecha": "Lunes 16 de noviembre de 2026",
-  "actualizado": "18:50 h",
+  "fecha": "Martes 17 de noviembre de 2026",
+  "actualizado": "06:50 h",
   "clima": {
     "ahora": "",
-    "max": 24,
+    "max": 27,
     "min": 7,
-    "texto": "Lunes seco y soleado en la capital, con mínima de 6.8 °C al amanecer del domingo y máxima de 27.2 °C registradas en las últimas 24 horas. Para el martes 17 se esperan de 7 a 8 °C en la mañana y de 26 a 27 °C por la tarde, baja probabilidad de lluvia y rachas de 30 a 40 km/h (El Siglo de Durango). El frente frío 7 podría llevar mínimas de -5 a 0 °C a la sierra de Durango el martes y el miércoles (SMN, vía El Financiero).",
+    "texto": "Martes con mañana fría y tarde cálida en la capital: de 7 a 8 °C al amanecer y de 26 a 27 °C por la tarde, baja probabilidad de lluvia y rachas de 30 a 40 km/h. El miércoles 18 se esperan de 10 a 11 °C de mínima y de 24 a 25 °C de máxima, con rachas de 20 a 30 km/h (El Siglo de Durango). El frente frío 6 se mantiene hasta el jueves 19 con mínimas de -5 a 0 °C en zonas serranas del estado.",
     "laguna_max": 27,
     "laguna_min": 11,
     "filas": [
@@ -21,12 +21,12 @@
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de 30 a 40 km/h el martes",
+        "valor": "Rachas de 30 a 40 km/h",
         "nivel": "warn"
       },
       {
         "nombre": "Sierra",
-        "valor": "Mínimas de -5 a 0 °C por el frente frío 7",
+        "valor": "Mínimas de -5 a 0 °C hasta el jueves 19",
         "nivel": "bad"
       },
       {
@@ -40,29 +40,41 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.53",
-      "nota": "Cierre del lunes 16 nov (Dow Jones, vía Infobae); +0.11 % frente a $18.51"
+      "valor": "$18.54",
+      "nota": "Mercado mayorista, mañana del martes 17 nov (vía El Congresista); FIX Banxico 18.5525"
     },
     {
       "nombre": "Gasolina Magna",
       "valor": "$23.86",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 16 nov"
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 17 nov"
     },
     {
       "nombre": "Gasolina Premium",
       "valor": "$29.16",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 16 nov"
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 17 nov"
     },
     {
       "nombre": "Diésel",
       "valor": "$26.98",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 16 nov"
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 17 nov"
     }
   ],
   "agenda": [
     {
-      "hora": "17 nov, 2:00 h",
-      "texto": "Reunión bilateral de Claudia Sheinbaum con Xi Jinping en Shenzhen (APEC); a las 4:00 h, con Mark Carney"
+      "hora": "Hoy, 20:30 h",
+      "texto": "México recibe a Jamaica en el Estadio BBVA de Monterrey (vuelta de cuartos de la Liga de Naciones); necesita ganar tras el 3-2 de la ida"
+    },
+    {
+      "hora": "Hoy, 8:00–17:00 h",
+      "texto": "Cierre de la calle General Esteban Coronado, entre Dolores del Río e Independencia, por mantenimiento del pavimento"
+    },
+    {
+      "hora": "Hasta 25 nov",
+      "texto": "Convocatoria de movilidad UJED para el semestre A-2027 en universidades de México y el extranjero (Dirección de Internacionalización, 618 827 1202)"
+    },
+    {
+      "hora": "15 nov–20 dic",
+      "texto": "Donatón de juguetes nuevos (no bélicos ni de pilas) y dulces en la oficina del Templo Expiatorio del Sagrado Corazón de Jesús"
     },
     {
       "hora": "17–20 nov",
@@ -79,10 +91,6 @@
     {
       "hora": "25 o 26 nov",
       "texto": "Banderazo del operativo «Heroínas y Héroes Paisanos» del INM en la Central de Autobuses de la capital (fecha por confirmar)"
-    },
-    {
-      "hora": "17 nov",
-      "texto": "Vuelta de cuartos de la Liga de Naciones: México, abajo 3-2 en el global, recibe a Jamaica en el Estadio BBVA de Monterrey (20:30 h) y necesita ganar"
     },
     {
       "hora": "Fines de semana",
