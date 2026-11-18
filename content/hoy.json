@@ -1,38 +1,38 @@
 {
-  "fecha": "Martes 17 de noviembre de 2026",
-  "actualizado": "18:30 h",
+  "fecha": "Miércoles 18 de noviembre de 2026",
+  "actualizado": "06:40 h",
   "clima": {
     "ahora": "",
-    "max": 27,
-    "min": 7,
-    "texto": "Martes con mañana fría y tarde cálida en la capital (7 a 27 °C). Para el miércoles 18 se esperan de 9 a 10 °C de mínima y de 22 a 23 °C de máxima, con 1 % de probabilidad de lluvia y rachas de unos 24 km/h del suroeste; en Gómez Palacio, de 12 a 24 °C, y en El Salto, de 7 a 20 °C (El Siglo de Durango).",
-    "laguna_max": 27,
-    "laguna_min": 11,
+    "max": 23,
+    "min": 9,
+    "texto": "Miércoles fresco por la mañana y templado por la tarde en la capital, de 9 a 23 °C, con 1 % de probabilidad de lluvia y rachas de unos 24 km/h del suroeste; en Gómez Palacio, de 12 a 24 °C, mayormente nublado y sin lluvia, y en El Salto, de 7 a 20 °C (El Siglo de Durango). El SMN prevé mínimas de -5 a 0 °C en zonas serranas del estado.",
+    "laguna_max": 24,
+    "laguna_min": 12,
     "filas": [
       {
-        "nombre": "Capital, martes",
-        "valor": "7 a 27 °C, despejado",
+        "nombre": "Capital, miércoles",
+        "valor": "9 a 23 °C, seco",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia",
-        "valor": "Baja probabilidad",
+        "valor": "1 % de probabilidad",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de 30 a 40 km/h",
-        "nivel": "warn"
+        "valor": "Rachas de unos 24 km/h del suroeste",
+        "nivel": "ok"
       },
       {
         "nombre": "Sierra",
-        "valor": "Mínimas de -5 a 0 °C hasta el jueves 19",
+        "valor": "Mínimas de -5 a 0 °C (SMN)",
         "nivel": "bad"
       },
       {
-        "nombre": "Miércoles",
-        "valor": "9 a 23 °C en la capital, seco",
-        "nivel": "ok"
+        "nombre": "El Salto",
+        "valor": "7 a 20 °C",
+        "nivel": "warn"
       }
     ]
   },
@@ -40,30 +40,26 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.43",
-      "nota": "Cierre del martes 17 nov según Banxico (18.4298); FIX 18.4677"
+      "valor": "$18.44",
+      "nota": "Cotización del miércoles 18 nov por la mañana (Clarín, vía Potosí Noticias); cierre Banxico del martes, 18.4298"
     },
     {
       "nombre": "Gasolina Magna",
       "valor": "$23.86",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 17 nov"
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 18 nov (precios publicados el 17)"
     },
     {
       "nombre": "Gasolina Premium",
       "valor": "$29.16",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 17 nov"
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 18 nov (precios publicados el 17)"
     },
     {
       "nombre": "Diésel",
       "valor": "$26.98",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 17 nov"
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 18 nov (precios publicados el 17)"
     }
   ],
   "agenda": [
-    {
-      "hora": "Hoy, 20:30 h",
-      "texto": "México recibe a Jamaica en el Estadio BBVA de Monterrey (vuelta de cuartos de la Liga de Naciones); necesita ganar tras el 3-2 de la ida"
-    },
     {
       "hora": "16–20 nov",
       "texto": "179 vacantes de 114 empresas en la capital y La Laguna difundidas por el Gobierno del Estado (servicio estatal de empleo)"
@@ -81,8 +77,8 @@
       "texto": "Donatón de juguetes nuevos (no bélicos ni de pilas) y dulces en la oficina del Templo Expiatorio del Sagrado Corazón de Jesús"
     },
     {
-      "hora": "17–20 nov",
-      "texto": "Licitación de la supervisión externa del colector San Ignacio en Gómez Palacio: propuestas el 17, fallo el 19 (comprasestatal.durango.gob.mx) y firma el 20; obra prevista del 23 de noviembre al 21 de mayo"
+      "hora": "19–20 nov",
+      "texto": "Licitación de la supervisión externa del colector San Ignacio en Gómez Palacio: fallo el 19 (comprasestatal.durango.gob.mx) y firma el 20; obra prevista del 23 de noviembre al 21 de mayo"
     },
     {
       "hora": "Hasta 15 dic",
@@ -101,10 +97,6 @@
       "texto": "Puntos de revisión antialcohol en avenidas de la capital viernes, sábado y domingo; multas de 16,422 a 18,768 pesos"
     },
     {
-      "hora": "13–17 nov",
-      "texto": "El Buen Fin en Durango: la Canaco prevé ventas de más de mil millones de pesos; verifica comercios participantes con el código QR o en elbuenfin.org"
-    },
-    {
       "hora": "Hasta 30 nov",
       "texto": "«Borrón y Cuenta Nueva» en el corralón de Lerdo: 100 % de subsidio en cargos de 2025 y anteriores y 70 % en los generados hasta el 8 de octubre; solo se paga el arrastre"
     },
@@ -119,10 +111,6 @@
     {
       "hora": "21–22 nov",
       "texto": "Feria del Bienestar en la Expo Feria de Gómez Palacio: materiales de construcción, limpieza y canasta básica a precio subsidiado"
-    },
-    {
-      "hora": "13–17 nov",
-      "texto": "Operativo de seguridad del Buen Fin en los 39 municipios: vigilancia en centros comerciales, cajeros y Centro Histórico de la capital"
     },
     {
       "hora": "20 nov, 10:00 h",
@@ -147,10 +135,6 @@
     {
       "hora": "13–22 nov",
       "texto": "Festival «Lerdo Suena y Suena Bien» por los 132 años de Lerdo: Conjunto Primavera (15) y Bruno Bichir (16); gratuito salvo la corrida del 21"
-    },
-    {
-      "hora": "Hasta 17 nov",
-      "texto": "Descuentos de El Buen Fin en refrendo vehicular y 50 % en licencias y cambio de propietario (Secretaría de Finanzas del Estado); en La Laguna, de 8:30 a 14:30 h en los Centros Multipago y Recaudación de Rentas de Lerdo"
     },
     {
       "hora": "Noviembre",
@@ -189,24 +173,12 @@
       "texto": "Pasaporte del café de Canirac: 30 cafeterías con promociones hasta febrero; venta general a 100 pesos"
     },
     {
-      "hora": "13–17 nov",
-      "texto": "Sideapaar: hasta 80 % de descuento en adeudos de agua en la zona rural de Gómez Palacio (oficinas en Santiago Lavín 190 pte., 8:00–16:00 h, y recorridos por comunidades)"
-    },
-    {
-      "hora": "17 nov, 16:00 h",
-      "texto": "Entrega de la presea «Ciudadano Distinguido 2026» en sesión solemne de Cabildo, Teatro Hermila Galindo de Lerdo"
-    },
-    {
       "hora": "24–27 nov, 9:00–15:00 h",
       "texto": "Jornada visual del Club de Leones de Gómez Palacio (ficha de 100 pesos en Av. Mina); niños menores de 12 años el viernes 27"
     },
     {
-      "hora": "17, 18, 23 y 26 nov",
-      "texto": "Pruebas gratuitas de antígeno prostático (hombres de 40+): plazuela Baca Ortiz (17, 10–14 h), Unidad Administrativa (18), Aguas del Municipio (23, 10–19 h) y Servicios Públicos (26, 10–19 h)"
-    },
-    {
-      "hora": "13–17 nov",
-      "texto": "Operativo contra el trabajo infantil del DIF en zonas comerciales de Gómez Palacio durante El Buen Fin"
+      "hora": "18, 23 y 26 nov",
+      "texto": "Pruebas gratuitas de antígeno prostático (hombres de 40+): Unidad Administrativa (18), Aguas del Municipio (23, 10–19 h) y Servicios Públicos (26, 10–19 h)"
     }
   ]
 }
