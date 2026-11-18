@@ -1,11 +1,11 @@
 {
   "fecha": "Martes 17 de noviembre de 2026",
-  "actualizado": "06:50 h",
+  "actualizado": "18:30 h",
   "clima": {
     "ahora": "",
     "max": 27,
     "min": 7,
-    "texto": "Martes con mañana fría y tarde cálida en la capital: de 7 a 8 °C al amanecer y de 26 a 27 °C por la tarde, baja probabilidad de lluvia y rachas de 30 a 40 km/h. El miércoles 18 se esperan de 10 a 11 °C de mínima y de 24 a 25 °C de máxima, con rachas de 20 a 30 km/h (El Siglo de Durango). El frente frío 6 se mantiene hasta el jueves 19 con mínimas de -5 a 0 °C en zonas serranas del estado.",
+    "texto": "Martes con mañana fría y tarde cálida en la capital (7 a 27 °C). Para el miércoles 18 se esperan de 9 a 10 °C de mínima y de 22 a 23 °C de máxima, con 1 % de probabilidad de lluvia y rachas de unos 24 km/h del suroeste; en Gómez Palacio, de 12 a 24 °C, y en El Salto, de 7 a 20 °C (El Siglo de Durango).",
     "laguna_max": 27,
     "laguna_min": 11,
     "filas": [
@@ -31,7 +31,7 @@
       },
       {
         "nombre": "Miércoles",
-        "valor": "10 a 25 °C en la capital",
+        "valor": "9 a 23 °C en la capital, seco",
         "nivel": "ok"
       }
     ]
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.54",
-      "nota": "Mercado mayorista, mañana del martes 17 nov (vía El Congresista); FIX Banxico 18.5525"
+      "valor": "$18.43",
+      "nota": "Cierre del martes 17 nov según Banxico (18.4298); FIX 18.4677"
     },
     {
       "nombre": "Gasolina Magna",
@@ -65,8 +65,12 @@
       "texto": "México recibe a Jamaica en el Estadio BBVA de Monterrey (vuelta de cuartos de la Liga de Naciones); necesita ganar tras el 3-2 de la ida"
     },
     {
-      "hora": "Hoy, 8:00–17:00 h",
-      "texto": "Cierre de la calle General Esteban Coronado, entre Dolores del Río e Independencia, por mantenimiento del pavimento"
+      "hora": "16–20 nov",
+      "texto": "179 vacantes de 114 empresas en la capital y La Laguna difundidas por el Gobierno del Estado (servicio estatal de empleo)"
+    },
+    {
+      "hora": "29 nov, 17:00 y 19:30 h",
+      "texto": "«Las que merecían más», de Ponzoña Musical, en el Teatro Victoria; boletos de 300 a 500 pesos en newticket.com y taquilla"
     },
     {
       "hora": "Hasta 25 nov",
