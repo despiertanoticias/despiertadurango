@@ -1,38 +1,38 @@
 {
-  "fecha": "Miércoles 18 de noviembre de 2026",
-  "actualizado": "06:40 h",
+  "fecha": "Jueves 19 de noviembre de 2026",
+  "actualizado": "06:41 h",
   "clima": {
     "ahora": "",
-    "max": 23,
-    "min": 9,
-    "texto": "Miércoles fresco por la mañana y templado por la tarde en la capital, de 9 a 23 °C, con 1 % de probabilidad de lluvia y rachas de unos 24 km/h del suroeste; en Gómez Palacio, de 12 a 24 °C, mayormente nublado y sin lluvia, y en El Salto, de 7 a 20 °C (El Siglo de Durango). El SMN prevé mínimas de -5 a 0 °C en zonas serranas del estado.",
-    "laguna_max": 24,
+    "max": 24,
+    "min": 8,
+    "texto": "Jueves de mañana fría y tarde templada en la capital, de 8 a 24 °C, con la máxima hacia las 15:00 horas, lluvia muy poco probable y rachas de hasta unos 22 km/h del suroeste; en Gómez Palacio, de 12 a 26 °C, parcialmente nublado y con rachas de unos 24 km/h del este (El Siglo de Durango).",
+    "laguna_max": 26,
     "laguna_min": 12,
     "filas": [
       {
-        "nombre": "Capital, miércoles",
-        "valor": "9 a 23 °C, seco",
+        "nombre": "Capital, jueves",
+        "valor": "8 a 24 °C, seco",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia",
-        "valor": "1 % de probabilidad",
+        "valor": "Muy poco probable",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de unos 24 km/h del suroeste",
+        "valor": "Rachas de hasta 22 km/h del suroeste",
         "nivel": "ok"
       },
       {
-        "nombre": "Sierra",
-        "valor": "Mínimas de -5 a 0 °C (SMN)",
-        "nivel": "bad"
+        "nombre": "Mañana",
+        "valor": "Fría, cerca de 8 °C",
+        "nivel": "warn"
       },
       {
-        "nombre": "El Salto",
-        "valor": "7 a 20 °C",
-        "nivel": "warn"
+        "nombre": "Gómez Palacio",
+        "valor": "12 a 26 °C",
+        "nivel": "ok"
       }
     ]
   },
@@ -40,26 +40,34 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.44",
-      "nota": "Cotización del miércoles 18 nov por la mañana (Clarín, vía Potosí Noticias); cierre Banxico del martes, 18.4298"
+      "valor": "$18.85",
+      "nota": "Tipo de cambio FIX de Banxico del miércoles 18 nov: 18.8456; el peso se depreció 0.93 % (El Mañana)"
     },
     {
       "nombre": "Gasolina Magna",
-      "valor": "$23.86",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 18 nov (precios publicados el 17)"
+      "valor": "$23.92",
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 19 nov"
     },
     {
       "nombre": "Gasolina Premium",
       "valor": "$29.16",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 18 nov (precios publicados el 17)"
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 19 nov"
     },
     {
       "nombre": "Diésel",
-      "valor": "$26.98",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 18 nov (precios publicados el 17)"
+      "valor": "$26.96",
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 19 nov"
     }
   ],
   "agenda": [
+    {
+      "hora": "20 nov, 10:00 h",
+      "texto": "Desfile por el 116 aniversario de la Revolución en la capital: de 20 de Noviembre y Constitución hacia el oriente hasta la calle Cuauhtémoc; cierres en el Centro Histórico desde las 7:00 h"
+    },
+    {
+      "hora": "27 nov",
+      "texto": "Sin clases en educación básica por Consejo Técnico Escolar (SEP); las vacaciones de invierno van del 21 de diciembre al 6 de enero"
+    },
     {
       "hora": "16–20 nov",
       "texto": "179 vacantes de 114 empresas en la capital y La Laguna difundidas por el Gobierno del Estado (servicio estatal de empleo)"
@@ -177,8 +185,8 @@
       "texto": "Jornada visual del Club de Leones de Gómez Palacio (ficha de 100 pesos en Av. Mina); niños menores de 12 años el viernes 27"
     },
     {
-      "hora": "18, 23 y 26 nov",
-      "texto": "Pruebas gratuitas de antígeno prostático (hombres de 40+): Unidad Administrativa (18), Aguas del Municipio (23, 10–19 h) y Servicios Públicos (26, 10–19 h)"
+      "hora": "23 y 26 nov, 10–19 h",
+      "texto": "Pruebas gratuitas de antígeno prostático (hombres de 40+): Aguas del Municipio (23) y Servicios Públicos (26)"
     }
   ]
 }
