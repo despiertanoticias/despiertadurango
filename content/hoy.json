@@ -1,38 +1,38 @@
 {
   "fecha": "Jueves 19 de noviembre de 2026",
-  "actualizado": "06:41 h",
+  "actualizado": "18:45 h",
   "clima": {
     "ahora": "",
-    "max": 24,
-    "min": 8,
-    "texto": "Jueves de mañana fría y tarde templada en la capital, de 8 a 24 °C, con la máxima hacia las 15:00 horas, lluvia muy poco probable y rachas de hasta unos 22 km/h del suroeste; en Gómez Palacio, de 12 a 26 °C, parcialmente nublado y con rachas de unos 24 km/h del este (El Siglo de Durango).",
+    "max": 25,
+    "min": 10,
+    "texto": "Viernes mayormente nublado en la capital, de 10 a 25 °C, sin lluvia y con rachas de hasta 25 km/h; en la sierra se esperan otra vez temperaturas bajo cero, luego de que La Rosilla (Guanaceví) llegara a -7.5 °C el jueves. El séptimo frente frío podría sentirse el fin de semana (El Siglo de Durango).",
     "laguna_max": 26,
     "laguna_min": 12,
     "filas": [
       {
-        "nombre": "Capital, jueves",
-        "valor": "8 a 24 °C, seco",
+        "nombre": "Capital, viernes",
+        "valor": "10 a 25 °C, nublado",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia",
-        "valor": "Muy poco probable",
+        "valor": "Sin probabilidad",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de hasta 22 km/h del suroeste",
+        "valor": "Rachas de hasta 25 km/h",
         "nivel": "ok"
       },
       {
-        "nombre": "Mañana",
-        "valor": "Fría, cerca de 8 °C",
+        "nombre": "Sierra",
+        "valor": "Heladas, bajo cero",
+        "nivel": "bad"
+      },
+      {
+        "nombre": "Fin de semana",
+        "valor": "Posible efecto del frente frío 7",
         "nivel": "warn"
-      },
-      {
-        "nombre": "Gómez Palacio",
-        "valor": "12 a 26 °C",
-        "nivel": "ok"
       }
     ]
   },
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$18.85",
-      "nota": "Tipo de cambio FIX de Banxico del miércoles 18 nov: 18.8456; el peso se depreció 0.93 % (El Mañana)"
+      "valor": "$19.08",
+      "nota": "Cierre del jueves 19 nov (Dow Jones, vía Infobae): alza de 1.2 %; el peso, en su peor nivel desde junio de 2025"
     },
     {
       "nombre": "Gasolina Magna",
@@ -69,6 +69,10 @@
       "texto": "Sin clases en educación básica por Consejo Técnico Escolar (SEP); las vacaciones de invierno van del 21 de diciembre al 6 de enero"
     },
     {
+      "hora": "26–27 nov, 9:30 h",
+      "texto": "Curso gratuito «Estrategias comerciales para el crecimiento empresarial» con NAFIN en el Salón Benito Juárez de la Presidencia de Gómez Palacio"
+    },
+    {
       "hora": "16–20 nov",
       "texto": "179 vacantes de 114 empresas en la capital y La Laguna difundidas por el Gobierno del Estado (servicio estatal de empleo)"
     },
@@ -85,8 +89,8 @@
       "texto": "Donatón de juguetes nuevos (no bélicos ni de pilas) y dulces en la oficina del Templo Expiatorio del Sagrado Corazón de Jesús"
     },
     {
-      "hora": "19–20 nov",
-      "texto": "Licitación de la supervisión externa del colector San Ignacio en Gómez Palacio: fallo el 19 (comprasestatal.durango.gob.mx) y firma el 20; obra prevista del 23 de noviembre al 21 de mayo"
+      "hora": "20 nov",
+      "texto": "Firma del contrato de supervisión externa del colector San Ignacio y el emisor central de Gómez Palacio en la CAED (5.4 millones de pesos); obra del 23 de noviembre al 21 de mayo"
     },
     {
       "hora": "Hasta 15 dic",
