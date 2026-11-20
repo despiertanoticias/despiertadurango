@@ -1,0 +1,18 @@
+{
+  "titulo": "Ciberataque con una herramienta de IA deja más de 10 días sin sistemas de personal a la Comisión Europea",
+  "seccion": "tecnologia",
+  "fecha": "2026-11-20T06:39",
+  "resumen": "La Comisión Europea confirmó, a través de su portavoz Thomas Regnier, una campaña de ataque con Artex, una herramienta de inteligencia artificial de código abierto, que dejó fuera de servicio más de 10 días sus plataformas de nómina y licencias (Sysper) y de reembolso médico (MyPMO). El equipo CERT-EU la detectó este mes y aún no se sabe si se robaron datos del personal. El FBI había advertido la semana pasada del uso malicioso de Artex; el autor del ataque no está identificado.",
+  "cuerpo": "",
+  "imagen_tema": "tech",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "Infobae",
+      "enlace": "https://www.infobae.com/tecno/2026/11/19/hackers-usaron-una-herramienta-de-ia-para-atacar-los-sistemas-de-personal-de-la-comision-europea/"
+    }
+  ],
+  "destacada": false,
+  "autor": "Redacción"
+}
