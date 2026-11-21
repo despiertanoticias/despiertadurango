@@ -1,17 +1,17 @@
 {
   "fecha": "Viernes 20 de noviembre de 2026",
-  "actualizado": "06:50 h",
+  "actualizado": "18:50 h",
   "clima": {
     "ahora": "",
-    "max": 25,
+    "max": 27,
     "min": 10,
-    "texto": "Viernes mayormente nublado en la capital, con mínima de 10 °C y máxima de 25 °C, sin condiciones de lluvia y rachas de hasta 25 km/h. En la sierra siguen las temperaturas bajo cero por la mañana; el jueves San Bernardo marcó -3.5 °C y Navíos -2 °C. El séptimo frente frío ya entró por Baja California y podría sentirse en Durango el fin de semana (El Siglo de Durango).",
+    "texto": "La capital llegó a 27 °C este viernes. Para el sábado 21 se espera cielo mayormente nublado, mínima de 9 °C y máxima de 24 °C, con rachas de hasta 40 km/h por la tarde y sin lluvia; Conagua prevé rachas de hasta 50 km/h en otras regiones por el frente frío 8. En la sierra, La Rosilla marcó -5.5 °C el viernes y el SMN prevé entre -10 y -5 °C la madrugada del domingo (El Siglo de Durango, SMN).",
     "laguna_max": 26,
     "laguna_min": 12,
     "filas": [
       {
-        "nombre": "Capital, hoy",
-        "valor": "10 a 25 °C, nublado",
+        "nombre": "Capital, sábado",
+        "valor": "9 a 24 °C, nublado",
         "nivel": "ok"
       },
       {
@@ -21,17 +21,17 @@
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de hasta 25 km/h",
-        "nivel": "ok"
+        "valor": "Rachas de hasta 40–50 km/h",
+        "nivel": "warn"
       },
       {
         "nombre": "Sierra",
-        "valor": "Heladas, bajo cero",
+        "valor": "Heladas; hasta -10 °C el domingo",
         "nivel": "bad"
       },
       {
-        "nombre": "Fin de semana",
-        "valor": "Posible efecto del frente frío 7",
+        "nombre": "Frente frío 8",
+        "valor": "Fin de semana",
         "nivel": "warn"
       }
     ]
@@ -40,8 +40,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$19.08",
-      "nota": "Cierre del jueves 19 nov (Dow Jones, vía Infobae): alza de 1.2 %; el peso, en su peor nivel desde junio de 2025"
+      "valor": "$19.18",
+      "nota": "Cierre del viernes 20 nov (Dow Jones, vía Infobae): alza de 0.5 %; +3.6 % en la semana"
     },
     {
       "nombre": "Gasolina Magna",
@@ -61,16 +61,12 @@
   ],
   "agenda": [
     {
-      "hora": "20 nov, 10:00 h",
-      "texto": "Desfile por el 116 aniversario de la Revolución en la capital: de 20 de Noviembre y Constitución hacia el oriente hasta la calle Cuauhtémoc; cierres en el Centro Histórico desde las 7:00 h"
+      "hora": "21–22 nov, 9:00–19:00 h",
+      "texto": "Mercado del Bienestar en la Expo Feria de Gómez Palacio: huevo a 30 pesos, cemento a 100; INE y comprobante de domicilio de Gómez Palacio"
     },
     {
-      "hora": "20 nov, 20:00 h",
-      "texto": "Festejo Villista de la Revolución en la plaza de toros de la capital: mano a mano de Arturo Gilio y Pablo Hermoso de Mendoza"
-    },
-    {
-      "hora": "20 nov, 10:00 h",
-      "texto": "Desfile cívico-militar por la Revolución en Gómez Palacio: del parque Morelos por Escobedo y Madero a la Presidencia, con unas 20 escuelas"
+      "hora": "Hasta 21 nov",
+      "texto": "Último día de registro de aspirantes a coordinaciones distritales locales de Morena en Durango"
     },
     {
       "hora": "26–28 nov, 8:00–18:00 h",
@@ -139,10 +135,6 @@
     {
       "hora": "13 nov–31 dic",
       "texto": "50 % de descuento en multas de Tránsito en Gómez Palacio (no aplica a alcohol, accidentes con lesionados, arrancones ni lugares para personas con discapacidad)"
-    },
-    {
-      "hora": "21–22 nov",
-      "texto": "Feria del Bienestar en la Expo Feria de Gómez Palacio: materiales de construcción, limpieza y canasta básica a precio subsidiado"
     },
     {
       "hora": "13 nov–11 dic",
