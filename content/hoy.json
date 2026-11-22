@@ -1,22 +1,27 @@
 {
   "fecha": "Sábado 21 de noviembre de 2026",
-  "actualizado": "06:40 h",
+  "actualizado": "18:55 h",
   "clima": {
     "ahora": "",
-    "max": 24,
-    "min": 9,
-    "texto": "Para este sábado 21 se espera en la capital cielo mayormente nublado, mínima de 9 °C y máxima de 24 °C, sin lluvia (El Siglo de Durango). Por el frente frío 8, el SMN prevé rachas de 50 a 70 km/h en Durango y mínimas de -10 a -5 °C en las zonas serranas (Uno TV). En La Laguna, temperaturas de 11 a 29 °C con cielo de parcialmente nublado a despejado (Azteca Laguna).",
-    "laguna_max": 29,
-    "laguna_min": 11,
+    "max": 22,
+    "min": 7,
+    "texto": "Sábado mayormente nublado y fresco en la capital, con máxima de 20 a 22 °C hacia las 15:00 h y sin lluvia prevista; por el frente frío 8, el SMN prevé en el estado rachas de 50 a 70 km/h y chubascos de 5 a 25 mm en algunas zonas (El Siglo de Durango). Para el domingo 22, mínima de 7 a 8 °C y máxima cercana a 24 °C en la capital, con viento del oeste de 35 a 39 km/h; en Gómez Palacio y Lerdo, de 14 a 26 °C, y en El Salto, de 4 a 17 °C con 66 % de probabilidad de lluvia.",
+    "laguna_max": 26,
+    "laguna_min": 14,
     "filas": [
       {
         "nombre": "Capital, sábado",
-        "valor": "9 a 24 °C, nublado",
+        "valor": "Máx. 20–22 °C, nublado",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Capital, domingo",
+        "valor": "7–8 a 24 °C",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia",
-        "valor": "Sin probabilidad",
+        "valor": "3 % en la capital (domingo)",
         "nivel": "ok"
       },
       {
@@ -25,13 +30,8 @@
         "nivel": "warn"
       },
       {
-        "nombre": "Sierra",
-        "valor": "Heladas de -10 a -5 °C",
-        "nivel": "bad"
-      },
-      {
-        "nombre": "Frente frío 8",
-        "valor": "Fin de semana",
+        "nombre": "El Salto",
+        "valor": "4–17 °C, 66 % de lluvia",
         "nivel": "warn"
       }
     ]
@@ -61,20 +61,28 @@
   ],
   "agenda": [
     {
+      "hora": "22 nov, 9:00–19:00 h",
+      "texto": "Último día del Mercado del Bienestar en la ganadera de la Expo Feria de Gómez Palacio; INE y comprobante de domicilio del municipio. Por compras de más de 500 pesos regalan un par de calzado"
+    },
+    {
+      "hora": "25 nov, 9:30 h",
+      "texto": "Arrancan los 16 días de activismo contra la violencia hacia las mujeres en Gómez Palacio: Café Violeta en Seguridad Pública y caminata silenciosa hacia la réplica de la Torre Eiffel"
+    },
+    {
+      "hora": "Hasta 30 nov",
+      "texto": "Encuesta digital Radar Joven del Instituto Duranguense de la Juventud para personas de 12 a 29 años; servirá para definir los apoyos de 2027"
+    },
+    {
+      "hora": "6 dic",
+      "texto": "Votación de la quinta edición del Presupuesto Participativo de la capital, con 150 millones de pesos"
+    },
+    {
       "hora": "24 nov, 11:00, 14:30 y 17:30 h",
       "texto": "Laguna Drum Fest 2026 en el Teatro Alberto M. Alvarado de Gómez Palacio; la función de las 17:30 es abierta al público"
     },
     {
       "hora": "30 nov, 18:00–24:00 h",
       "texto": "Posada Restaurantera de Canirac Durango en el Salón Casa México, con rifa de más de 50 mil pesos en premios"
-    },
-    {
-      "hora": "21–22 nov, 9:00–19:00 h",
-      "texto": "Mercado del Bienestar en la Expo Feria de Gómez Palacio: huevo a 30 pesos, cemento a 100; INE y comprobante de domicilio de Gómez Palacio"
-    },
-    {
-      "hora": "Hasta 21 nov",
-      "texto": "Último día de registro de aspirantes a coordinaciones distritales locales de Morena en Durango"
     },
     {
       "hora": "26–28 nov, 8:00–18:00 h",
@@ -147,10 +155,6 @@
     {
       "hora": "22 nov, 15:00 h",
       "texto": "Bendición de danzas guadalupanas en el parque Morelos de Gómez Palacio; se esperan unas 150 danzas"
-    },
-    {
-      "hora": "21 nov, 17:00 h",
-      "texto": "Santos Laguna recibe a León en el Estadio Corona, última jornada del Apertura 2026"
     },
     {
       "hora": "19 dic",
