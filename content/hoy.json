@@ -1,38 +1,38 @@
 {
-  "fecha": "Sábado 21 de noviembre de 2026",
-  "actualizado": "18:55 h",
+  "fecha": "Domingo 22 de noviembre de 2026",
+  "actualizado": "07:00 h",
   "clima": {
     "ahora": "",
-    "max": 22,
+    "max": 24,
     "min": 7,
-    "texto": "Sábado mayormente nublado y fresco en la capital, con máxima de 20 a 22 °C hacia las 15:00 h y sin lluvia prevista; por el frente frío 8, el SMN prevé en el estado rachas de 50 a 70 km/h y chubascos de 5 a 25 mm en algunas zonas (El Siglo de Durango). Para el domingo 22, mínima de 7 a 8 °C y máxima cercana a 24 °C en la capital, con viento del oeste de 35 a 39 km/h; en Gómez Palacio y Lerdo, de 14 a 26 °C, y en El Salto, de 4 a 17 °C con 66 % de probabilidad de lluvia.",
+    "texto": "Domingo frío al amanecer y templado por la tarde en la capital: mínima de 7 a 8 °C y máxima cercana a 24 °C, con sol y nubes y viento del oeste de 35 a 39 km/h; probabilidad de lluvia de 3 % (El Siglo de Durango con Meteored y AccuWeather). En Gómez Palacio, de 14 a 26 °C; en El Salto, de 4 a 17 °C con 66 % de probabilidad de chubascos por la tarde, y en Tamazula, de 19 a 30 °C con 70 % de lluvia ligera. El SMN prevé rachas de hasta 70 km/h en Durango por el frente frío 8.",
     "laguna_max": 26,
     "laguna_min": 14,
     "filas": [
       {
-        "nombre": "Capital, sábado",
-        "valor": "Máx. 20–22 °C, nublado",
-        "nivel": "ok"
-      },
-      {
         "nombre": "Capital, domingo",
-        "valor": "7–8 a 24 °C",
+        "valor": "7–8 a 24 °C, sol y nubes",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia",
-        "valor": "3 % en la capital (domingo)",
+        "valor": "3 % en la capital",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Rachas de 50–70 km/h (SMN)",
+        "valor": "Oeste 35–39 km/h; rachas de hasta 70 km/h (SMN)",
         "nivel": "warn"
       },
       {
         "nombre": "El Salto",
         "valor": "4–17 °C, 66 % de lluvia",
         "nivel": "warn"
+      },
+      {
+        "nombre": "Guanaceví",
+        "valor": "4–21 °C, soleado",
+        "nivel": "ok"
       }
     ]
   },
@@ -60,6 +60,22 @@
     }
   ],
   "agenda": [
+    {
+      "hora": "22 nov, 16:00 h",
+      "texto": "Tercer Encuentro Estatal de Danzas Guadalupanas en la Plaza IV Centenario de la capital, con 74 danzas de todo el estado"
+    },
+    {
+      "hora": "22 nov, todo el día",
+      "texto": "Fiesta patronal del templo de Cristo Rey (Valle del Sur): peregrinación de la Catedral al estadio Francisco Villa a las 15:30 y misa solemne a las 19:30"
+    },
+    {
+      "hora": "27 y 28 nov",
+      "texto": "Tercer Festival de Blues de Durango en homenaje a Roberto Jacobo: velada acústica en CORE el 27 (21:30 h, 80 pesos) y concierto en el Teatro Victoria el 28 (19:00 h, 100 pesos)"
+    },
+    {
+      "hora": "7–12 dic",
+      "texto": "Conferencias empresariales gratuitas de Canacintra Gómez Palacio a cambio de un juguete nuevo, sin baterías y no bélico"
+    },
     {
       "hora": "22 nov, 9:00–19:00 h",
       "texto": "Último día del Mercado del Bienestar en la ganadera de la Expo Feria de Gómez Palacio; INE y comprobante de domicilio del municipio. Por compras de más de 500 pesos regalan un par de calzado"

@@ -1,0 +1,18 @@
+{
+  "titulo": "El FBI investiga una nueva intrusión en su base de datos criminal nacional",
+  "seccion": "tecnologia",
+  "fecha": "2026-11-22T06:40",
+  "resumen": "El FBI indaga un aparente acceso no autorizado a su Centro Nacional de Información Criminal (NCIC), detectado en los últimos días; sería el segundo incidente de este tipo en meses, según dos fuentes citadas por CNN. La agencia no ha dicho cómo ocurrió, quién está detrás ni si se extrajo información.",
+  "cuerpo": "",
+  "imagen_tema": "tech",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "EFE (vía El Siglo de Durango)",
+      "enlace": "https://www.elsiglodedurango.com.mx/noticia/2026/fbi-indaga-nuevo-ataque-informatico-contra-base-de-datos-nacional.html"
+    }
+  ],
+  "destacada": false,
+  "autor": "Redacción"
+}
