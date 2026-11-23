@@ -1,43 +1,43 @@
 {
-  "fecha": "Domingo 22 de noviembre de 2026",
-  "actualizado": "18:50 h",
+  "fecha": "Lunes 23 de noviembre de 2026",
+  "actualizado": "06:55 h",
   "clima": {
     "ahora": "",
-    "max": 23,
+    "max": 24,
     "min": 6,
-    "texto": "Domingo de mañana fría y tarde fresca en la capital: mínima de 6 a 7 °C y máxima de 20 a 23 °C entre las 15:00 y 16:00 horas, cielo mayormente despejado y sin lluvia; viento de 10 a 15 km/h con ráfagas de hasta 40 km/h (SMN, vía El Siglo de Durango). En la sierra, mínimas de -10 a -5 °C en la madrugada. Para el lunes se esperan de 6 a 10 °C y de 23 a 24 °C en la capital, con 1 % de probabilidad de lluvia; en Gómez Palacio, de 11 a 12 °C y de 22 a 24 °C.",
-    "laguna_max": 26,
-    "laguna_min": 14,
+    "texto": "Lunes de mañana fresca y tarde templada en la capital: mínima de 6 a 10 °C y máxima de 23 a 24 °C, con nubes y periodos de sol; la probabilidad de lluvia es baja (1 % según AccuWeather) y el viento será ligero del oeste y suroeste (vía El Siglo de Durango). En Gómez Palacio, de 11 a 12 °C y de 22 a 24 °C. En la sierra, El Salto rondará los 2 °C en la madrugada y 18 °C por la tarde; en Tamazula, máximas de 30 a 31 °C.",
+    "laguna_max": 24,
+    "laguna_min": 11,
     "filas": [
       {
-        "nombre": "Capital, domingo",
-        "valor": "6–7 a 20–23 °C, despejado",
+        "nombre": "Capital, lunes",
+        "valor": "6–10 a 23–24 °C, nubes y sol",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia",
-        "valor": "Sin probabilidad en la capital",
+        "valor": "Baja: 1 % (AccuWeather)",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "10–15 km/h, ráfagas de hasta 40 km/h",
-        "nivel": "warn"
-      },
-      {
-        "nombre": "Sierra, madrugada",
-        "valor": "-10 a -5 °C (heladas)",
-        "nivel": "bad"
-      },
-      {
-        "nombre": "Capital, lunes",
-        "valor": "6–10 a 23–24 °C, 1 % de lluvia",
+        "valor": "Ligero, del oeste y suroeste",
         "nivel": "ok"
       },
       {
-        "nombre": "El Salto, lunes",
-        "valor": "2 a 18 °C",
+        "nombre": "El Salto",
+        "valor": "≈2 a 18 °C",
         "nivel": "warn"
+      },
+      {
+        "nombre": "Santiago Papasquiaro",
+        "valor": "3–6 a 23 °C",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Tamazula",
+        "valor": "Máx. 30–31 °C",
+        "nivel": "ok"
       }
     ]
   },
@@ -46,36 +46,36 @@
     {
       "nombre": "Dólar",
       "valor": "$19.18",
-      "nota": "Cierre del viernes 20 nov (Dow Jones, vía Infobae): alza de 0.5 %; +3.6 % en la semana"
+      "nota": "Apertura del lunes 23 nov (Dow Jones, vía Infobae): +0.08 % frente al cierre previo de 19.16"
     },
     {
       "nombre": "Gasolina Magna",
       "valor": "$23.92",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 19 nov"
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 23 nov"
     },
     {
       "nombre": "Gasolina Premium",
       "valor": "$29.16",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 19 nov"
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 23 nov"
     },
     {
       "nombre": "Diésel",
-      "valor": "$26.96",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 19 nov"
+      "valor": "$26.98",
+      "nota": "Promedio en Durango (gasolinamx.com), consulta del 23 nov"
     }
   ],
   "agenda": [
     {
-      "hora": "22 nov, 18:30 h",
-      "texto": "Video mapping gratuito por los 132 años de Lerdo frente a la Presidencia Municipal, a cargo del cineasta Tomás Sánchez Ortiz"
+      "hora": "24 nov, 18:14 h",
+      "texto": "Superluna: la Luna llena saldrá en la capital hacia el este-noreste; es la primera de tres superlunas consecutivas"
+    },
+    {
+      "hora": "26 nov, 10–19 h",
+      "texto": "Prueba gratuita de antígeno prostático (hombres de 40+) en la Dirección de Servicios Públicos Municipales"
     },
     {
       "hora": "1–11 dic",
       "texto": "Peregrinaciones guadalupanas en Lerdo hacia el templo de Guadalupe de la colonia San Isidro, con más de 50 contingentes registrados"
-    },
-    {
-      "hora": "22 nov, todo el día",
-      "texto": "Fiesta patronal del templo de Cristo Rey (Valle del Sur): peregrinación de la Catedral al estadio Francisco Villa a las 15:30 y misa solemne a las 19:30"
     },
     {
       "hora": "27 y 28 nov",
@@ -178,10 +178,6 @@
       "texto": "Montéz de Durango abre la Feria Navideña de la capital en el recinto ferial"
     },
     {
-      "hora": "13–22 nov",
-      "texto": "Festival «Lerdo Suena y Suena Bien» por los 132 años de Lerdo: Conjunto Primavera (15) y Bruno Bichir (16); gratuito salvo la corrida del 21"
-    },
-    {
       "hora": "Noviembre",
       "texto": "Pruebas rápidas gratuitas de antígeno prostático para hombres mayores de 40 años, en la capital y la zona rural"
     },
@@ -220,10 +216,6 @@
     {
       "hora": "24–27 nov, 9:00–15:00 h",
       "texto": "Jornada visual del Club de Leones de Gómez Palacio (ficha de 100 pesos en Av. Mina); niños menores de 12 años el viernes 27"
-    },
-    {
-      "hora": "23 y 26 nov, 10–19 h",
-      "texto": "Pruebas gratuitas de antígeno prostático (hombres de 40+): Aguas del Municipio (23) y Servicios Públicos (26)"
     }
   ]
 }
