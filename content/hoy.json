@@ -1,38 +1,43 @@
 {
   "fecha": "Domingo 22 de noviembre de 2026",
-  "actualizado": "07:00 h",
+  "actualizado": "18:50 h",
   "clima": {
     "ahora": "",
-    "max": 24,
-    "min": 7,
-    "texto": "Domingo frío al amanecer y templado por la tarde en la capital: mínima de 7 a 8 °C y máxima cercana a 24 °C, con sol y nubes y viento del oeste de 35 a 39 km/h; probabilidad de lluvia de 3 % (El Siglo de Durango con Meteored y AccuWeather). En Gómez Palacio, de 14 a 26 °C; en El Salto, de 4 a 17 °C con 66 % de probabilidad de chubascos por la tarde, y en Tamazula, de 19 a 30 °C con 70 % de lluvia ligera. El SMN prevé rachas de hasta 70 km/h en Durango por el frente frío 8.",
+    "max": 23,
+    "min": 6,
+    "texto": "Domingo de mañana fría y tarde fresca en la capital: mínima de 6 a 7 °C y máxima de 20 a 23 °C entre las 15:00 y 16:00 horas, cielo mayormente despejado y sin lluvia; viento de 10 a 15 km/h con ráfagas de hasta 40 km/h (SMN, vía El Siglo de Durango). En la sierra, mínimas de -10 a -5 °C en la madrugada. Para el lunes se esperan de 6 a 10 °C y de 23 a 24 °C en la capital, con 1 % de probabilidad de lluvia; en Gómez Palacio, de 11 a 12 °C y de 22 a 24 °C.",
     "laguna_max": 26,
     "laguna_min": 14,
     "filas": [
       {
         "nombre": "Capital, domingo",
-        "valor": "7–8 a 24 °C, sol y nubes",
+        "valor": "6–7 a 20–23 °C, despejado",
         "nivel": "ok"
       },
       {
         "nombre": "Lluvia",
-        "valor": "3 % en la capital",
+        "valor": "Sin probabilidad en la capital",
         "nivel": "ok"
       },
       {
         "nombre": "Viento",
-        "valor": "Oeste 35–39 km/h; rachas de hasta 70 km/h (SMN)",
+        "valor": "10–15 km/h, ráfagas de hasta 40 km/h",
         "nivel": "warn"
       },
       {
-        "nombre": "El Salto",
-        "valor": "4–17 °C, 66 % de lluvia",
-        "nivel": "warn"
+        "nombre": "Sierra, madrugada",
+        "valor": "-10 a -5 °C (heladas)",
+        "nivel": "bad"
       },
       {
-        "nombre": "Guanaceví",
-        "valor": "4–21 °C, soleado",
+        "nombre": "Capital, lunes",
+        "valor": "6–10 a 23–24 °C, 1 % de lluvia",
         "nivel": "ok"
+      },
+      {
+        "nombre": "El Salto, lunes",
+        "valor": "2 a 18 °C",
+        "nivel": "warn"
       }
     ]
   },
@@ -61,8 +66,12 @@
   ],
   "agenda": [
     {
-      "hora": "22 nov, 16:00 h",
-      "texto": "Tercer Encuentro Estatal de Danzas Guadalupanas en la Plaza IV Centenario de la capital, con 74 danzas de todo el estado"
+      "hora": "22 nov, 18:30 h",
+      "texto": "Video mapping gratuito por los 132 años de Lerdo frente a la Presidencia Municipal, a cargo del cineasta Tomás Sánchez Ortiz"
+    },
+    {
+      "hora": "1–11 dic",
+      "texto": "Peregrinaciones guadalupanas en Lerdo hacia el templo de Guadalupe de la colonia San Isidro, con más de 50 contingentes registrados"
     },
     {
       "hora": "22 nov, todo el día",
@@ -75,10 +84,6 @@
     {
       "hora": "7–12 dic",
       "texto": "Conferencias empresariales gratuitas de Canacintra Gómez Palacio a cambio de un juguete nuevo, sin baterías y no bélico"
-    },
-    {
-      "hora": "22 nov, 9:00–19:00 h",
-      "texto": "Último día del Mercado del Bienestar en la ganadera de la Expo Feria de Gómez Palacio; INE y comprobante de domicilio del municipio. Por compras de más de 500 pesos regalan un par de calzado"
     },
     {
       "hora": "25 nov, 9:30 h",
@@ -169,10 +174,6 @@
       "texto": "Mes de la Vivienda del Inmuvi en la capital: hasta 40 % de descuento en materiales y en titulación"
     },
     {
-      "hora": "22 nov, 15:00 h",
-      "texto": "Bendición de danzas guadalupanas en el parque Morelos de Gómez Palacio; se esperan unas 150 danzas"
-    },
-    {
       "hora": "19 dic",
       "texto": "Montéz de Durango abre la Feria Navideña de la capital en el recinto ferial"
     },
@@ -186,7 +187,7 @@
     },
     {
       "hora": "3–27 nov",
-      "texto": "Pago de pensiones del Bienestar por letra del apellido hasta el 27 de noviembre (sin pagos el lunes 16)"
+      "texto": "Pago de pensiones del Bienestar: última semana, del 23 al 27 de noviembre (R lunes y martes; S miércoles; T, U y V jueves; W a Z viernes)"
     },
     {
       "hora": "Hasta 30 nov",
