@@ -1,11 +1,11 @@
 {
   "fecha": "Lunes 23 de noviembre de 2026",
-  "actualizado": "06:55 h",
+  "actualizado": "18:35 h",
   "clima": {
     "ahora": "",
     "max": 24,
     "min": 6,
-    "texto": "Lunes de mañana fresca y tarde templada en la capital: mínima de 6 a 10 °C y máxima de 23 a 24 °C, con nubes y periodos de sol; la probabilidad de lluvia es baja (1 % según AccuWeather) y el viento será ligero del oeste y suroeste (vía El Siglo de Durango). En Gómez Palacio, de 11 a 12 °C y de 22 a 24 °C. En la sierra, El Salto rondará los 2 °C en la madrugada y 18 °C por la tarde; en Tamazula, máximas de 30 a 31 °C.",
+    "texto": "Lunes de mañana fresca y tarde templada en la capital: mínima de 6 a 10 °C y máxima de 23 a 24 °C, con nubes y periodos de sol; la probabilidad de lluvia es baja (1 % según AccuWeather) y el viento será ligero del oeste y suroeste (vía El Siglo de Durango). En Gómez Palacio, de 11 a 12 °C y de 22 a 24 °C. En la sierra, El Salto rondará los 2 °C en la madrugada y 18 °C por la tarde; en Tamazula, máximas de 30 a 31 °C. Para el martes 24 se espera una madrugada más fría en la capital, con mínima cercana a 3 °C y máxima de unos 22 °C, sin lluvia y con rachas del norte y noreste de hasta 29 km/h (SMN, vía El Siglo de Durango).",
     "laguna_max": 24,
     "laguna_min": 11,
     "filas": [
@@ -15,8 +15,18 @@
         "nivel": "ok"
       },
       {
+        "nombre": "Capital, martes",
+        "valor": "≈3 a 22 °C, seco",
+        "nivel": "warn"
+      },
+      {
         "nombre": "Lluvia",
         "valor": "Baja: 1 % (AccuWeather)",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "Viento martes",
+        "valor": "N-NE, rachas de hasta 29 km/h",
         "nivel": "ok"
       },
       {
@@ -45,23 +55,23 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$19.18",
-      "nota": "Apertura del lunes 23 nov (Dow Jones, vía Infobae): +0.08 % frente al cierre previo de 19.16"
+      "valor": "$19.17",
+      "nota": "Cierre del lunes 23 nov (19.1631 el cierre previo); FIX Banxico 19.1648"
     },
     {
       "nombre": "Gasolina Magna",
-      "valor": "$23.92",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 23 nov"
+      "valor": "$24.10",
+      "nota": "Promedio estatal en Durango (gasolinamx.com), consulta del 23 nov por la tarde"
     },
     {
       "nombre": "Gasolina Premium",
-      "valor": "$29.16",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 23 nov"
+      "valor": "$29.32",
+      "nota": "Promedio estatal en Durango (gasolinamx.com), consulta del 23 nov por la tarde"
     },
     {
       "nombre": "Diésel",
-      "valor": "$26.98",
-      "nota": "Promedio en Durango (gasolinamx.com), consulta del 23 nov"
+      "valor": "$27.23",
+      "nota": "Promedio estatal en Durango (gasolinamx.com), consulta del 23 nov por la tarde"
     }
   ],
   "agenda": [
