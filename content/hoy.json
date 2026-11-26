@@ -1,52 +1,47 @@
 {
-  "fecha": "Martes 24 de noviembre de 2026",
-  "actualizado": "06:55 h",
+  "fecha": "Jueves 26 de noviembre de 2026",
+  "actualizado": "06:30 h",
   "clima": {
     "ahora": "",
-    "max": 22,
-    "min": 3,
-    "texto": "Martes de madrugada fría en la capital: mínima cercana a 3 °C antes de las 8:00 y máxima de alrededor de 22 °C, sin lluvia (0 a 1 % según los modelos) y con viento ligero a moderado del norte y noreste, con rachas de hasta 29 km/h (vía El Siglo de Durango). El frente frío 8 y una masa de aire ártico dejaron el lunes temperaturas de entre -10 y -5 °C en zonas serranas, según el SMN. En Gómez Palacio, de 8 a 10 °C y de 21 a 22 °C. En la sierra, El Salto rondará 2 y 19 °C; Santiago Papasquiaro y Guanaceví, 2 y 22 °C; Tamazula, de 14 a 30 °C.",
-    "laguna_max": 22,
+    "max": 15,
+    "min": 7,
+    "texto": "Jueves fresco y lluvioso en la capital: mínima cercana a 7 °C y máxima de alrededor de 15 °C (algunos modelos llegan a 24 °C), con 55 % de probabilidad de lluvia; las mayores posibilidades, con tormentas eléctricas, van de 13:00 a 15:00 h y de nuevo de 19:00 a 21:00 h (vía El Siglo de Durango). La primera tormenta invernal podría dejar nieve o aguanieve entre jueves y viernes en partes altas de San Dimas, Pueblo Nuevo y la sierra de Canatlán, según la Conagua; el SMN prevé lluvias de 50 a 75 mm y heladas de -10 a -5 °C en la sierra la madrugada del viernes. En Gómez Palacio, de 8 a 16 °C y nublado. El Salto, de 4 a 13 °C; Santiago Papasquiaro, de 4 a 19 °C; Tamazula, de 13 a 27 °C.",
+    "laguna_max": 16,
     "laguna_min": 8,
     "filas": [
       {
-        "nombre": "Capital, martes",
-        "valor": "≈3 a 22 °C, seco",
+        "nombre": "Capital, jueves",
+        "valor": "≈7 a 15 °C, lluvioso",
         "nivel": "warn"
       },
       {
         "nombre": "Lluvia",
-        "valor": "0–1 %",
-        "nivel": "ok"
+        "valor": "55 %; tormentas 13–15 h y 19–21 h",
+        "nivel": "warn"
       },
       {
-        "nombre": "Viento",
-        "valor": "N-NE, rachas de hasta 29 km/h",
-        "nivel": "ok"
+        "nombre": "Posible nieve",
+        "valor": "San Dimas, Pueblo Nuevo y sierra de Canatlán (jue–vie)",
+        "nivel": "bad"
       },
       {
-        "nombre": "Sierra (lunes)",
-        "valor": "Madrugada de -10 a -5 °C",
+        "nombre": "Sierra (viernes)",
+        "valor": "Heladas de -10 a -5 °C",
         "nivel": "bad"
       },
       {
         "nombre": "El Salto",
-        "valor": "≈2 a 19 °C",
-        "nivel": "warn"
+        "valor": "≈4 a 13 °C, lluvia hasta 85 %",
+        "nivel": "bad"
       },
       {
         "nombre": "Santiago Papasquiaro",
-        "valor": "≈2 a 22 °C",
-        "nivel": "warn"
-      },
-      {
-        "nombre": "Guanaceví",
-        "valor": "≈2 a 22 °C",
+        "valor": "≈4 a 19 °C, lluvia 63 %",
         "nivel": "warn"
       },
       {
         "nombre": "Tamazula",
-        "valor": "≈14 a 30 °C",
+        "valor": "≈13 a 27 °C",
         "nivel": "ok"
       }
     ]
@@ -55,8 +50,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$19.17",
-      "nota": "Cierre del lunes 23 nov (19.1631 el cierre previo); FIX Banxico 19.1648"
+      "valor": "$19.61",
+      "nota": "Cierre del miércoles 25 nov (19.41 el cierre previo), sexta jornada al alza; en ventanilla superó los 20 pesos"
     },
     {
       "nombre": "Gasolina Magna",
@@ -76,12 +71,16 @@
   ],
   "agenda": [
     {
-      "hora": "27 nov, 18:00 h",
-      "texto": "Presentación de cuatro libros de la colección «Nueva Narrativa» (ICED) en el Museo de Arte Moderno Guillermo Ceniceros"
+      "hora": "26 nov, 10:30–18:30 h",
+      "texto": "Corte de luz de la CFE en Gómez Palacio: fraccionamientos Bugambilias, Filadelfia, Rincón Filadelfia, San Lorenzo, San Luis Campanario y San Antonio, y colonias El Paraíso, Miguel de la Madrid, Octavio Rendón, Cerrada Pedregal y Hamburgo"
     },
     {
-      "hora": "24 nov, 18:14 h",
-      "texto": "Superluna: la Luna llena saldrá en la capital hacia el este-noreste; es la primera de tres superlunas consecutivas"
+      "hora": "27 nov",
+      "texto": "Sin clases en preescolar, primaria y secundaria por Consejo Técnico Escolar; se regresa el lunes 30 de noviembre"
+    },
+    {
+      "hora": "27 nov, 18:00 h",
+      "texto": "Presentación de cuatro libros de la colección «Nueva Narrativa» (ICED) en el Museo de Arte Moderno Guillermo Ceniceros"
     },
     {
       "hora": "26 nov, 10–19 h",
@@ -100,20 +99,12 @@
       "texto": "Conferencias empresariales gratuitas de Canacintra Gómez Palacio a cambio de un juguete nuevo, sin baterías y no bélico"
     },
     {
-      "hora": "25 nov, 9:30 h",
-      "texto": "Arrancan los 16 días de activismo contra la violencia hacia las mujeres en Gómez Palacio: Café Violeta en Seguridad Pública y caminata silenciosa hacia la réplica de la Torre Eiffel"
-    },
-    {
       "hora": "Hasta 30 nov",
       "texto": "Encuesta digital Radar Joven del Instituto Duranguense de la Juventud para personas de 12 a 29 años; servirá para definir los apoyos de 2027"
     },
     {
       "hora": "6 dic",
       "texto": "Votación de la quinta edición del Presupuesto Participativo de la capital, con 150 millones de pesos"
-    },
-    {
-      "hora": "24 nov, 11:00, 14:30 y 17:30 h",
-      "texto": "Laguna Drum Fest 2026 en el Teatro Alberto M. Alvarado de Gómez Palacio; la función de las 17:30 es abierta al público"
     },
     {
       "hora": "30 nov, 18:00–24:00 h",
@@ -136,10 +127,6 @@
       "texto": "Romería guadalupana alrededor del Santuario de Guadalupe y la explanada de Insurgentes, con más de mil puestos"
     },
     {
-      "hora": "27 nov",
-      "texto": "Sin clases en educación básica por Consejo Técnico Escolar (SEP); las vacaciones de invierno van del 21 de diciembre al 6 de enero"
-    },
-    {
       "hora": "26–27 nov, 9:30 h",
       "texto": "Curso gratuito «Estrategias comerciales para el crecimiento empresarial» con NAFIN en el Salón Benito Juárez de la Presidencia de Gómez Palacio"
     },
@@ -148,20 +135,12 @@
       "texto": "«Las que merecían más», de Ponzoña Musical, en el Teatro Victoria; boletos de 300 a 500 pesos en newticket.com y taquilla"
     },
     {
-      "hora": "Hasta 25 nov",
-      "texto": "Convocatoria de movilidad UJED para el semestre A-2027 en universidades de México y el extranjero (Dirección de Internacionalización, 618 827 1202)"
-    },
-    {
       "hora": "15 nov–20 dic",
       "texto": "Donatón de juguetes nuevos (no bélicos ni de pilas) y dulces en la oficina del Templo Expiatorio del Sagrado Corazón de Jesús"
     },
     {
       "hora": "Hasta 15 dic",
       "texto": "El Congreso del Estado dictamina las leyes de ingresos 2027 de los municipios; el paquete económico estatal debe entregarse a más tardar el 30 de noviembre"
-    },
-    {
-      "hora": "24 nov, 10:30 h",
-      "texto": "Conversatorio «Mi voz, mi historia, mis derechos» con Eufrosina Cruz y Kenya Cuevas en el auditorio del Hospital 450"
     },
     {
       "hora": "25 o 26 nov",
