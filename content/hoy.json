@@ -1,11 +1,11 @@
 {
   "fecha": "Jueves 26 de noviembre de 2026",
-  "actualizado": "06:30 h",
+  "actualizado": "18:45 h",
   "clima": {
     "ahora": "",
     "max": 15,
     "min": 7,
-    "texto": "Jueves fresco y lluvioso en la capital: mínima cercana a 7 °C y máxima de alrededor de 15 °C (algunos modelos llegan a 24 °C), con 55 % de probabilidad de lluvia; las mayores posibilidades, con tormentas eléctricas, van de 13:00 a 15:00 h y de nuevo de 19:00 a 21:00 h (vía El Siglo de Durango). La primera tormenta invernal podría dejar nieve o aguanieve entre jueves y viernes en partes altas de San Dimas, Pueblo Nuevo y la sierra de Canatlán, según la Conagua; el SMN prevé lluvias de 50 a 75 mm y heladas de -10 a -5 °C en la sierra la madrugada del viernes. En Gómez Palacio, de 8 a 16 °C y nublado. El Salto, de 4 a 13 °C; Santiago Papasquiaro, de 4 a 19 °C; Tamazula, de 13 a 27 °C.",
+    "texto": "Jueves fresco y lluvioso en la capital: mínima cercana a 7 °C y máxima de alrededor de 15 °C (algunos modelos llegan a 24 °C), con 55 % de probabilidad de lluvia; las mayores posibilidades, con tormentas eléctricas, van de 13:00 a 15:00 h y de nuevo de 19:00 a 21:00 h (vía El Siglo de Durango). La primera tormenta invernal podría dejar nieve o aguanieve entre jueves y viernes en partes altas de San Dimas, Pueblo Nuevo y la sierra de Canatlán, según la Conagua; el SMN prevé lluvias de 50 a 75 mm y heladas de -10 a -5 °C en la sierra la madrugada del viernes. En Gómez Palacio, de 8 a 16 °C y nublado. El Salto, de 4 a 13 °C; Santiago Papasquiaro, de 4 a 19 °C; Tamazula, de 13 a 27 °C. Para el viernes 27 se esperan en la capital de 3 a 18 °C y 90 % de probabilidad de lluvia, con tormentas posibles de 10:00 a 12:00 y hacia las 15:00–16:00 h; en Gómez Palacio, de 9 a 18 °C y solo 7 % de lluvia (El Siglo de Durango).",
     "laguna_max": 16,
     "laguna_min": 8,
     "filas": [
@@ -18,6 +18,11 @@
         "nombre": "Lluvia",
         "valor": "55 %; tormentas 13–15 h y 19–21 h",
         "nivel": "warn"
+      },
+      {
+        "nombre": "Capital, viernes",
+        "valor": "≈3 a 18 °C, lluvia 90 %",
+        "nivel": "bad"
       },
       {
         "nombre": "Posible nieve",
@@ -50,29 +55,37 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$19.61",
-      "nota": "Cierre del miércoles 25 nov (19.41 el cierre previo), sexta jornada al alza; en ventanilla superó los 20 pesos"
+      "valor": "$19.71",
+      "nota": "Cierre del jueves 26 nov (19.59 el cierre previo), pérdida semanal de 3.26 %; en ventanilla Banamex, venta en 20.20"
     },
     {
       "nombre": "Gasolina Magna",
-      "valor": "$24.10",
-      "nota": "Promedio estatal en Durango (gasolinamx.com), consulta del 23 nov por la tarde"
+      "valor": "$23.90",
+      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 26 nov por la tarde"
     },
     {
       "nombre": "Gasolina Premium",
-      "valor": "$29.32",
-      "nota": "Promedio estatal en Durango (gasolinamx.com), consulta del 23 nov por la tarde"
+      "valor": "$29.16",
+      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 26 nov por la tarde"
     },
     {
       "nombre": "Diésel",
-      "valor": "$27.23",
-      "nota": "Promedio estatal en Durango (gasolinamx.com), consulta del 23 nov por la tarde"
+      "valor": "$26.96",
+      "nota": "Promedio en la ciudad de Durango (gasolinamx.com), consulta del 26 nov por la tarde"
     }
   ],
   "agenda": [
     {
-      "hora": "26 nov, 10:30–18:30 h",
-      "texto": "Corte de luz de la CFE en Gómez Palacio: fraccionamientos Bugambilias, Filadelfia, Rincón Filadelfia, San Lorenzo, San Luis Campanario y San Antonio, y colonias El Paraíso, Miguel de la Madrid, Octavio Rendón, Cerrada Pedregal y Hamburgo"
+      "hora": "26 nov, 19:00 y 21:10 h",
+      "texto": "Liguilla, ida de cuartos: Pachuca vs Chivas (Estadio Hidalgo) y León vs Cruz Azul (Estadio León)"
+    },
+    {
+      "hora": "27 nov",
+      "texto": "Continúan en el Congreso del Estado las comparecencias de los alcaldes de Gómez Palacio, Lerdo y la capital"
+    },
+    {
+      "hora": "28 nov",
+      "texto": "Audiencia inicial de «El Chapo Isidro»; Liguilla: Atlas vs Toluca (19:00) y América vs Monterrey (21:10)"
     },
     {
       "hora": "27 nov",
@@ -81,10 +94,6 @@
     {
       "hora": "27 nov, 18:00 h",
       "texto": "Presentación de cuatro libros de la colección «Nueva Narrativa» (ICED) en el Museo de Arte Moderno Guillermo Ceniceros"
-    },
-    {
-      "hora": "26 nov, 10–19 h",
-      "texto": "Prueba gratuita de antígeno prostático (hombres de 40+) en la Dirección de Servicios Públicos Municipales"
     },
     {
       "hora": "1–11 dic",
@@ -141,10 +150,6 @@
     {
       "hora": "Hasta 15 dic",
       "texto": "El Congreso del Estado dictamina las leyes de ingresos 2027 de los municipios; el paquete económico estatal debe entregarse a más tardar el 30 de noviembre"
-    },
-    {
-      "hora": "25 o 26 nov",
-      "texto": "Banderazo del operativo «Heroínas y Héroes Paisanos» del INM en la Central de Autobuses de la capital (fecha por confirmar)"
     },
     {
       "hora": "Fines de semana",
