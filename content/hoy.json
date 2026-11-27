@@ -1,52 +1,52 @@
 {
-  "fecha": "Jueves 26 de noviembre de 2026",
-  "actualizado": "18:45 h",
+  "fecha": "Viernes 27 de noviembre de 2026",
+  "actualizado": "06:50 h",
   "clima": {
     "ahora": "",
-    "max": 15,
-    "min": 7,
-    "texto": "Jueves fresco y lluvioso en la capital: mínima cercana a 7 °C y máxima de alrededor de 15 °C (algunos modelos llegan a 24 °C), con 55 % de probabilidad de lluvia; las mayores posibilidades, con tormentas eléctricas, van de 13:00 a 15:00 h y de nuevo de 19:00 a 21:00 h (vía El Siglo de Durango). La primera tormenta invernal podría dejar nieve o aguanieve entre jueves y viernes en partes altas de San Dimas, Pueblo Nuevo y la sierra de Canatlán, según la Conagua; el SMN prevé lluvias de 50 a 75 mm y heladas de -10 a -5 °C en la sierra la madrugada del viernes. En Gómez Palacio, de 8 a 16 °C y nublado. El Salto, de 4 a 13 °C; Santiago Papasquiaro, de 4 a 19 °C; Tamazula, de 13 a 27 °C. Para el viernes 27 se esperan en la capital de 3 a 18 °C y 90 % de probabilidad de lluvia, con tormentas posibles de 10:00 a 12:00 y hacia las 15:00–16:00 h; en Gómez Palacio, de 9 a 18 °C y solo 7 % de lluvia (El Siglo de Durango).",
-    "laguna_max": 16,
-    "laguna_min": 8,
+    "max": 18,
+    "min": 3,
+    "texto": "Viernes frío y lluvioso en la capital: mínima cercana a 3 °C y máxima de alrededor de 18 °C, con 90 % de probabilidad de lluvia y posibles tormentas entre las 10:00 y las 12:00 h y de nuevo hacia las 15:00–16:00 h (El Siglo de Durango); el Observatorio de la Conagua prevé lluvias ligeras y aisladas, de 6 a 21 °C y rachas de 30 a 40 km/h. La primera nevada de la temporada cayó la noche del jueves en El Cedro y Agua del Pino, Guanaceví; el SMN prevé heladas de -10 a -5 °C en la sierra. En Gómez Palacio, de 9 a 18 °C y 7 % de lluvia. El Salto, de 1 a 15 °C con hasta 88 % de lluvia; Santiago Papasquiaro, de 1 a 17 °C; Tamazula, de 12 a 28 °C. El fin de semana mejora: sábado de 6 a 22 °C, domingo hasta 25 °C y lunes hasta 27 °C, con baja probabilidad de lluvia (Conagua, vía Posta).",
+    "laguna_max": 18,
+    "laguna_min": 9,
     "filas": [
-      {
-        "nombre": "Capital, jueves",
-        "valor": "≈7 a 15 °C, lluvioso",
-        "nivel": "warn"
-      },
-      {
-        "nombre": "Lluvia",
-        "valor": "55 %; tormentas 13–15 h y 19–21 h",
-        "nivel": "warn"
-      },
       {
         "nombre": "Capital, viernes",
         "valor": "≈3 a 18 °C, lluvia 90 %",
         "nivel": "bad"
       },
       {
-        "nombre": "Posible nieve",
-        "valor": "San Dimas, Pueblo Nuevo y sierra de Canatlán (jue–vie)",
+        "nombre": "Tormentas",
+        "valor": "10–12 h y 15–16 h",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Viento",
+        "valor": "Rachas de 30 a 40 km/h",
+        "nivel": "warn"
+      },
+      {
+        "nombre": "Nevada",
+        "valor": "Guanaceví (El Cedro y Agua del Pino), jueves noche",
         "nivel": "bad"
       },
       {
-        "nombre": "Sierra (viernes)",
+        "nombre": "Sierra",
         "valor": "Heladas de -10 a -5 °C",
         "nivel": "bad"
       },
       {
         "nombre": "El Salto",
-        "valor": "≈4 a 13 °C, lluvia hasta 85 %",
+        "valor": "≈1 a 15 °C, lluvia hasta 88 %",
         "nivel": "bad"
       },
       {
         "nombre": "Santiago Papasquiaro",
-        "valor": "≈4 a 19 °C, lluvia 63 %",
+        "valor": "≈1 a 17 °C, tormentas tras 16 h",
         "nivel": "warn"
       },
       {
-        "nombre": "Tamazula",
-        "valor": "≈13 a 27 °C",
+        "nombre": "Fin de semana",
+        "valor": "Sáb 6–22 °C, dom hasta 25 °C",
         "nivel": "ok"
       }
     ]
@@ -55,8 +55,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$19.71",
-      "nota": "Cierre del jueves 26 nov (19.59 el cierre previo), pérdida semanal de 3.26 %; en ventanilla Banamex, venta en 20.20"
+      "valor": "$19.59",
+      "nota": "Cotización temprana del viernes 27 nov (Investing, vía Heraldo Binario); apertura 19.70 y cierre previo 19.70. FIX del jueves: 19.7203"
     },
     {
       "nombre": "Gasolina Magna",
@@ -76,8 +76,16 @@
   ],
   "agenda": [
     {
-      "hora": "26 nov, 19:00 y 21:10 h",
-      "texto": "Liguilla, ida de cuartos: Pachuca vs Chivas (Estadio Hidalgo) y León vs Cruz Azul (Estadio León)"
+      "hora": "27 nov, 17:00 h",
+      "texto": "Festival del Jardín (ICED) en la Casa de la Cultura Ernestina Gamboa de Gómez Palacio: folklor, música, cine al aire libre y observación astronómica; entrada libre"
+    },
+    {
+      "hora": "29 nov, 19:07 y 21:00 h",
+      "texto": "Liguilla, vuelta de cuartos: Chivas vs Pachuca (Estadio Akron; ida 1-2) y Cruz Azul vs León (Estadio Banorte; ida 4-0)"
+    },
+    {
+      "hora": "28 nov–6 dic",
+      "texto": "FIL Guadalajara, edición 40, con Italia como país invitado"
     },
     {
       "hora": "27 nov",
@@ -136,7 +144,7 @@
       "texto": "Romería guadalupana alrededor del Santuario de Guadalupe y la explanada de Insurgentes, con más de mil puestos"
     },
     {
-      "hora": "26–27 nov, 9:30 h",
+      "hora": "27 nov, 9:30 h",
       "texto": "Curso gratuito «Estrategias comerciales para el crecimiento empresarial» con NAFIN en el Salón Benito Juárez de la Presidencia de Gómez Palacio"
     },
     {
@@ -180,8 +188,8 @@
       "texto": "Pruebas rápidas gratuitas de antígeno prostático para hombres mayores de 40 años, en la capital y la zona rural"
     },
     {
-      "hora": "3–27 nov",
-      "texto": "Pago de pensiones del Bienestar: última semana, del 23 al 27 de noviembre (R lunes y martes; S miércoles; T, U y V jueves; W a Z viernes)"
+      "hora": "Hoy, 27 nov",
+      "texto": "Último día de pago de pensiones del Bienestar (letras W a Z)"
     },
     {
       "hora": "Hasta 30 nov",
@@ -212,7 +220,7 @@
       "texto": "Pasaporte del café de Canirac: 30 cafeterías con promociones hasta febrero; venta general a 100 pesos"
     },
     {
-      "hora": "24–27 nov, 9:00–15:00 h",
+      "hora": "27 nov, 9:00–15:00 h",
       "texto": "Jornada visual del Club de Leones de Gómez Palacio (ficha de 100 pesos en Av. Mina); niños menores de 12 años el viernes 27"
     },
     {
