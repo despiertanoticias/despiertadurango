@@ -1,32 +1,27 @@
 {
   "fecha": "Viernes 27 de noviembre de 2026",
-  "actualizado": "06:50 h",
+  "actualizado": "18:50 h",
   "clima": {
     "ahora": "",
-    "max": 18,
+    "max": 19,
     "min": 3,
-    "texto": "Viernes frío y lluvioso en la capital: mínima cercana a 3 °C y máxima de alrededor de 18 °C, con 90 % de probabilidad de lluvia y posibles tormentas entre las 10:00 y las 12:00 h y de nuevo hacia las 15:00–16:00 h (El Siglo de Durango); el Observatorio de la Conagua prevé lluvias ligeras y aisladas, de 6 a 21 °C y rachas de 30 a 40 km/h. La primera nevada de la temporada cayó la noche del jueves en El Cedro y Agua del Pino, Guanaceví; el SMN prevé heladas de -10 a -5 °C en la sierra. En Gómez Palacio, de 9 a 18 °C y 7 % de lluvia. El Salto, de 1 a 15 °C con hasta 88 % de lluvia; Santiago Papasquiaro, de 1 a 17 °C; Tamazula, de 12 a 28 °C. El fin de semana mejora: sábado de 6 a 22 °C, domingo hasta 25 °C y lunes hasta 27 °C, con baja probabilidad de lluvia (Conagua, vía Posta).",
-    "laguna_max": 18,
-    "laguna_min": 9,
+    "texto": "Viernes frío en la capital, con mínimas de 3 a 7 °C y máxima de 17 a 19 °C hacia las 15:00–16:00 h; lapsos nublados y posibles lluvias ligeras entre el mediodía y las 14:00 h (SMN, vía El Siglo de Durango). La primera tormenta invernal dejó nieve en al menos siete localidades de Guanaceví; en La Rosilla se registraron -13.5 °C el martes 24, y en la sierra se prevén de -10 a -5 °C. Protección Civil pide evitar caminos con nieve o hielo. Sábado 28: de 4 a 20 °C en la capital, mayormente despejado y 1 % de lluvia; Gómez Palacio de 10 a 23 °C; Santiago Papasquiaro de 3 a 22 °C; El Salto de 2 a 17 °C; Tamazula de 13 a 29 °C.",
+    "laguna_max": 23,
+    "laguna_min": 10,
     "filas": [
       {
         "nombre": "Capital, viernes",
-        "valor": "≈3 a 18 °C, lluvia 90 %",
-        "nivel": "bad"
-      },
-      {
-        "nombre": "Tormentas",
-        "valor": "10–12 h y 15–16 h",
+        "valor": "3 a 19 °C, lluvia ligera al mediodía",
         "nivel": "warn"
       },
       {
-        "nombre": "Viento",
-        "valor": "Rachas de 30 a 40 km/h",
-        "nivel": "warn"
+        "nombre": "Capital, sábado",
+        "valor": "4 a 20 °C, despejado, lluvia 1 %",
+        "nivel": "ok"
       },
       {
-        "nombre": "Nevada",
-        "valor": "Guanaceví (El Cedro y Agua del Pino), jueves noche",
+        "nombre": "Nevadas",
+        "valor": "Siete localidades de Guanaceví",
         "nivel": "bad"
       },
       {
@@ -35,18 +30,23 @@
         "nivel": "bad"
       },
       {
-        "nombre": "El Salto",
-        "valor": "≈1 a 15 °C, lluvia hasta 88 %",
+        "nombre": "Mínima de la temporada",
+        "valor": "-13.5 °C en La Rosilla (24 nov)",
         "nivel": "bad"
       },
       {
-        "nombre": "Santiago Papasquiaro",
-        "valor": "≈1 a 17 °C, tormentas tras 16 h",
+        "nombre": "Gómez Palacio, sábado",
+        "valor": "10 a 23 °C, sin lluvia",
+        "nivel": "ok"
+      },
+      {
+        "nombre": "El Salto, sábado",
+        "valor": "2 a 17 °C",
         "nivel": "warn"
       },
       {
-        "nombre": "Fin de semana",
-        "valor": "Sáb 6–22 °C, dom hasta 25 °C",
+        "nombre": "Tamazula, sábado",
+        "valor": "13 a 29 °C",
         "nivel": "ok"
       }
     ]
@@ -55,8 +55,8 @@
   "indicadores": [
     {
       "nombre": "Dólar",
-      "valor": "$19.59",
-      "nota": "Cotización temprana del viernes 27 nov (Investing, vía Heraldo Binario); apertura 19.70 y cierre previo 19.70. FIX del jueves: 19.7203"
+      "valor": "$19.67",
+      "nota": "Cierre del viernes 27 nov (Banxico, vía Heraldo Binario): 19.6726, −0.25 %; FIX 19.6598"
     },
     {
       "nombre": "Gasolina Magna",
@@ -75,6 +75,22 @@
     }
   ],
   "agenda": [
+    {
+      "hora": "28 nov",
+      "texto": "Final de la Copa Libertadores: Palmeiras vs Estudiantes de La Plata, en el Estadio Centenario de Montevideo"
+    },
+    {
+      "hora": "24 nov–9 dic",
+      "texto": "Convocatoria del Programa Municipal de Estímulos Deportivos 2026 (5 mil pesos a estudiantes deportistas) en la Dirección de Deporte del Instituto de Desarrollo Humano"
+    },
+    {
+      "hora": "Todo diciembre, 8:00–15:00 h",
+      "texto": "Descuentos vehiculares en Centros Multipago de Gómez Palacio y Lerdo: 50 % en licencias y 5 mil pesos para regularizar autos con más de cinco años de adeudo"
+    },
+    {
+      "hora": "2 dic, 10:00 h",
+      "texto": "Abren las áreas públicas de la Bodega Nacional de Arte en la Cuarta Sección de Chapultepec (CDMX)"
+    },
     {
       "hora": "27 nov, 17:00 h",
       "texto": "Festival del Jardín (ICED) en la Casa de la Cultura Ernestina Gamboa de Gómez Palacio: folklor, música, cine al aire libre y observación astronómica; entrada libre"
@@ -144,10 +160,6 @@
       "texto": "Romería guadalupana alrededor del Santuario de Guadalupe y la explanada de Insurgentes, con más de mil puestos"
     },
     {
-      "hora": "27 nov, 9:30 h",
-      "texto": "Curso gratuito «Estrategias comerciales para el crecimiento empresarial» con NAFIN en el Salón Benito Juárez de la Presidencia de Gómez Palacio"
-    },
-    {
       "hora": "29 nov, 17:00 y 19:30 h",
       "texto": "«Las que merecían más», de Ponzoña Musical, en el Teatro Victoria; boletos de 300 a 500 pesos en newticket.com y taquilla"
     },
@@ -186,10 +198,6 @@
     {
       "hora": "Noviembre",
       "texto": "Pruebas rápidas gratuitas de antígeno prostático para hombres mayores de 40 años, en la capital y la zona rural"
-    },
-    {
-      "hora": "Hoy, 27 nov",
-      "texto": "Último día de pago de pensiones del Bienestar (letras W a Z)"
     },
     {
       "hora": "Hasta 30 nov",
